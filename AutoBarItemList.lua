@@ -1473,65 +1473,69 @@ AutoBar_Category_Info["DRINK_STAMINA"].items = {
 		21151, 	-- rumsey rum black label
 };
 AutoBar_Category_Info["FOOD_STAMINA"].items = {
-		6888,	-- Herb Baked Egg	-- Cooking - Level 1, heals 61, stamina/spirit
-		12224,	-- Crispy Bat Wing	-- Cooking - Level 1, heals 61, stamina/spirit
-		7808,	-- Chocolate Square	-- heals 61, 2 stamina/spirit
-		17197,	-- Gingerbread Cookie	-- Cooking - Level 1, heals 61, stamina/spirit
-		17198,	-- Egg Nog		-- Cooking - Level 1, heals 61, stamina/spirit
-		5472,	-- Kaldorei Spider Kabo	-- Cooking - Level 1, heals 61, with bonus
-		2888,	-- Beer Basted Boar Rib	-- Cooking - Level 1, heals 61, with bonus
-		5474,	-- Roasted Kodo Meat	-- Cooking - Level 1, heals 61, stamina/spirit
-		11584,	-- Cactus Apple Surpris	-- Quest   - Level 1, heals 61, with bonus
-		5476,	-- Fillet of Frenzy	-- Cooking - Level 5, heals 243, with bonus
-		5477,	-- Strider Stew		-- Cooking - Level 5, heals 243, stamina/spirit
-		724,	-- Goretusk Liver Pieo	-- Cooking - Level 5, heals 243, with bonus
-		3220,	-- Blood Sausageo	-- Cooking - Level 5, heals 243, with bonus
-		3662,	-- Crocolisk Steako	-- Cooking - Level 5, heals 243, with bonus
-		2687,	-- Dry Pork Ribso	-- Cooking - Level 5, heals 243, stamina/spirit
-		5525,	-- Boiled Clams		-- Cooking - Level 5, heals 243, stamina/spirit
-		1082,	-- Redridge Goulash	-- Cooking - Level 10, heals 552, with bonus
-		5479,	-- Crispy Lizard Tail	-- Cooking - Level 12, heals 552, stamina/spirit
-		1017,	-- Seasoned Wolf Kabob	-- Cooking - Level 15, heals 552, with bonus
-		3663,	-- Murloc Fin Soup	-- Cooking - Level 15, heals 552, with bonus
-		3726,	-- Big Bear Steak	-- Cooking - Level 15, heals 552, stamina/spirit
-		5480,	-- Lean Venison		-- Cooking - Level 15, heals 552, stamina/spirit
-		3666,	-- Gooey Spider Cake	-- Cooking - Level 15, heals 552, with bonus
-		3664,	-- Crocolisk Gumbo	-- Cooking - Level 15, heals 552, with bonus
-		5527,	-- Goblin Deviled Clams	-- Cooking - Level 15, heals 552, stamina/spirit
-		3727,	-- Hot Lion Chops	-- Cooking - Level 15, heals 552, stamina/spirit
-		12209,	-- Lean Wolf Steak	-- Cooking - Level 15, heals 552, with bonus
-		3665,	-- Curiously Tasty Omel	-- Cooking - Level 15, heals 552, stamina/spirit
-		3728,	-- Tasty Lion Steak	-- Cooking - Level 20, heals 874, with bonus
-		4457,	-- Barbecued Buzzard Win-- Cooking - Level 25, heals 874, stamina/spirit
-		12213,	-- Carrion Surprise	-- Cooking - Level 25, heals 874, stamina/spirit
-		6038,	-- Giant Clam Corcho	-- Cooking - Level 25, heals 874, stamina/spirit
-		3729,	-- Soothing Turtle Bisqu-- Cooking - Level 25, heals 874, stamina/spirit
-		13851,	-- Hot Wolf Ribs	-- Cooking - Level 25, heals 874, with bonus
-		12214,	-- Mystery Stew		-- Cooking - Level 25, heals 874, with bonus
-		12210,	-- Roast Raptor		-- Cooking - Level 25, heals 874, stamina/spirit
-		12212,	-- Jungle Stew		-- Cooking - Level 25, heals 874, stamina/spirit
-		13929,	-- Hot Smoked Bass	-- Cooking - Level 35, heals 874, with bonus
-		17222,	-- Spider Sausage 	-- Cooking - Level 35, heals 1392, stamina/spirit
-		12215,	-- Heavy Kodo Stew	-- Cooking - Level 35, heals 1392, stamina/spirit
-		13927,	-- Cooked Glossy Mightfi-- Cooking - Level 35, heals 1392, stamina
-		12216,	-- Spider Chilli Crab	-- Cooking - Level 35, heals 1392, stamina/spirit
-		12218,	-- Monster Omlette	-- Cooking - Level 40, heals 1392, stamina/spirit
-		16971,	-- Clamlette Surprise 	-- Cooking - Level 40, heals 1392, with bonus
-		18045,	-- Tender Wolf Steak	-- Cooking - Level 40, heals 1392, stamina/spirit
-		13934,	-- Mightfish Steak	-- Cooking - Level 45, heals 1933, stamina
+		6888,	-- Herb Baked Egg	-- Cooking - Level 1, heals 61, 2 stamina/spirit
+		12224,	-- Crispy Bat Wing	-- Cooking - Level 1, heals 61, 2 stamina/spirit
+		7808,	-- Chocolate Square	-- Level 1, heals 61, 2 stamina/spirit
+		17197,	-- Gingerbread Cookie	-- Cooking - Level 1, heals 61, 2 stamina/spirit
+		17198,	-- Egg Nog		-- Cooking - Level 1, heals 61, 2 stamina/spirit
+		5472,	-- Kaldorei Spider Kabob	-- Cooking - Level 1, heals 61, 2 stamina/spirit
+		2888,	-- Beer Basted Boar Ribs	-- Cooking - Level 1, heals 61, 2 stamina/spirit
+		5474,	-- Roasted Kodo Meat	-- Cooking - Level 1, heals 61, 2 stamina/spirit
+		11584,	-- Cactus Apple Surprise	-- Quest   - Level 1, heals 61, 2 stamina/spirit
+		5476,	-- Fillet of Frenzy	-- Cooking - Level 5, heals 243, 4 stamina/spirit
+		5477,	-- Strider Stew		-- Cooking - Level 5, heals 243, 4 stamina/spirit
+		724,	-- Goretusk Liver Pie	-- Cooking - Level 5, heals 243, 4 stamina/spirit
+		3220,	-- Blood Sausage	-- Cooking - Level 5, heals 243, 4 stamina/spirit
+		3662,	-- Crocolisk Steak	-- Cooking - Level 5, heals 243, 4 stamina/spirit
+		2687,	-- Dry Pork Ribs	-- Cooking - Level 5, heals 243, 4 stamina/spirit
+		5525,	-- Boiled Clams		-- Cooking - Level 5, heals 243, 4 stamina/spirit
+		1082,	-- Redridge Goulash	-- Cooking - Level 10, heals 552, 6 stamina/spirit
+		5479,	-- Crispy Lizard Tail	-- Cooking - Level 12, heals 552, 6 stamina/spirit
+		1017,	-- Seasoned Wolf Kabob	-- Cooking - Level 15, heals 552, 6 stamina/spirit
+		3663,	-- Murloc Fin Soup	-- Cooking - Level 15, heals 552, 6 stamina/spirit
+		3726,	-- Big Bear Steak	-- Cooking - Level 15, heals 552, 6 stamina/spirit
+		5480,	-- Lean Venison		-- Cooking - Level 15, heals 552, 6 stamina/spirit
+		3666,	-- Gooey Spider Cake	-- Cooking - Level 15, heals 552, 6 stamina/spirit
+		3664,	-- Crocolisk Gumbo	-- Cooking - Level 15, heals 552, 6 stamina/spirit
+		5527,	-- Goblin Deviled Clams	-- Cooking - Level 15, heals 552, 6 stamina/spirit
+		3727,	-- Hot Lion Chops	-- Cooking - Level 15, heals 552, 6 stamina/spirit
+		12209,	-- Lean Wolf Steak	-- Cooking - Level 15, heals 552, 6 stamina/spirit
+		3665,	-- Curiously Tasty Omelet	-- Cooking - Level 15, heals 552, 6 stamina/spirit
+		51710,	-- Plump Country Pumpkin	-- Gardening - Level 25, heals 552, 6 stamina/spirit
+		3728,	-- Tasty Lion Steak	-- Cooking - Level 20, heals 874, 8 stamina/spirit
+		4457,	-- Barbecued Buzzard Wing -- Cooking - Level 25, heals 874, 8 stamina/spirit
+		12213,	-- Carrion Surprise	-- Cooking - Level 25, heals 874, 8 stamina/spirit
+		6038,	-- Giant Clam Scorcho	-- Cooking - Level 25, heals 874, 8 stamina/spirit
+		3729,	-- Soothing Turtle Bisque -- Cooking - Level 25, heals 874, 8 stamina/spirit
+		13851,	-- Hot Wolf Ribs	-- Cooking - Level 25, heals 874, 8 stamina/spirit
+		12214,	-- Mystery Stew		-- Cooking - Level 25, heals 874, 8 stamina/spirit
+		12210,	-- Roast Raptor		-- Cooking - Level 25, heals 874, 8 stamina/spirit
+		12212,	-- Jungle Stew		-- Cooking - Level 25, heals 874, 8 stamina/spirit
+		51714,	-- Sweet Mountain Berry -- Gardening - Level 35, heals 874, 10 stamina
+		13927,	-- Cooked Glossy Mightfi-- Cooking - Level 35, heals 1392, 10 stamina
+		13934,	-- Mightfish Steak	-- Cooking - Level 45, heals 1933, 10 stamina
+		17222,	-- Spider Sausage 	-- Cooking - Level 35, heals 1392, 12 stamina/spirit
+		12215,	-- Heavy Kodo Stew	-- Cooking - Level 35, heals 1392, 12 stamina/spirit
+		12216,	-- Spider Chilli Crab	-- Cooking - Level 35, heals 1392, 12 stamina/spirit
+		12218,	-- Monster Omlette	-- Cooking - Level 40, heals 1392, 12 stamina/spirit
+		16971,	-- Clamlette Surprise 	-- Cooking - Level 40, heals 1392, 12 stamina/spirit
+		18045,	-- Tender Wolf Steak	-- Cooking - Level 40, heals 1392, 12 stamina/spirit
+		51712,	-- Juicy Watermelon 	-- Gardening - Level 45, heals 1392, 12 stamina/spirit
+		51713,	-- Hearty Country Pumpkin 	-- Gardening - Level 25, heals 48%, 25% of level in stamina/spirit
 		11950,	-- Windblossom Berries	-- Felwood - Level 45, heals 1933, stamina/spirit
 		21023,	-- Dirge's Kickin' Chimaerok Chops	-- Cooking - Level 55, heals 2250, 25 stamina
-		51717,	-- Hardened Mushroom -- Survival - Level 55, heals 2250, 25 stamina
+		51717,	-- Hardened Mushroom -- Gardening - Level 55, heals 2250, 25 stamina
 };
 AutoBar_Category_Info["FOOD_AGILITY"].items = {
 		13928,	-- Grilled Squid	-- Cooking - Level 35, heals 874, agility
-		51711,	-- Sweet Mountain Berry			-- Survival - Level 35, heals 874, +10 agility
+		51711,	-- Sour Mountain Berry			-- Survival - Level 35, heals 874, +10 agility
 		60976, 	-- Danonzo's Tel'Abim Surprise	-- Cooking - Level 55, heals 3186, +45 rAP
 		60978, 	-- Danonzo's Tel'Abim Medley	-- Cooking - Level 55, heals 3186, +2% haste
 };
 AutoBar_Category_Info["FOOD_MANAREGEN"].items = {
 		21072,	-- Smoked Sagefish	-- Cooking - Level 10, heals 378, mana 567, 3/5 mana regen
 		21217,	-- Sagefish Delight	-- Cooking - Level 30, heals 840, mana 1260, 6/5 mana regen
+		13929,	-- Hot Smoked Bass	-- Cooking - Level 35, heals 874, 10 spirit
 		13931,	-- Nightfin Soup	-- Cooking - Level 35, heals 874, 8/5 mana regen
 };
 AutoBar_Category_Info["FOOD_HPREGEN"].items = {
@@ -1540,11 +1544,11 @@ AutoBar_Category_Info["FOOD_HPREGEN"].items = {
 AutoBar_Category_Info["FOOD_STRENGTH"].items = {
 		13810,	-- Blessed Sunfruit -- AD - Level 45, heals 1933, strength
 		20452,	-- Smoked Desert Dumpling	-- Level 45, heals 2148, str bonus
-		61720,	-- Power Mushroom			-- Survival -- Level 55, heals 2148, +20 str bonus
+		61720,	-- Power Mushroom			-- Gardening -- Level 55, heals 2148, 20 str bonus
 };
 AutoBar_Category_Info["FOOD_INTELLIGENCE"].items = {
 		18254,	-- Runn Tum Tuber Surpris	-- int bonus
-		51718,	-- Juicy Striped Melon		-- Survival - Level 45, heals 1933, stamina
+		51718,	-- Sweet Watermelon		-- Gardening - Level 45, heals 1933, 10 Intellect
 };
 AutoBar_Category_Info["FOOD_SPELLPOWER"].items = {
 		84041,	-- Gilneas Hot Stew +12spd
