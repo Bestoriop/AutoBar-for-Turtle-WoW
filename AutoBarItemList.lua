@@ -312,6 +312,11 @@ AutoBar_Category_Info = { -- global
 		["items"] = { 11951 },
 		["limit"] = { ["downhp"] = { 700 } },
 	},
+	["HEALING_SALVES"] = {
+		["description"] = AUTOBAR_CLASS_HEALING_SALVES;
+		["texture"] = "superior_healing_salve_1";
+		["items"] = { 42233, 42125, 42126, 42127, 42128, 42129 },
+	},
 	["ALTERAC_HEAL"] = {
 		["description"] = AUTOBAR_CLASS_BATTLEGROUNDHEALPOTIONS;
 		["texture"] = "INV_Potion_39";
