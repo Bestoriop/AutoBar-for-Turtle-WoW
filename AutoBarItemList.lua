@@ -653,7 +653,7 @@ AutoBar_Category_Info = { -- global
 	},
 
 --------------------------------------------------------------------------------
------------------------------------ RAGE OR ENERGY OR SPEED --------------------
+-------------------- RAGE OR ENERGY OR SPEED AND SOULSHARDS --------------------
 --------------------------------------------------------------------------------
 	
 	["RAGEPOTIONS"] = {
@@ -674,17 +674,18 @@ AutoBar_Category_Info = { -- global
 		["description"] = AUTOBAR_CLASS_SWIFTNESSPOTIONS;
 		["texture"] = "INV_Potion_95";
 		["items"] = { 20081, 2459, },
-	},
-
-	--------------
-	
+	},	
 	["SOULSHARDS"] = {
 		["description"] = AUTOBAR_CLASS_SOULSHARDS;
 		["texture"] = "INV_Misc_Gem_Amethyst_02";
 		["notusable"] = true;
 		["items"] = { 6265 },
 	},
-	--------------
+
+--------------------------------------------------------------------------------
+------------------------- ARROWS AND BULLETS -----------------------------------
+--------------------------------------------------------------------------------
+	
 	["ARROWS"] = {
 		["description"] = AUTOBAR_CLASS_ARROWS;
 		["texture"] = "INV_Ammo_Arrow_02";
@@ -728,7 +729,11 @@ AutoBar_Category_Info = { -- global
 			13377,	-- Minature Cannon Balls    20.5
 		},
 	},
-	--------------
+	
+--------------------------------------------------------------------------------
+----------------------------------- FOOD ---------------------------------------
+--------------------------------------------------------------------------------
+	
 	["FOOD"] = {
 		["description"] = AUTOBAR_CLASS_FOOD;
 		["texture"] = "INV_Misc_Food_23";
@@ -1168,7 +1173,12 @@ AutoBar_Category_Info = { -- global
 		["location"] = AUTOBAR_WARSONGGULCH;
 		["items"] = { 19062, 19061, 19060 },
 	},
-	--------------
+
+--------------------------------------------------------------------------------
+------------------------ STONES AND POISONS ------------------------------------
+--------------------------------------------------------------------------------
+
+	
 	["SHARPENINGSTONES"] = {
 		["description"] = AUTOBAR_CLASS_SHARPENINGSTONES;
 		["texture"] = "INV_Stone_SharpeningStone_01";
@@ -1195,8 +1205,7 @@ AutoBar_Category_Info = { -- global
 			12643,	-- Dense Weightstone
 		},
 	},
-	
-	--------------
+
 	["POISON-CRIPPLING"] = {
 		["description"] = AUTOBAR_CLASS_POISON_CRIPPLING;
 		["texture"] = "INV_Potion_19";
@@ -1253,7 +1262,11 @@ AutoBar_Category_Info = { -- global
 		},
 	},
 
-	--------------
+
+--------------------------------------------------------------------------------
+------------------- EXPLOSIVES & BOLAS & NETS ----------------------------------
+--------------------------------------------------------------------------------
+	
 	["EXPLOSIVES"] = {
 		["description"] = AUTOBAR_CLASS_EXPLOSIVES;
 		["texture"] = "INV_Misc_Bomb_08";
@@ -1282,7 +1295,15 @@ AutoBar_Category_Info = { -- global
 			16040,	-- Arcane Bomb
 		},
 	},
-
+	["SLOWING_BOLAS"] = {
+		["description"] = AUTOBAR_CLASS_SLOWING_BOLAS;
+		["texture"] = "slowing_bolas_2";
+		["nosmartcast"] = true;
+		["targetted"] = true;
+		["items"] = {
+			106,	-- Slowing Bolas
+		},
+	},
 	
 	--------------
 	["MOUNTS_TROLL"] = {
