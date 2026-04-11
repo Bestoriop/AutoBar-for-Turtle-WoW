@@ -51,6 +51,19 @@ AutoBar_Category_Info = { -- global
 		["texture"] = "INV_Misc_Bandage_12";
 		["targetted"] = true;
 		["smarttarget"] = true;
+		["items"] = {
+			1251,	-- Linen Bandage
+			2581,	-- Heavy Linen Bandage
+			3530,	-- Wool Bandage
+			3531,	-- Heavy Wool Bandage
+			6450,	-- Silk Bandage
+			6451,	-- Heavy Silk Bandage
+			8544,	-- Mageweave Bandage
+			8545,	-- Heavy Mageweave Bandage
+			14529,	-- Runecloth Bandage
+			14530,	-- Heavy Runecloth Bandage
+			23684,  -- Crystal Infused Bandage, maybe unused I dunno
+		},
 	},
 	["ALTERAC_BANDAGES"] = {
 		["description"] = AUTOBAR_CLASS_ALTERAC_BANDAGE;
@@ -295,6 +308,15 @@ AutoBar_Category_Info = { -- global
 		["description"] = AUTOBAR_CLASS_HEALPOTIONS;
 		["texture"] = "INV_Potion_54";
 		["limit"] = { ["downhp"] = { 70, 140, 140, 280, 455, 700, 1050} },
+		["items"] = {
+			118,	-- Minor Healing Potion
+			858,	-- Lesser Healing Potion
+			4596,	-- Discolored Healing Potion
+			929,	-- Healing Potion
+			1710,	-- Greater Healing Potion
+			3928,	-- Superior Healing Potion
+			13446,	-- Major Healing Potion
+		},
 	},
 	["PVP_HEALPOTIONS"] = {
 		["description"] = AUTOBAR_CLASS_PVP6HEALPOTIONS;
@@ -305,6 +327,23 @@ AutoBar_Category_Info = { -- global
 	["HEALTHSTONE"] = {
 		["description"] = AUTOBAR_CLASS_HEALTHSTONE;
 		["texture"] = "INV_Stone_04";
+		["items"] = {
+			5512,	-- Minor Healthstone
+			19004,	-- 1pt Talent improved Minor Healthstone
+			19005,	-- 2pt Talent improved Minor Healthstone
+			5511,	-- Lesser Healthstone
+			19006,	-- Talent improved Lesser Healthstone
+			19007,	-- 1pt 2pt Talent improved Lesser Healthstone
+			5509,	-- Healthstone
+			19008,	-- 1pt Talent improved Healthstone
+			19009,	-- 2pt Talent improved Healthstone
+			5510,	-- Greater Healthstone
+			19010,	-- 1pt Talent improved Greater Healthstone
+			19011,	-- 2pt Talent improved Greater Healthstone
+			9421,	-- Major Healthstone
+			19012,	-- 1pt Talent improved Major Healthstone
+			19013,	-- 2pt Talent improved Major Healthstone
+		},
 	},
 	["WHIPPER_ROOT"] = {
 		["description"] = AUTOBAR_CLASS_WHIPPER_ROOT;
@@ -331,6 +370,14 @@ AutoBar_Category_Info = { -- global
 		["description"] = AUTOBAR_CLASS_MANAPOTIONS;
 		["texture"] = "INV_Potion_76";
 		["limit"] = { ["downmana"] = { 140, 280, 455, 700, 900, 1350} },
+		["items"] = {
+			2455,	-- Minor Mana Potion
+			3385,	-- Lesser Mana Potion
+			3827,	-- Mana Potion
+			6149,	-- Greater Mana Potion
+			13443,	-- Superior Mana Potion
+			13444,	-- Major Mana Potion
+		},
 	},
 	["PVP_MANAPOTIONS"] = {
 		["description"] = AUTOBAR_CLASS_PVP6MANAPOTIONS;
@@ -341,6 +388,12 @@ AutoBar_Category_Info = { -- global
 	["MANASTONE"] = {
 		["description"] = AUTOBAR_CLASS_MANASTONE;
 		["texture"] = "INV_Misc_Gem_Emerald_01";
+		["items"] = {
+			5514,	-- Mana Agate
+			5513,	-- Mana Jade
+			8007,	-- Mana Citrine
+			8008,	-- Mana Ruby
+		},
 	},
 	["ALTERAC_MANA"] = {
 		["description"] = AUTOBAR_CLASS_BATTLEGROUNDMANAPOTIONS;
@@ -497,6 +550,22 @@ AutoBar_Category_Info = { -- global
 		["description"] = AUTOBAR_CLASS_WATER;
 		["texture"] = "INV_Drink_10";
 		["noncombat"] = true,
+		["items"] = {
+			19997,		-- Harvest Nectar
+			159,		-- Refreshing Spring Water
+			1179,		-- Ice Cold Milk
+			1205,		-- Melon Juice
+			9451,		-- Bubbling Water
+			1708,		-- Sweet Nectar
+			4791,		-- Enchanted Water
+			10841,		-- Goldthorn Tea				25 - 1344
+			1645,		-- Moonberry Juice				35 - 1992
+			8766,		-- Morning Glory Dew			45 - 2934
+			23161,		-- Freshly-Squeezed Lemonade	45 - 2934
+		--Turtle WoW Water--
+			80167, 		-- Kaja'Cola 				-- Goblin Starting Water
+			80250, 		-- Sun-Parched Waterskin	-- High Elf Starting Water
+		},
 	},
 	["WATER_PERCENT"] = {
 		["description"] = AUTOBAR_CLASS_WATER_PERCENT;
@@ -507,15 +576,33 @@ AutoBar_Category_Info = { -- global
 		["description"] = AUTOBAR_CLASS_WATER_CONJURED;
 		["texture"] = "INV_Drink_18";
 		["noncombat"] = true,
+		["items"] = {
+			5350,	-- Conjured Water
+			2288,	-- Conjured Fresh Water
+			2136,	-- Conjured Purified Water
+			3772,	-- Conjured Spring Water
+			8077,	-- Conjured Mineral Water
+			8078,	-- Conjured Sparkling Water
+			8079,	-- Conjured Crystal Water
+			83004,  -- Conjured Mana Orange
+		},
 	},
 	["WATER_SPIRIT"] = {
 		["description"] = AUTOBAR_CLASS_WATER_SPIRIT;
 		["texture"] = "INV_Drink_16";
-		["noncombat"] = true,
+		["items"] = {
+			13813,	-- Blessed Sunfruit Juice		45 - 4410   10
+			19318,	-- Bottled Alterac Spring Water 55 - 4410   10
+		},
 	},
 	["RAGEPOTIONS"] = {
 		["description"] = AUTOBAR_CLASS_RAGEPOTIONS;
 		["texture"] = "INV_Potion_24";
+		["items"] = {
+			5631,	-- Rage Potion
+			5633,	-- Great Rage Potion
+			13442,	-- Mighty Rage Potion
+		},
 	},
 	["ENERGYPOTIONS"] = {
 		["description"] = AUTOBAR_CLASS_ENERGYPOTIONS;
@@ -538,11 +625,44 @@ AutoBar_Category_Info = { -- global
 		["description"] = AUTOBAR_CLASS_ARROWS;
 		["texture"] = "INV_Ammo_Arrow_02";
 		["notusable"] = true;
-	},
+		["items"] = {
+			2512,	-- Rough Arrow
+			2515,	-- Sharp Arrow
+			3030,	-- Razor Arrow
+			3464,	-- Feathered Arrow          9.5
+			42198,	-- Bright Wood Arrow        10.5
+			9399,	-- Precision Arrow          11.5
+			11285,	-- Jagged Arrow             13
+			421995,	-- Shade Wood Arrow         14.5
+			19316,  -- Ice Threaded Arrow       16.5
+			42200,	-- Smooth Ironfeather Arrow        17.5
+			18042,	-- Thorium Headed Arrow     17.5
+			42201,	-- Starfeather Arrow        19
+			12654,	-- Doomshot                 20
+		},
+	},	
 	["BULLETS"] = {
 		["description"] = AUTOBAR_CLASS_BULLETS;
 		["texture"] = "INV_Ammo_Bullet_02";
 		["notusable"] = true;
+		["items"] = {
+			2516,	-- Light Shot
+			4960,	-- Flash Pellet
+			8067,	-- Crafted Light Shot
+			2519,	-- Heavy Shot
+			5568,	-- Smooth Pebble
+			8068,	-- Crafted Heavy Shot
+			3033,	-- Solid Shot
+			8069,	-- Crafted Solid Shot
+			3465,	-- Exploding Shot
+			10512,	-- Hi-Impact Mithril Slugs
+			11284,	-- Accurate Slugs
+			10513,	-- Mithril Gyro-Shot        15
+			19316,  -- Ice Threaded Bullet		16.5
+			15997,	-- Thorium Shells           17.5
+			11630,	-- Rockshard Pellets        18
+			13377,	-- Minature Cannon Balls    20.5
+		},
 	},
 	["THROWN"] = {
 		["description"] = AUTOBAR_CLASS_THROWNWEAPON;
@@ -1100,123 +1220,6 @@ AutoBar_Category_Info = { -- global
 	},
 };
 
-AutoBar_Category_Info["BANDAGES"].items = {
-		1251,	-- Linen Bandage
-		2581,	-- Heavy Linen Bandage
-		3530,	-- Wool Bandage
-		3531,	-- Heavy Wool Bandage
-		6450,	-- Silk Bandage
-		6451,	-- Heavy Silk Bandage
-		8544,	-- Mageweave Bandage
-		8545,	-- Heavy Mageweave Bandage
-		14529,	-- Runecloth Bandage
-		14530,	-- Heavy Runecloth Bandage
-		23684,  -- Crystal Infused Bandage, maybe unused I dunno
-};
-AutoBar_Category_Info["HEALPOTIONS"].items = {
-		118,	-- Minor Healing Potion
-		858,	-- Lesser Healing Potion
-		4596,	-- Discolored Healing Potion
-		929,	-- Healing Potion
-		1710,	-- Greater Healing Potion
-		3928,	-- Superior Healing Potion
-		13446,	-- Major Healing Potion
-};
-AutoBar_Category_Info["MANAPOTIONS"].items = {
-		2455,	-- Minor Mana Potion
-		3385,	-- Lesser Mana Potion
-		3827,	-- Mana Potion
-		6149,	-- Greater Mana Potion
-		13443,	-- Superior Mana Potion
-		13444,	-- Major Mana Potion
-};
-AutoBar_Category_Info["HEALTHSTONE"].items = {
-		5512,	-- Minor Healthstone
-		19004,	-- 1pt Talent improved Minor Healthstone
-		19005,	-- 2pt Talent improved Minor Healthstone
-		5511,	-- Lesser Healthstone
-		19006,	-- Talent improved Lesser Healthstone
-		19007,	-- 1pt 2pt Talent improved Lesser Healthstone
-		5509,	-- Healthstone
-		19008,	-- 1pt Talent improved Healthstone
-		19009,	-- 2pt Talent improved Healthstone
-		5510,	-- Greater Healthstone
-		19010,	-- 1pt Talent improved Greater Healthstone
-		19011,	-- 2pt Talent improved Greater Healthstone
-		9421,	-- Major Healthstone
-		19012,	-- 1pt Talent improved Major Healthstone
-		19013,	-- 2pt Talent improved Major Healthstone
-};
-AutoBar_Category_Info["MANASTONE"].items = {
-		5514,	-- Mana Agate
-		5513,	-- Mana Jade
-		8007,	-- Mana Citrine
-		8008,	-- Mana Ruby
-};
-AutoBar_Category_Info["WATER"].items = {
-		19997,		-- Harvest Nectar
-		159,		-- Refreshing Spring Water
-		1179,		-- Ice Cold Milk
-		1205,		-- Melon Juice
-		9451,		-- Bubbling Water
-		1708,		-- Sweet Nectar
-		4791,		-- Enchanted Water
-		10841,		-- Goldthorn Tea				25 - 1344
-		1645,		-- Moonberry Juice				35 - 1992
-		8766,		-- Morning Glory Dew			45 - 2934
-		23161,		-- Freshly-Squeezed Lemonade	45 - 2934
-		--Turtle WoW Water--
-		80167, 		-- Kaja'Cola 				-- Goblin Starting Water
-		80250, 		-- Sun-Parched Waterskin	-- High Elf Starting Water
-};
-AutoBar_Category_Info["WATER_SPIRIT"].items = {
-		13813,	-- Blessed Sunfruit Juice		45 - 4410   10
-		19318,	-- Bottled Alterac Spring Water 55 - 4410   10
-};
-AutoBar_Category_Info["WATER_CONJURED"].items = {
-		5350,	-- Conjured Water
-		2288,	-- Conjured Fresh Water
-		2136,	-- Conjured Purified Water
-		3772,	-- Conjured Spring Water
-		8077,	-- Conjured Mineral Water
-		8078,	-- Conjured Sparkling Water
-		8079,	-- Conjured Crystal Water
-		83004,  -- Conjured Mana Orange
-};
-AutoBar_Category_Info["RAGEPOTIONS"].items = {
-		5631,	-- Rage Potion
-		5633,	-- Great Rage Potion
-		13442,	-- Mighty Rage Potion
-};
-AutoBar_Category_Info["BULLETS"].items = {
-		2516,	-- Light Shot
-		4960,	-- Flash Pellet
-		8067,	-- Crafted Light Shot
-		2519,	-- Heavy Shot
-		5568,	-- Smooth Pebble
-		8068,	-- Crafted Heavy Shot
-		3033,	-- Solid Shot
-		8069,	-- Crafted Solid Shot
-		3465,	-- Exploding Shot
-		10512,	-- Hi-Impact Mithril Slugs
-		11284,	-- Accurate Slugs
-		10513,	-- Mithril Gyro-Shot        15
-		19316,  -- Ice Threaded Bullet		16.5
-		15997,	-- Thorium Shells           17.5
-		11630,	-- Rockshard Pellets        18
-		13377,	-- Minature Cannon Balls    20.5
-};
-AutoBar_Category_Info["ARROWS"].items = {
-		2512,	-- Rough Arrow
-		2515,	-- Sharp Arrow
-		3030,	-- Razor Arrow
-		3464,	-- Feathered Arrow
-		9399,	-- Precision Arrow
-		11285,	-- Jagged Arrow             13
-		19316,  -- Ice Threaded Arrow       16.5
-		18042,	-- Thorium Headed Arrow     17.5
-		12654,	-- Doomshot                 20
-};
 AutoBar_Category_Info["THROWN"].items = {
 		3111,	-- Crude Throwing Axe
 		3463,	-- Silver Star
