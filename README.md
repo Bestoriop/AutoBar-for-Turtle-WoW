@@ -12,6 +12,7 @@ Make sure you rename the base folder to just AutoBar, not AutoBar-For-Turtle-WoW
 
 # Added items
 
+- Hourglass Sand
 - Survival specific Arrows
 - Healing salves
 - Gardening food
