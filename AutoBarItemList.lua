@@ -331,7 +331,7 @@ AutoBar_Category_Info = { -- global
 	},
 
 --------------------------------------------------------------------------------
------------------------------------ HEAL POTIONS -------------------------------
+----------------- HEAL POTIONS, SALVES AND WHIPPER ROOT ------------------------
 --------------------------------------------------------------------------------
 	
 	["HEALPOTIONS"] = {
@@ -397,7 +397,7 @@ AutoBar_Category_Info = { -- global
 	},
 
 --------------------------------------------------------------------------------
------------------------------------ MANA POTIONS -------------------------------
+-------------------- MANA POTIONS, MANA STONES AND RUNES -----------------------
 --------------------------------------------------------------------------------
 	
 	["MANAPOTIONS"] = {
@@ -457,7 +457,7 @@ AutoBar_Category_Info = { -- global
 	},
 
 --------------------------------------------------------------------------------
--------------------------- HEAL AND MANA POTIONS -------------------------------
+-------- HEAL AND MANA POTIONS, TEAS AND NIGHT DRAGON BREATH -------------------
 --------------------------------------------------------------------------------
 	
 	["NIGHT_DRAGONS_BREATH"] = {
@@ -486,7 +486,10 @@ AutoBar_Category_Info = { -- global
 		},
 	},
 	
-	----------------
+--------------------------------------------------------------------------------
+----------------------------- BATTLE STANDARDS ---------------------------------
+--------------------------------------------------------------------------------
+	
 	["BATTLE_STANDARD"] = {
 		["description"] = AUTOBAR_CLASS_BATTLESTANDARD;
 		["texture"] = "INV_BannerPVP_01";
@@ -505,18 +508,13 @@ AutoBar_Category_Info = { -- global
 			19046,	-- Frostwolf Battle Standard
 		},
 	},
-	["HOURGLASS_SAND"] = {
-		["description"] = AUTOBAR_CLASS_HOURGLASS_SAND;
-		["texture"] = "INV_Misc_Dust_02";
-		["location"] = AUTOBAR_BWL;
-		["items"] = {
-			19183,	-- Hourglass Sand
-		},
-	},
+
 
 --------------------------------------------------------------------------------
 ----------------------------------- SPELL PROT POTIONS -------------------------
 --------------------------------------------------------------------------------
+
+
 	
 	["PROTECTION_ARCANE"] = {
 		["description"] = AUTOBAR_CLASS_ARCANE_PROTECTION;
@@ -576,6 +574,15 @@ AutoBar_Category_Info = { -- global
 		["items"] = {
 			20081,		-- Swiftness of Zanza
 			20080,		-- Sheen of Zanza
+		},
+	},
+
+	["HOURGLASS_SAND"] = {
+		["description"] = AUTOBAR_CLASS_HOURGLASS_SAND;
+		["texture"] = "INV_Misc_Dust_02";
+		["location"] = AUTOBAR_BWL;
+		["items"] = {
+			19183,	-- Hourglass Sand
 		},
 	},
 
