@@ -1304,7 +1304,17 @@ AutoBar_Category_Info = { -- global
 			106,	-- Slowing Bolas
 		},
 	},
-	
+	["NETS"] = {
+		["description"] = AUTOBAR_CLASS_NETS;
+		["texture"] = "INV_Misc_Net_01";
+		["nosmartcast"] = true;
+		["targetted"] = true;
+		["items"] = {
+			42132,	-- Throwable Net
+			4941,	-- Throwable Net
+			835,	-- Large Rope Net
+		},
+	},
 	--------------
 	["MOUNTS_TROLL"] = {
 		["description"] = AUTOBAR_CLASS_MOUNTS_TROLL;
