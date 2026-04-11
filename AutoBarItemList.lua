@@ -79,6 +79,11 @@ AutoBar_Category_Info = { -- global
 		["targetted"] = true;
 		["location"] = AUTOBAR_WARSONGGULCH;
 		["smarttarget"] = true;
+		["items"] = {
+			19068,	-- Warsong Gulch Silk Bandage
+			19067,	-- Warsong Gulch Mageweave Bandage
+			19066,	-- Warsong Gulch Runecloth Bandage
+		},
 	},
 	["ARATHI_BANDAGES"] = {
 		["description"] = AUTOBAR_CLASS_ARATHI_BANDAGE;
@@ -86,7 +91,18 @@ AutoBar_Category_Info = { -- global
 		["targetted"] = true;
 		["location"] = AUTOBAR_ARATHIBASIN;
 		["smarttarget"] = true;
-	},
+		["items"] = {
+			20067,	-- Arathi Basin Silk Bandage
+			20244,	-- Highlander's Silk Bandage
+			20235,	-- Defiler's Silk Bandage
+			20065,	-- Arathi Basin Mageweave Bandage
+			20237,	-- Highlander's Mageweave Bandage
+			20232,	-- Defiler's Mageweave Bandage
+			20066,	-- Arathi Basin Runecloth Bandage
+			20243,	-- Highlander's Runecloth Bandage
+			20234,	-- Defiler's Runecloth Bandage
+		},
+	},	
 	["UNGORO_RESTORE"] = {
 		["description"] = AUTOBAR_CLASS_UNGORORESTORE;
 		["texture"] = "INV_Misc_Gem_Diamond_02";
@@ -826,16 +842,106 @@ AutoBar_Category_Info = { -- global
 		["description"] = AUTOBAR_CLASS_FOOD_PET_FRUIT;
 		["texture"] = "INV_Misc_Food_19";
 		["noncombat"] = true,
-	},
+		["items"] = {
+			4536,	-- Shiny Red Apple					Level 1		61
+			4537,	-- Tel'Abim Banana					Level 5		243
+			4538,	-- Snapvine Watermelon				Level 15	552
+			4539,	-- Goldenbark Apple 				Level 25	874
+			4602,	-- Moon Harvest Pumpkin				Level 35	1392
+			16168,	-- Heaven Peach						Level 35	1392
+			8953,	-- Deep Fried Plantains				Level 45	2148
+		},
+	},	
 	["FOOD_PET_FUNGUS"] = {
 		["description"] = AUTOBAR_CLASS_FOOD_PET_FUNGUS;
 		["texture"] = "INV_Mushroom_05";
 		["noncombat"] = true,
-	},
+		["items"] = {
+			4604,	-- Forest Mushroom Cap				Level 1		61
+			4605,	-- Red-speckled Mushroom			Level 5		243
+			4606,	-- Spongy Morel						Level 15	552
+			4607,	-- Delicious Cave Mold				Level 25	874
+			4608,	-- Raw Black Truffle 				Level 35	1392
+			8948,	-- Dried King Bolete 				Level 45	2148
+		},
+	},		
 	["FOOD_PET_MEAT"] = {
 		["description"] = AUTOBAR_CLASS_FOOD_PET_MEAT;
 		["texture"] = "INV_Misc_Food_14";
 		["noncombat"] = true,
+		["items"] = {
+			4457,		--	Barbecued Buzzard Wing
+			117,	-- Tough Jerky						Level 1		61
+			3173,		--	Bear Meat
+			2888,		--	Beer Basted Boar Ribs
+			2679,	-- Charred Wolf Meat		-- Cooking - Level 1, heals 61
+			2681,	-- Roasted Boar Meat		-- Cooking - Level 1, heals 61
+			3730,		--	Big Bear Meat
+			3726,		--	Big Bear Steak
+			3220,		--	Blood Sausage
+			2677,		--	Boar Ribs
+			3404,		--	Buzzard Wing
+			12213,	--	Carrion Surprise
+			769,		--	Chunk of Boar Meat
+			2673,		--	Coyote Meat
+			1081,		--	Crisp Spider Meat
+			12224,	--	Crispy Bat Wing
+			5479,		--	Crispy Lizard Tail
+			2924,		--	Crocolisk Meat
+			3662,		--	Crocolisk Steak
+			17119,	--	Deeprun Rat Kabob
+			5051,		--	Dig Rat
+			12217,	--	Dragonbreath Chili
+			2687,		--	Dry Pork Ribs
+			9681,		--	Grilled King Crawler Legs
+			12204,	--	Heavy Kodo Meat
+			3727,		--	Hot Lion Chops
+			13851,	--	Hot Wolf Ribs
+			12212,	--	Jungle Stew
+			5472,		--	Kaldorei Spider Kabob
+			5467,		--	Kodo Meat
+			5480,		--	Lean Venison
+			1015,		--	Lean Wolf Flank
+			12209,	--	Lean Wolf Steak
+			3731,		--	Lion Meat
+			12223,	--	Meaty Bat Wing
+			12037,	--	Mystery Meat
+			4739,		--	Plainstrider Meat
+			12184,	--	Raptor Flesh
+			13759,	--	Raw Nightfin Snapper
+			12203,	--	Red Wolf Meat
+			12210,	--	Roast Raptor
+			5474,		--	Roasted Kodo Meat
+			1017,		--	Seasoned Wolf Kabob
+			5465,		--	Small Spider Leg
+			3729,		--	Soothing Turtle Bisque
+			2680,	-- Spiced Wolf Meat			-- Cooking
+			17222,	--	Spider Sausage
+			5471,	--	Stag Meat
+			2287,	-- Haunch of Meat			-- Vendor  - Level 5, heals 243
+			6890,	-- Smoked Bear Meat			-- Cooking - Level 5, heals 243
+			5469,	-- Strider Meat
+			5477,	-- Strider Stew
+			2672,	-- Stringy Wolf Meat
+			3728,	-- Tasty Lion Steak
+			3667,	-- Tender Crocolisk Meat
+			12208,	-- Tender Wolf Meat
+			18045,	-- Tender Wolf Steak
+			5470,	-- Thunder Lizard Tail
+			12202,	-- Tiger Meat
+			2684,	-- Coyote Steak				-- Cooking
+			5473,	-- Scorpid Surprise			-- Cooking - Level 1, heals 294
+			733,	-- Westfall Stew			-- Cooking - Level 5, heals 552
+			3770,	-- Mutton Chop				-- Vendor  - Level 15, heals 552
+			5478,	-- Dig Rat Stew				-- Cooking - Level 10, heals 552
+			2685,	-- Succulent Pork Ribs		-- Cooking - Level 10, heals 552
+			3771,	-- Wild Hog Shank 			-- Vendor  - Level 25, heals 874
+			3712,	-- Turtle Meat
+			12205,	-- White Spider Meat
+			4599,	-- Cured Ham Steak 			-- Vendor  - Level 35, heals 1392
+			16171,	-- Shinsollo				-- Vendor  - Level 45, heals 2148
+			8952,	-- Roasted Quail 			-- Vendor  - Level 45, heals 2148
+		},
 	},
 	["FOOD_WATER"] = {
 		["description"] = AUTOBAR_CLASS_FOOD_COMBO;
@@ -866,41 +972,129 @@ AutoBar_Category_Info = { -- global
 	["DRINK_STAMINA"] ={
 		["description"] = AUTOBAR_CLASS_DRINK_STAMINA;
 		["texture"] = "INV_Drink_04";
-	},
+		["items"] = {
+			17048,	-- Rumsey Rum
+			20709,	-- Rumsey Rum Light	
+			21114,	-- Rumsey Rum Dark
+			21151, 	-- rumsey rum black label
+		},
+	},	
 	["FOOD_STAMINA"] = {
 		["description"] = AUTOBAR_CLASS_FOOD_STAMINA;
 		["texture"] = "INV_Egg_03";
 		["noncombat"] = true,
-	},
+		["items"] = {
+			6888,	-- Herb Baked Egg	-- Cooking - Level 1, heals 61, 2 stamina/spirit
+			12224,	-- Crispy Bat Wing	-- Cooking - Level 1, heals 61, 2 stamina/spirit
+			7808,	-- Chocolate Square	-- Level 1, heals 61, 2 stamina/spirit
+			17197,	-- Gingerbread Cookie	-- Cooking - Level 1, heals 61, 2 stamina/spirit
+			17198,	-- Egg Nog		-- Cooking - Level 1, heals 61, 2 stamina/spirit
+			5472,	-- Kaldorei Spider Kabob	-- Cooking - Level 1, heals 61, 2 stamina/spirit
+			2888,	-- Beer Basted Boar Ribs	-- Cooking - Level 1, heals 61, 2 stamina/spirit
+			5474,	-- Roasted Kodo Meat	-- Cooking - Level 1, heals 61, 2 stamina/spirit
+			11584,	-- Cactus Apple Surprise	-- Quest   - Level 1, heals 61, 2 stamina/spirit
+			5476,	-- Fillet of Frenzy	-- Cooking - Level 5, heals 243, 4 stamina/spirit
+			5477,	-- Strider Stew		-- Cooking - Level 5, heals 243, 4 stamina/spirit
+			724,	-- Goretusk Liver Pie	-- Cooking - Level 5, heals 243, 4 stamina/spirit
+			3220,	-- Blood Sausage	-- Cooking - Level 5, heals 243, 4 stamina/spirit
+			3662,	-- Crocolisk Steak	-- Cooking - Level 5, heals 243, 4 stamina/spirit
+			2687,	-- Dry Pork Ribs	-- Cooking - Level 5, heals 243, 4 stamina/spirit
+			5525,	-- Boiled Clams		-- Cooking - Level 5, heals 243, 4 stamina/spirit
+			1082,	-- Redridge Goulash	-- Cooking - Level 10, heals 552, 6 stamina/spirit
+			5479,	-- Crispy Lizard Tail	-- Cooking - Level 12, heals 552, 6 stamina/spirit
+			1017,	-- Seasoned Wolf Kabob	-- Cooking - Level 15, heals 552, 6 stamina/spirit
+			3663,	-- Murloc Fin Soup	-- Cooking - Level 15, heals 552, 6 stamina/spirit
+			3726,	-- Big Bear Steak	-- Cooking - Level 15, heals 552, 6 stamina/spirit
+			5480,	-- Lean Venison		-- Cooking - Level 15, heals 552, 6 stamina/spirit
+			3666,	-- Gooey Spider Cake	-- Cooking - Level 15, heals 552, 6 stamina/spirit
+			3664,	-- Crocolisk Gumbo	-- Cooking - Level 15, heals 552, 6 stamina/spirit
+			5527,	-- Goblin Deviled Clams	-- Cooking - Level 15, heals 552, 6 stamina/spirit
+			3727,	-- Hot Lion Chops	-- Cooking - Level 15, heals 552, 6 stamina/spirit
+			12209,	-- Lean Wolf Steak	-- Cooking - Level 15, heals 552, 6 stamina/spirit
+			3665,	-- Curiously Tasty Omelet	-- Cooking - Level 15, heals 552, 6 stamina/spirit
+			51710,	-- Plump Country Pumpkin	-- Gardening - Level 25, heals 552, 6 stamina/spirit
+			3728,	-- Tasty Lion Steak	-- Cooking - Level 20, heals 874, 8 stamina/spirit
+			4457,	-- Barbecued Buzzard Wing -- Cooking - Level 25, heals 874, 8 stamina/spirit
+			12213,	-- Carrion Surprise	-- Cooking - Level 25, heals 874, 8 stamina/spirit
+			6038,	-- Giant Clam Scorcho	-- Cooking - Level 25, heals 874, 8 stamina/spirit
+			3729,	-- Soothing Turtle Bisque -- Cooking - Level 25, heals 874, 8 stamina/spirit
+			13851,	-- Hot Wolf Ribs	-- Cooking - Level 25, heals 874, 8 stamina/spirit
+			12214,	-- Mystery Stew		-- Cooking - Level 25, heals 874, 8 stamina/spirit
+			12210,	-- Roast Raptor		-- Cooking - Level 25, heals 874, 8 stamina/spirit
+			12212,	-- Jungle Stew		-- Cooking - Level 25, heals 874, 8 stamina/spirit
+			51714,	-- Sweet Mountain Berry -- Gardening - Level 35, heals 874, 10 stamina
+			13927,	-- Cooked Glossy Mightfi-- Cooking - Level 35, heals 1392, 10 stamina
+			13934,	-- Mightfish Steak	-- Cooking - Level 45, heals 1933, 10 stamina
+			17222,	-- Spider Sausage 	-- Cooking - Level 35, heals 1392, 12 stamina/spirit
+			12215,	-- Heavy Kodo Stew	-- Cooking - Level 35, heals 1392, 12 stamina/spirit
+			12216,	-- Spider Chilli Crab	-- Cooking - Level 35, heals 1392, 12 stamina/spirit
+			12218,	-- Monster Omlette	-- Cooking - Level 40, heals 1392, 12 stamina/spirit
+			16971,	-- Clamlette Surprise 	-- Cooking - Level 40, heals 1392, 12 stamina/spirit
+			18045,	-- Tender Wolf Steak	-- Cooking - Level 40, heals 1392, 12 stamina/spirit
+			51712,	-- Juicy Watermelon 	-- Gardening - Level 45, heals 1392, 12 stamina/spirit
+			51713,	-- Hearty Country Pumpkin 	-- Gardening - Level 25, heals 48%, 25% of level in stamina/spirit
+			11950,	-- Windblossom Berries	-- Felwood - Level 45, heals 1933, stamina/spirit
+			21023,	-- Dirge's Kickin' Chimaerok Chops	-- Cooking - Level 55, heals 2250, 25 stamina
+			51717,	-- Hardened Mushroom -- Gardening - Level 55, heals 2250, 25 stamina
+		},
+	},	
 	["FOOD_AGILITY"] = {
 		["description"] = AUTOBAR_CLASS_FOOD_AGILITY;
 		["texture"] = "INV_Misc_Fish_13";
 		["noncombat"] = true,
-	},
+		["items"] = {
+			13928,	-- Grilled Squid	-- Cooking - Level 35, heals 874, agility
+			51711,	-- Sour Mountain Berry			-- Survival - Level 35, heals 874, +10 agility
+			60976, 	-- Danonzo's Tel'Abim Surprise	-- Cooking - Level 55, heals 3186, +45 rAP
+			60978, 	-- Danonzo's Tel'Abim Medley	-- Cooking - Level 55, heals 3186, +2% haste
+		},
+	},	
 	["FOOD_MANAREGEN"] = {
 		["description"] = AUTOBAR_CLASS_FOOD_MANAREGEN;
 		["texture"] = "INV_Drink_17";
 		["noncombat"] = true,
-	},
+		["items"] = {
+			21072,	-- Smoked Sagefish	-- Cooking - Level 10, heals 378, mana 567, 3/5 mana regen
+			21217,	-- Sagefish Delight	-- Cooking - Level 30, heals 840, mana 1260, 6/5 mana regen
+			13929,	-- Hot Smoked Bass	-- Cooking - Level 35, heals 874, 10 spirit
+			13931,	-- Nightfin Soup	-- Cooking - Level 35, heals 874, 8/5 mana regen
+		},
+	},		
 	["FOOD_HPREGEN"] = {
 		["description"] = AUTOBAR_CLASS_FOOD_HPREGEN;
 		["texture"] = "INV_Misc_Fish_19";
 		["noncombat"] = true,
-	},
+		["items"] = {
+			13932,	-- Poached Sunscale Salmon	-- Cooking - Level 35, heals 874, hp regen
+		},
+	},	
 	["FOOD_STRENGTH"] = {
 		["description"] = AUTOBAR_CLASS_FOOD_STRENGTH;
 		["texture"] = "INV_Misc_Food_41";
 		["noncombat"] = true,
-	},
+		["items"] = {
+			13810,	-- Blessed Sunfruit -- AD - Level 45, heals 1933, strength
+			20452,	-- Smoked Desert Dumpling	-- Level 45, heals 2148, str bonus
+			61720,	-- Power Mushroom			-- Gardening -- Level 55, heals 2148, 20 str bonus
+		},
+	},	
 	["FOOD_INTELLIGENCE"] = {
 		["description"] = AUTOBAR_CLASS_FOOD_INTELLIGENCE;
 		["texture"] = "INV_Misc_Food_63";
 		["noncombat"] = true,
-	},
+		["items"] = {
+			18254,	-- Runn Tum Tuber Surpris	-- int bonus
+			51718,	-- Sweet Watermelon		-- Gardening - Level 45, heals 1933, 10 Intellect
+		},
+	},		
 	["FOOD_SPELLPOWER"] = {
 		["description"] = AUTOBAR_CLASS_FOOD_SPELLPOWER;
 		["texture"] = "INV_Drink_19";
 		["noncombat"] = true,
+		["items"] = {
+			84041,	-- Gilneas Hot Stew +12spd
+			60977,  -- Danonzo's Tel'Abim Delight +22spd
+		},
 	},
 	["FOOD_ARATHI"] = {
 		["description"] = AUTOBAR_CLASS_FOOD_ARATHI;
@@ -931,107 +1125,295 @@ AutoBar_Category_Info = { -- global
 		["description"] = AUTOBAR_CLASS_SHARPENINGSTONES;
 		["texture"] = "INV_Stone_SharpeningStone_01";
 		["targetted"] = "WEAPON";
+		["items"] = {
+			23122,	-- Consecrated Sharpening Stone
+			2862,	-- Rough Sharpening Stone
+			2863,	-- Coarse Sharpening Stone
+			2871,	-- Heavy Sharpening Stone
+			7964,	-- Solid Sharpening Stone
+			12404,	-- Dense Sharpening Stone
+			18262,	-- Elemental Sharpening Stone
+		},
 	},
 	["WEIGHTSTONE"] = {
 		["description"] = AUTOBAR_CLASS_WEIGHTSTONE;
 		["texture"] = "INV_Stone_WeightStone_02";
 		["targetted"] = "WEAPON";
+		["items"] = {
+			3239,	-- Rough Weightstone
+			3240,	-- Coarse Weightstone
+			3241,	-- Heavy Weightstone
+			7965,	-- Solid Weightstone
+			12643,	-- Dense Weightstone
+		},
 	},
+	
 	--------------
 	["POISON-CRIPPLING"] = {
 		["description"] = AUTOBAR_CLASS_POISON_CRIPPLING;
 		["texture"] = "INV_Potion_19";
 		["targetted"] = "WEAPON";
+		["items"] = {
+			3775,	-- Crippling Poison
+			3776,	-- Crippling Poison II
+		},
 	},
 	["POISON-DEADLY"] = {
 		["description"] = AUTOBAR_CLASS_POISON_DEADLY;
 		["texture"] = "Ability_Rogue_DualWeild";
 		["targetted"] = "WEAPON";
+		["items"] = {
+			2892,	-- Deadly Poison
+			2893,	-- Deadly Poison II
+			8984,	-- Deadly Poison III
+			8985,	-- Deadly Poison IV
+			20844,	-- Deadly Poison V
+		},
 	},
 	["POISON-INSTANT"] = {
 		["description"] = AUTOBAR_CLASS_POISON_INSTANT;
 		["texture"] = "Ability_Poisons";
 		["targetted"] = "WEAPON";
-	},
+		["items"] = {
+			6947,	-- Instant Poison
+			6949,	-- Instant Poison II
+			6950,	-- Instant Poison III
+			8926,	-- Instant Poison IV
+			8927,	-- Instant Poison V
+			8928,	-- Instant Poison VI
+		},
+	},	
 	["POISON-MINDNUMBING"] = {
 		["description"] = AUTOBAR_CLASS_POISON_MINDNUMBING;
 		["texture"] = "Spell_Nature_NullifyDisease";
 		["targetted"] = "WEAPON";
+		["items"] = {
+			5237,	-- Mind-numbing Poison
+			6951,	-- Mind-numbing Poison II
+			9186,	-- Mind-numbing Poison III
+		},
 	},
 	["POISON-WOUND"] = {
 		["description"] = AUTOBAR_CLASS_POISON_WOUND;
 		["texture"] = "Ability_PoisonSting";
 		["targetted"] = "WEAPON";
+		["items"] = {
+			10918,	-- Wound Poison
+			10920,	-- Wound Poison II
+			10921,	-- Wound Poison III
+			10922,	-- Wound Poison IV
+		},
 	},
+
 	--------------
 	["EXPLOSIVES"] = {
 		["description"] = AUTOBAR_CLASS_EXPLOSIVES;
 		["texture"] = "INV_Misc_Bomb_08";
 		["nosmartcast"] = true;
 		["targetted"] = true;
+		["items"] = {
+			4358,	-- Rough Dynamite
+			4360,	-- Rough Copper Bomb
+			4365,	-- Coarse Dynamite
+			4370,	-- Large Copper Bomb
+			6714,	-- EZ-Thro Dynamite
+			4374,	-- Small Bronze Bomb
+			4378,	-- Heavy Dynamite
+			4380,	-- Big Bronze Bomb
+			10507,	-- Solid Dynamite
+			4390,	-- Iron Grenade
+			4403,	-- Portable Bronze Mortar
+			4394,	-- Big Iron Bomb
+			18588,	-- EZ-Thro Dynamite II
+			10514,	-- Mithril Frag Bomb
+			10586,	-- The Big One
+			10562,	-- Hi-Explosive Bomb
+			18641,	-- Dense Dynamite
+			15993,	-- Thorium Grenade
+			16005,	-- Dark Iron Bomb
+			16040,	-- Arcane Bomb
+		},
 	},
+
+	
 	--------------
 	["MOUNTS_TROLL"] = {
 		["description"] = AUTOBAR_CLASS_MOUNTS_TROLL;
 		["texture"] = "Ability_Mount_Raptor";
 		["noncombat"] = true,
+		["items"] = {
+			8588,	-- Emerald Raptor
+			8591,	-- Turquoise Raptor
+			8592,	-- Violet Raptor
+			8586,	-- Elite: Red Raptor
+			13317,	-- Elite: Ivory Raptor
+			18788,	-- Elite: Swift Blue Raptor
+			18789,	-- Elite: Swift Olive Raptor
+			18790,	-- Elite: Swift Orange Raptor
+			18246,	-- Elite: PVP: Black War Raptor
+		},
 	},
 	["MOUNTS_ORC"] = {
 		["description"] = AUTOBAR_CLASS_MOUNTS_ORC;
 		["texture"] = "Ability_Mount_BlackDireWolf",
 		["noncombat"] = true,
-	},
+		["items"] = {
+			1132, 	-- Timber Wolf
+			5665,	-- Dire Wolf
+			5668,	-- Brown Wolf
+			12330, 	-- Elite: Red Wolf
+			12351, 	-- Elite: Arctic Wolf
+			18796, 	-- Elite: Swift Brown Wolf
+			18797,	-- Elite: Swift Timber Wolf
+			18798,	-- Elite: Swift Gray Wolf
+			18245,	-- Elite: PVP: Black War Wolf
+		},
+	},	
 	["MOUNTS_UNDEAD"] = {
 		["description"] = AUTOBAR_CLASS_MOUNTS_UNDEAD;
 		["texture"] = "Ability_Mount_Undeadhorse";
 		["noncombat"] = true,
-	},
+		["items"] = {
+			13331,	-- Red Skeletal Horse
+			13332,	-- Blue Skeleton Horse
+			13333,	-- Brown Skeletal Horse
+			13334, 	-- Elite: Green Skeletal Warhorse
+			18791,	-- Elite: Purple Skeletal Warhorse
+			18248,	-- Elite: PVP: Red Skeletal Warhorse
+		},
+	},		
 	["MOUNTS_TAUREN"] = {
 		["description"] = AUTOBAR_CLASS_MOUNTS_TAUREN;
 		["texture"] = "Ability_Mount_Kodo_01";
 		["noncombat"] = true,
-	},
+		["items"] = {
+			15277, 	-- Gray Kodo
+			15290,	-- Brown Kodo
+			15292,  -- Elite: Green Kodo
+			15293,  -- Elite: Teal Kodo
+			18793,	-- Elite: Great White Kodo
+			18794,	-- Elite: Great Brown Kodo
+			18795,	-- Elite: Great Grey Kodo
+			18247,	-- Elite: PVP: Black War Kodo
+		},
+	},		
 	["MOUNTS_HUMAN"] = {
 		["description"] = AUTOBAR_CLASS_MOUNTS_HUMAN;
 		["texture"] = "Ability_Mount_NightmareHorse";
 		["noncombat"] = true,
-	},
+		["items"] = {
+			2414, 	-- Pinto
+			2411,	-- Black Stallion
+			5655,	-- Chestnut Mare
+			5656,	-- Brown Horse
+			12353,  -- Elite: White Stallion
+			12354,  -- Elite: Palamino Bridle
+			18776,	-- Elite: Swift Palamino
+			18777,	-- Elite: Swift Brown Steed
+			18778,	-- Elite: Swift White Steed
+			18241,	-- Elite: PVP: Black War Steed
+		},
+	},			
 	["MOUNTS_NIGHTELF"] = {
 		["description"] = AUTOBAR_CLASS_MOUNTS_NIGHTELF;
 		["texture"] = "Ability_Mount_BlackPanther";
 		["noncombat"] = true,
-	},
+		["items"] = {
+			8628,	-- Spotted Nightsaber,
+			8629,	-- Striped Nightsaber
+			8631,	-- Striped Frostsaber
+			8632,	-- Spotted Frostsaber
+			12302,  -- Elite: Frostsaber
+			12303,  -- Elite: Nightsaber
+			18766,	-- Elite: Swift Frostsaber
+			18767,	-- Elite: Swift Mistsaber
+			18902,	-- Elite: Swift Stormsaber
+			13086,	-- Elite: Winterspring Frostsaber
+			18242,	-- Elite: PVP: Black War Tiger
+		},
+	},			
 	["MOUNTS_DWARF"] = {
 		["description"] = AUTOBAR_CLASS_MOUNTS_DWARF;
 		["texture"] = "Ability_Mount_MountainRam";
 		["noncombat"] = true,
-	},
+		["items"] = {
+			5864,	-- Gray Ram
+			5872,	-- Brown Ram
+			5873,	-- White Ram
+			13328,  -- Elite: Black Ram
+			13329,  -- Elite: Frost Ram
+			18785,	-- Elite: Swift White Ram
+			18786,	-- Elite: Swift Brown Ram
+			18787,	-- Elite: Swift Gray Ram
+			18244,	-- Elite: PVP: Black War Ram
+		},
+	},	
 	["MOUNTS_GNOME"] = {
 		["description"] = AUTOBAR_CLASS_MOUNTS_GNOME;
 		["texture"] = "Ability_Mount_MechaStrider";
 		["noncombat"] = true,
-	},
+		["items"] = {
+			8563,	-- Red Mechanostrider
+			8595,	-- Blue Mechanostrider
+			13321,	-- Green Mechanostrider
+			13326,  -- White Mechanostrider
+			13322,	-- Unpainted Mechanostrider
+			13327,  -- Icy Blue Mechanostrider
+			18772,	-- Swift Green Mechanostrider
+			18773,	-- Swift White Mechanostrider
+			18774,	-- Swift Yellow Mechanostrider
+			18243,	-- Elite: PVP: Black Battlestrider
+		},
+	},		
 	["MOUNTS_SPECIAL"] = {
 		["description"] = AUTOBAR_CLASS_MOUNTS_SPECIAL;
 		["texture"] = "Ability_Mount_JungleTiger";
 		["noncombat"] = true,
-	},
+		["items"] = {
+			19029,	-- Elite: AV: Horn of the Frostwolf Howler
+			19030,	-- Elite: AV: Stormpike Battle Charger
+			19872,	-- Elite: ZG: Swift Razzashi Raptor
+			19902,	-- Elite: ZG: Swift Zulian Tiger
+			13335,  -- Deathcharger's Reins
+		},
+	},	
+	
 	["MOUNTS_QIRAJI"] = {
 		["description"] = AUTOBAR_CLASS_MOUNTS_QIRAJI;
 		["texture"] = "INV_Misc_QirajiCrystal_05";
 		["noncombat"] = true,
 		["location"] = AUTOBAR_AHN_QIRAJ;
-	},
+		["items"] = {
+			21218,	-- Blue Qiraji Resonating Crystal
+			21324,	-- Yellow Qiraji Resonating Crystal
+			21323,	-- Green Qiraji Resonating Crystal
+			21321,	-- Red Qiraji Resonating Crystal
+			21176,	-- Black Qiraji Resonating Crystal
+		},
+	},	
+	
 	--------------
 	["MANA_OIL"] = {
 		["texture"] = "INV_Potion_100";
 		["targetted"] = "WEAPON";
 		["description"] = AUTOBAR_CLASS_MANA_OIL;
+		["items"] = {
+			20745, 	-- Minor Mana Oil 4mana/5sec
+			20747, 	-- Lesser Mana Oil 8mana/5sec
+			20748,	-- Brilliant Mana Oil 12mana/5sec
+		},
 	},
 	["WIZARD_OIL"] = {
 		["texture"] = "INV_Potion_105";
 		["targetted"] = "WEAPON";
 		["description"] = AUTOBAR_CLASS_WIZARD_OIL;
+		["items"] = {
+			23123,	-- Blessed Wizard Oil +60 vs undead
+			20744,	-- Minor Wizard Oil +8 spell damage
+			20746,	-- Lesser Wizard Oil +16 spell damage
+			20750, 	-- Wizard Oil +24 spell damage
+			20749, 	-- Brilliant Wizard Oil +36 spell damage
+		},
 	},
 	["FISHINGITEMS"] = {
 		["texture"] = "INV_Misc_Food_26",
@@ -1365,380 +1747,3 @@ AutoBar_Category_Info = { -- global
 
 
 
-AutoBar_Category_Info["FOOD_PET_FRUIT"].items = {
-		4536,	-- Shiny Red Apple					Level 1		61
-		4537,	-- Tel'Abim Banana					Level 5		243
-		4538,	-- Snapvine Watermelon				Level 15	552
-		4539,	-- Goldenbark Apple 				Level 25	874
-		4602,	-- Moon Harvest Pumpkin				Level 35	1392
-		16168,	-- Heaven Peach						Level 35	1392
-		8953,	-- Deep Fried Plantains				Level 45	2148
-};
-AutoBar_Category_Info["FOOD_PET_FUNGUS"].items = {
-		4604,	-- Forest Mushroom Cap				Level 1		61
-		4605,	-- Red-speckled Mushroom			Level 5		243
-		4606,	-- Spongy Morel						Level 15	552
-		4607,	-- Delicious Cave Mold				Level 25	874
-		4608,	-- Raw Black Truffle 				Level 35	1392
-		8948,	-- Dried King Bolete 				Level 45	2148
-};
-AutoBar_Category_Info["FOOD_PET_MEAT"].items = {
-		4457,		--	Barbecued Buzzard Wing
-		117,	-- Tough Jerky						Level 1		61
-		3173,		--	Bear Meat
-		2888,		--	Beer Basted Boar Ribs
-		2679,	-- Charred Wolf Meat		-- Cooking - Level 1, heals 61
-		2681,	-- Roasted Boar Meat		-- Cooking - Level 1, heals 61
-		3730,		--	Big Bear Meat
-		3726,		--	Big Bear Steak
-		3220,		--	Blood Sausage
-		2677,		--	Boar Ribs
-		3404,		--	Buzzard Wing
-		12213,	--	Carrion Surprise
-		769,		--	Chunk of Boar Meat
-		2673,		--	Coyote Meat
-		1081,		--	Crisp Spider Meat
-		12224,	--	Crispy Bat Wing
-		5479,		--	Crispy Lizard Tail
-		2924,		--	Crocolisk Meat
-		3662,		--	Crocolisk Steak
-		17119,	--	Deeprun Rat Kabob
-		5051,		--	Dig Rat
-		12217,	--	Dragonbreath Chili
-		2687,		--	Dry Pork Ribs
-		9681,		--	Grilled King Crawler Legs
-		12204,	--	Heavy Kodo Meat
-		3727,		--	Hot Lion Chops
-		13851,	--	Hot Wolf Ribs
-		12212,	--	Jungle Stew
-		5472,		--	Kaldorei Spider Kabob
-		5467,		--	Kodo Meat
-		5480,		--	Lean Venison
-		1015,		--	Lean Wolf Flank
-		12209,	--	Lean Wolf Steak
-		3731,		--	Lion Meat
-		12223,	--	Meaty Bat Wing
-		12037,	--	Mystery Meat
-		4739,		--	Plainstrider Meat
-		12184,	--	Raptor Flesh
-		13759,	--	Raw Nightfin Snapper
-		12203,	--	Red Wolf Meat
-		12210,	--	Roast Raptor
-		5474,		--	Roasted Kodo Meat
-		1017,		--	Seasoned Wolf Kabob
-		5465,		--	Small Spider Leg
-		3729,		--	Soothing Turtle Bisque
-		2680,	-- Spiced Wolf Meat			-- Cooking
-		17222,	--	Spider Sausage
-		5471,	--	Stag Meat
-		2287,	-- Haunch of Meat			-- Vendor  - Level 5, heals 243
-		6890,	-- Smoked Bear Meat			-- Cooking - Level 5, heals 243
-		5469,	-- Strider Meat
-		5477,	-- Strider Stew
-		2672,	-- Stringy Wolf Meat
-		3728,	-- Tasty Lion Steak
-		3667,	-- Tender Crocolisk Meat
-		12208,	-- Tender Wolf Meat
-		18045,	-- Tender Wolf Steak
-		5470,	-- Thunder Lizard Tail
-		12202,	-- Tiger Meat
-		2684,	-- Coyote Steak				-- Cooking
-		5473,	-- Scorpid Surprise			-- Cooking - Level 1, heals 294
-		733,	-- Westfall Stew			-- Cooking - Level 5, heals 552
-		3770,	-- Mutton Chop				-- Vendor  - Level 15, heals 552
-		5478,	-- Dig Rat Stew				-- Cooking - Level 10, heals 552
-		2685,	-- Succulent Pork Ribs		-- Cooking - Level 10, heals 552
-		3771,	-- Wild Hog Shank 			-- Vendor  - Level 25, heals 874
-		3712,	-- Turtle Meat
-		12205,	-- White Spider Meat
-		4599,	-- Cured Ham Steak 			-- Vendor  - Level 35, heals 1392
-		16171,	-- Shinsollo				-- Vendor  - Level 45, heals 2148
-		8952,	-- Roasted Quail 			-- Vendor  - Level 45, heals 2148
-};
-AutoBar_Category_Info["DRINK_STAMINA"].items = {
-		17048,	-- Rumsey Rum
-		20709,	-- Rumsey Rum Light	
-		21114,	-- Rumsey Rum Dark
-		21151, 	-- rumsey rum black label
-};
-AutoBar_Category_Info["FOOD_STAMINA"].items = {
-		6888,	-- Herb Baked Egg	-- Cooking - Level 1, heals 61, 2 stamina/spirit
-		12224,	-- Crispy Bat Wing	-- Cooking - Level 1, heals 61, 2 stamina/spirit
-		7808,	-- Chocolate Square	-- Level 1, heals 61, 2 stamina/spirit
-		17197,	-- Gingerbread Cookie	-- Cooking - Level 1, heals 61, 2 stamina/spirit
-		17198,	-- Egg Nog		-- Cooking - Level 1, heals 61, 2 stamina/spirit
-		5472,	-- Kaldorei Spider Kabob	-- Cooking - Level 1, heals 61, 2 stamina/spirit
-		2888,	-- Beer Basted Boar Ribs	-- Cooking - Level 1, heals 61, 2 stamina/spirit
-		5474,	-- Roasted Kodo Meat	-- Cooking - Level 1, heals 61, 2 stamina/spirit
-		11584,	-- Cactus Apple Surprise	-- Quest   - Level 1, heals 61, 2 stamina/spirit
-		5476,	-- Fillet of Frenzy	-- Cooking - Level 5, heals 243, 4 stamina/spirit
-		5477,	-- Strider Stew		-- Cooking - Level 5, heals 243, 4 stamina/spirit
-		724,	-- Goretusk Liver Pie	-- Cooking - Level 5, heals 243, 4 stamina/spirit
-		3220,	-- Blood Sausage	-- Cooking - Level 5, heals 243, 4 stamina/spirit
-		3662,	-- Crocolisk Steak	-- Cooking - Level 5, heals 243, 4 stamina/spirit
-		2687,	-- Dry Pork Ribs	-- Cooking - Level 5, heals 243, 4 stamina/spirit
-		5525,	-- Boiled Clams		-- Cooking - Level 5, heals 243, 4 stamina/spirit
-		1082,	-- Redridge Goulash	-- Cooking - Level 10, heals 552, 6 stamina/spirit
-		5479,	-- Crispy Lizard Tail	-- Cooking - Level 12, heals 552, 6 stamina/spirit
-		1017,	-- Seasoned Wolf Kabob	-- Cooking - Level 15, heals 552, 6 stamina/spirit
-		3663,	-- Murloc Fin Soup	-- Cooking - Level 15, heals 552, 6 stamina/spirit
-		3726,	-- Big Bear Steak	-- Cooking - Level 15, heals 552, 6 stamina/spirit
-		5480,	-- Lean Venison		-- Cooking - Level 15, heals 552, 6 stamina/spirit
-		3666,	-- Gooey Spider Cake	-- Cooking - Level 15, heals 552, 6 stamina/spirit
-		3664,	-- Crocolisk Gumbo	-- Cooking - Level 15, heals 552, 6 stamina/spirit
-		5527,	-- Goblin Deviled Clams	-- Cooking - Level 15, heals 552, 6 stamina/spirit
-		3727,	-- Hot Lion Chops	-- Cooking - Level 15, heals 552, 6 stamina/spirit
-		12209,	-- Lean Wolf Steak	-- Cooking - Level 15, heals 552, 6 stamina/spirit
-		3665,	-- Curiously Tasty Omelet	-- Cooking - Level 15, heals 552, 6 stamina/spirit
-		51710,	-- Plump Country Pumpkin	-- Gardening - Level 25, heals 552, 6 stamina/spirit
-		3728,	-- Tasty Lion Steak	-- Cooking - Level 20, heals 874, 8 stamina/spirit
-		4457,	-- Barbecued Buzzard Wing -- Cooking - Level 25, heals 874, 8 stamina/spirit
-		12213,	-- Carrion Surprise	-- Cooking - Level 25, heals 874, 8 stamina/spirit
-		6038,	-- Giant Clam Scorcho	-- Cooking - Level 25, heals 874, 8 stamina/spirit
-		3729,	-- Soothing Turtle Bisque -- Cooking - Level 25, heals 874, 8 stamina/spirit
-		13851,	-- Hot Wolf Ribs	-- Cooking - Level 25, heals 874, 8 stamina/spirit
-		12214,	-- Mystery Stew		-- Cooking - Level 25, heals 874, 8 stamina/spirit
-		12210,	-- Roast Raptor		-- Cooking - Level 25, heals 874, 8 stamina/spirit
-		12212,	-- Jungle Stew		-- Cooking - Level 25, heals 874, 8 stamina/spirit
-		51714,	-- Sweet Mountain Berry -- Gardening - Level 35, heals 874, 10 stamina
-		13927,	-- Cooked Glossy Mightfi-- Cooking - Level 35, heals 1392, 10 stamina
-		13934,	-- Mightfish Steak	-- Cooking - Level 45, heals 1933, 10 stamina
-		17222,	-- Spider Sausage 	-- Cooking - Level 35, heals 1392, 12 stamina/spirit
-		12215,	-- Heavy Kodo Stew	-- Cooking - Level 35, heals 1392, 12 stamina/spirit
-		12216,	-- Spider Chilli Crab	-- Cooking - Level 35, heals 1392, 12 stamina/spirit
-		12218,	-- Monster Omlette	-- Cooking - Level 40, heals 1392, 12 stamina/spirit
-		16971,	-- Clamlette Surprise 	-- Cooking - Level 40, heals 1392, 12 stamina/spirit
-		18045,	-- Tender Wolf Steak	-- Cooking - Level 40, heals 1392, 12 stamina/spirit
-		51712,	-- Juicy Watermelon 	-- Gardening - Level 45, heals 1392, 12 stamina/spirit
-		51713,	-- Hearty Country Pumpkin 	-- Gardening - Level 25, heals 48%, 25% of level in stamina/spirit
-		11950,	-- Windblossom Berries	-- Felwood - Level 45, heals 1933, stamina/spirit
-		21023,	-- Dirge's Kickin' Chimaerok Chops	-- Cooking - Level 55, heals 2250, 25 stamina
-		51717,	-- Hardened Mushroom -- Gardening - Level 55, heals 2250, 25 stamina
-};
-AutoBar_Category_Info["FOOD_AGILITY"].items = {
-		13928,	-- Grilled Squid	-- Cooking - Level 35, heals 874, agility
-		51711,	-- Sour Mountain Berry			-- Survival - Level 35, heals 874, +10 agility
-		60976, 	-- Danonzo's Tel'Abim Surprise	-- Cooking - Level 55, heals 3186, +45 rAP
-		60978, 	-- Danonzo's Tel'Abim Medley	-- Cooking - Level 55, heals 3186, +2% haste
-};
-AutoBar_Category_Info["FOOD_MANAREGEN"].items = {
-		21072,	-- Smoked Sagefish	-- Cooking - Level 10, heals 378, mana 567, 3/5 mana regen
-		21217,	-- Sagefish Delight	-- Cooking - Level 30, heals 840, mana 1260, 6/5 mana regen
-		13929,	-- Hot Smoked Bass	-- Cooking - Level 35, heals 874, 10 spirit
-		13931,	-- Nightfin Soup	-- Cooking - Level 35, heals 874, 8/5 mana regen
-};
-AutoBar_Category_Info["FOOD_HPREGEN"].items = {
-		13932,	-- Poached Sunscale Salmon	-- Cooking - Level 35, heals 874, hp regen
-};
-AutoBar_Category_Info["FOOD_STRENGTH"].items = {
-		13810,	-- Blessed Sunfruit -- AD - Level 45, heals 1933, strength
-		20452,	-- Smoked Desert Dumpling	-- Level 45, heals 2148, str bonus
-		61720,	-- Power Mushroom			-- Gardening -- Level 55, heals 2148, 20 str bonus
-};
-AutoBar_Category_Info["FOOD_INTELLIGENCE"].items = {
-		18254,	-- Runn Tum Tuber Surpris	-- int bonus
-		51718,	-- Sweet Watermelon		-- Gardening - Level 45, heals 1933, 10 Intellect
-};
-AutoBar_Category_Info["FOOD_SPELLPOWER"].items = {
-		84041,	-- Gilneas Hot Stew +12spd
-		60977,  -- Danonzo's Tel'Abim Delight +22spd
-};
-
-AutoBar_Category_Info["SHARPENINGSTONES"].items = {
-		23122,	-- Consecrated Sharpening Stone
-		2862,	-- Rough Sharpening Stone
-		2863,	-- Coarse Sharpening Stone
-		2871,	-- Heavy Sharpening Stone
-		7964,	-- Solid Sharpening Stone
-		12404,	-- Dense Sharpening Stone
-		18262,	-- Elemental Sharpening Stone
-};
-AutoBar_Category_Info["WEIGHTSTONE"].items = {
-		3239,	-- Rough Weightstone
-		3240,	-- Coarse Weightstone
-		3241,	-- Heavy Weightstone
-		7965,	-- Solid Weightstone
-		12643,	-- Dense Weightstone
-};
-AutoBar_Category_Info["POISON-CRIPPLING"].items = {
-		3775,	-- Crippling Poison
-		3776,	-- Crippling Poison II
-};
-AutoBar_Category_Info["POISON-DEADLY"].items = {
-		2892,	-- Deadly Poison
-		2893,	-- Deadly Poison II
-		8984,	-- Deadly Poison III
-		8985,	-- Deadly Poison IV
-		20844,	-- Deadly Poison V
-};
-AutoBar_Category_Info["POISON-INSTANT"].items = {
-		6947,	-- Instant Poison
-		6949,	-- Instant Poison II
-		6950,	-- Instant Poison III
-		8926,	-- Instant Poison IV
-		8927,	-- Instant Poison V
-		8928,	-- Instant Poison VI
-};
-AutoBar_Category_Info["POISON-MINDNUMBING"].items = {
-		5237,	-- Mind-numbing Poison
-		6951,	-- Mind-numbing Poison II
-		9186,	-- Mind-numbing Poison III
-};
-AutoBar_Category_Info["POISON-WOUND"].items = {
-		10918,	-- Wound Poison
-		10920,	-- Wound Poison II
-		10921,	-- Wound Poison III
-		10922,	-- Wound Poison IV
-};
-AutoBar_Category_Info["EXPLOSIVES"].items = {
-		4358,	-- Rough Dynamite
-		4360,	-- Rough Copper Bomb
-		4365,	-- Coarse Dynamite
-		4370,	-- Large Copper Bomb
-		6714,	-- EZ-Thro Dynamite
-		4374,	-- Small Bronze Bomb
-		4378,	-- Heavy Dynamite
-		4380,	-- Big Bronze Bomb
-		10507,	-- Solid Dynamite
-		4390,	-- Iron Grenade
-		4403,	-- Portable Bronze Mortar
-		4394,	-- Big Iron Bomb
-		18588,	-- EZ-Thro Dynamite II
-		10514,	-- Mithril Frag Bomb
-		10586,	-- The Big One
-		10562,	-- Hi-Explosive Bomb
-		18641,	-- Dense Dynamite
-		15993,	-- Thorium Grenade
-		16005,	-- Dark Iron Bomb
-		16040,	-- Arcane Bomb
-};
-AutoBar_Category_Info["WARSONG_BANDAGES"].items = {
-		19068,	-- Warsong Gulch Silk Bandage
-		19067,	-- Warsong Gulch Mageweave Bandage
-		19066,	-- Warsong Gulch Runecloth Bandage
-};
-AutoBar_Category_Info["ARATHI_BANDAGES"].items = {
-		20067,	-- Arathi Basin Silk Bandage
-		20244,	-- Highlander's Silk Bandage
-		20235,	-- Defiler's Silk Bandage
-		20065,	-- Arathi Basin Mageweave Bandage
-		20237,	-- Highlander's Mageweave Bandage
-		20232,	-- Defiler's Mageweave Bandage
-		20066,	-- Arathi Basin Runecloth Bandage
-		20243,	-- Highlander's Runecloth Bandage
-		20234,	-- Defiler's Runecloth Bandage
-};
-AutoBar_Category_Info["MANA_OIL"].items = {
-		20745, 	-- Minor Mana Oil 4mana/5sec
-		20747, 	-- Lesser Mana Oil 8mana/5sec
-		20748,	-- Brilliant Mana Oil 12mana/5sec
-};
-AutoBar_Category_Info["WIZARD_OIL"].items = {
-		23123,	-- Blessed Wizard Oil +60 vs undead
-		20744,	-- Minor Wizard Oil +8 spell damage
-		20746,	-- Lesser Wizard Oil +16 spell damage
-		20750, 	-- Wizard Oil +24 spell damage
-		20749, 	-- Brilliant Wizard Oil +36 spell damage
-};
-AutoBar_Category_Info["MOUNTS_TROLL"].items = {
-		8588,	-- Emerald Raptor
-		8591,	-- Turquoise Raptor
-		8592,	-- Violet Raptor
-		8586,	-- Elite: Red Raptor
-		13317,	-- Elite: Ivory Raptor
-		18788,	-- Elite: Swift Blue Raptor
-		18789,	-- Elite: Swift Olive Raptor
-		18790,	-- Elite: Swift Orange Raptor
-		18246,	-- Elite: PVP: Black War Raptor
-};
-AutoBar_Category_Info["MOUNTS_ORC"].items = {
-		1132, 	-- Timber Wolf
-		5665,	-- Dire Wolf
-		5668,	-- Brown Wolf
-		12330, 	-- Elite: Red Wolf
-		12351, 	-- Elite: Arctic Wolf
-		18796, 	-- Elite: Swift Brown Wolf
-		18797,	-- Elite: Swift Timber Wolf
-		18798,	-- Elite: Swift Gray Wolf
-		18245,	-- Elite: PVP: Black War Wolf
-};
-AutoBar_Category_Info["MOUNTS_UNDEAD"].items = {
-		13331,	-- Red Skeletal Horse
-		13332,	-- Blue Skeleton Horse
-		13333,	-- Brown Skeletal Horse
-		13334, 	-- Elite: Green Skeletal Warhorse
-		18791,	-- Elite: Purple Skeletal Warhorse
-		18248,	-- Elite: PVP: Red Skeletal Warhorse
-};
-AutoBar_Category_Info["MOUNTS_TAUREN"].items = {
-		15277, 	-- Gray Kodo
-		15290,	-- Brown Kodo
-		15292,  -- Elite: Green Kodo
-		15293,  -- Elite: Teal Kodo
-		18793,	-- Elite: Great White Kodo
-		18794,	-- Elite: Great Brown Kodo
-		18795,	-- Elite: Great Grey Kodo
-		18247,	-- Elite: PVP: Black War Kodo
-};
-AutoBar_Category_Info["MOUNTS_HUMAN"].items = {
-		2414, 	-- Pinto
-		2411,	-- Black Stallion
-		5655,	-- Chestnut Mare
-		5656,	-- Brown Horse
-		12353,  -- Elite: White Stallion
-		12354,  -- Elite: Palamino Bridle
-		18776,	-- Elite: Swift Palamino
-		18777,	-- Elite: Swift Brown Steed
-		18778,	-- Elite: Swift White Steed
-		18241,	-- Elite: PVP: Black War Steed
-};
-AutoBar_Category_Info["MOUNTS_NIGHTELF"].items = {
-		8628,	-- Spotted Nightsaber,
-		8629,	-- Striped Nightsaber
-		8631,	-- Striped Frostsaber
-		8632,	-- Spotted Frostsaber
-		12302,  -- Elite: Frostsaber
-		12303,  -- Elite: Nightsaber
-		18766,	-- Elite: Swift Frostsaber
-		18767,	-- Elite: Swift Mistsaber
-		18902,	-- Elite: Swift Stormsaber
-		13086,	-- Elite: Winterspring Frostsaber
-		18242,	-- Elite: PVP: Black War Tiger
-};
-AutoBar_Category_Info["MOUNTS_DWARF"].items = {
-		5864,	-- Gray Ram
-		5872,	-- Brown Ram
-		5873,	-- White Ram
-		13328,  -- Elite: Black Ram
-		13329,  -- Elite: Frost Ram
-		18785,	-- Elite: Swift White Ram
-		18786,	-- Elite: Swift Brown Ram
-		18787,	-- Elite: Swift Gray Ram
-		18244,	-- Elite: PVP: Black War Ram
-};
-AutoBar_Category_Info["MOUNTS_GNOME"].items = {
-		8563,	-- Red Mechanostrider
-		8595,	-- Blue Mechanostrider
-		13321,	-- Green Mechanostrider
-		13326,  -- White Mechanostrider
-		13322,	-- Unpainted Mechanostrider
-		13327,  -- Icy Blue Mechanostrider
-		18772,	-- Swift Green Mechanostrider
-		18773,	-- Swift White Mechanostrider
-		18774,	-- Swift Yellow Mechanostrider
-		18243,	-- Elite: PVP: Black Battlestrider
-};
-AutoBar_Category_Info["MOUNTS_SPECIAL"].items = {
-		19029,	-- Elite: AV: Horn of the Frostwolf Howler
-		19030,	-- Elite: AV: Stormpike Battle Charger
-		19872,	-- Elite: ZG: Swift Razzashi Raptor
-		19902,	-- Elite: ZG: Swift Zulian Tiger
-		13335,  -- Deathcharger's Reins
-};
-AutoBar_Category_Info["MOUNTS_QIRAJI"].items = {
-		21218,	-- Blue Qiraji Resonating Crystal
-		21324,	-- Yellow Qiraji Resonating Crystal
-		21323,	-- Green Qiraji Resonating Crystal
-		21321,	-- Red Qiraji Resonating Crystal
-		21176,	-- Black Qiraji Resonating Crystal
-};
