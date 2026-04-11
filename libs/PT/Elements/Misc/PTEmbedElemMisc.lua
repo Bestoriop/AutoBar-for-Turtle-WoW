@@ -29,10 +29,9 @@ local mem = gcinfo()
 local t = {
 
 	-- Value == DPS*10 (to make it an int) (ammobullets is some other number but in order nevertheless)
-	ammo        = {"ammoarrows", "ammobullets", "ammothrown"},
+	ammo        = {"ammoarrows", "ammobullets"},
 	ammoarrows  = "2512:15 2515:35 3030:75 3464:95 9399:115 11285:130 19316:165 18042:175 12654:200",
 	ammobullets = "2516:5 4960:7 8067:7 2519:12 5568:13 8068:15 3033:25 8069:28 3465:32 10512:42 11284:43 10513:50 19317:55 15997:58 11630:60 13377:68",
-	ammothrown  = "2947:10 3111:10 4959:15 5379:21 2946:30 3131:30 3107:63 3135:63 3108:117 3137:117 3463:176 15326:183 15327:183 20086:300 13173:355",
 
 	-- Value == Poison level capable of curing
 	antivenom = "6452:25 6453:35 13462:60 2633:60 19440:60 12586:60 9030:60 3386:60",
