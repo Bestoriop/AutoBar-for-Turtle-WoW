@@ -46,6 +46,11 @@ AutoBar_Category_Info = { -- global
 		["texture"] = "INV_Misc_Fork&Knife";
 		["items"] = {},
 	},
+
+--------------------------------------------------------------------------------
+----------------------------------- BANDAGES -----------------------------------
+--------------------------------------------------------------------------------
+	
 	["BANDAGES"] = {
 		["description"] = AUTOBAR_CLASS_BANDAGES;
 		["texture"] = "INV_Misc_Bandage_12";
@@ -126,7 +131,9 @@ AutoBar_Category_Info = { -- global
 			3386, 	-- elixir of poison resistance
 		},
 	},
-	----------------
+--------------------------------------------------------------------------------
+----------------------------------- POTIONS WITH BUFFS -----------------------------------
+--------------------------------------------------------------------------------
 	["POTION_AGILITY"] = {
 		["texture"] = "INV_Potion_94",
 		["description"] = AUTOBAR_CLASS_AGILITYPOTIONS,
@@ -181,7 +188,6 @@ AutoBar_Category_Info = { -- global
 	--		13512, 	-- Flask of Supreme Power		+150 spd
 		},
 	},
-
 	["POTION_WISDOM"] = {
 		["texture"] = "INV_Potion_06",
 		["description"] = AUTOBAR_CLASS_WISDOMPOTIONS,
@@ -209,7 +215,11 @@ AutoBar_Category_Info = { -- global
 			20004,	-- Major Troll's Blood Potion	20/5	60
 		},
 	},
-	----------------
+
+--------------------------------------------------------------------------------
+----------------------------------- SCROLLS AND JUJUS --------------------------
+--------------------------------------------------------------------------------
+	
 	["SCROLL_AGILITY"] = {
 		["texture"] = "INV_Scroll_02",
 		["targetted"] = true,
@@ -319,7 +329,11 @@ AutoBar_Category_Info = { -- global
 			12455,	-- Juju Ember				15	10m
 		},
 	},
-	----------------
+
+--------------------------------------------------------------------------------
+----------------------------------- HEAL POTIONS -------------------------------
+--------------------------------------------------------------------------------
+	
 	["HEALPOTIONS"] = {
 		["description"] = AUTOBAR_CLASS_HEALPOTIONS;
 		["texture"] = "INV_Potion_54";
@@ -381,7 +395,11 @@ AutoBar_Category_Info = { -- global
 			17348,	-- Major Healing Draught
 		},
 	},
-	----------------
+
+--------------------------------------------------------------------------------
+----------------------------------- MANA POTIONS -------------------------------
+--------------------------------------------------------------------------------
+	
 	["MANAPOTIONS"] = {
 		["description"] = AUTOBAR_CLASS_MANAPOTIONS;
 		["texture"] = "INV_Potion_76";
@@ -428,7 +446,20 @@ AutoBar_Category_Info = { -- global
 			20002,	-- Greater Dreamless Sleep
 		},
 	},
-	----------------
+	["RUNES"] = {
+		["description"] = AUTOBAR_CLASS_DEMONIC_DARK_RUNES;
+		["texture"] = "Spell_Shadow_SealOfKings";
+		["limit"] = { ["downmana"] = { 900, 900 }, },
+		["items"] = {
+			20520,	-- Dark Rune
+			12662,	-- Demonic Rune
+		},
+	},
+
+--------------------------------------------------------------------------------
+-------------------------- HEAL AND MANA POTIONS -------------------------------
+--------------------------------------------------------------------------------
+	
 	["NIGHT_DRAGONS_BREATH"] = {
 		["description"] = AUTOBAR_CLASS_NIGHT_DRAGONS_BREATH;
 		["texture"] = "INV_Misc_Food_45";
@@ -445,6 +476,16 @@ AutoBar_Category_Info = { -- global
 		},
 		["limit"] = { ["downhp"] = { 150, 750, 1760 }, ["downmana"] = { 150, 750, 1760 }, },
 	},
+	["TEAS"] = {
+		["description"] = AUTOBAR_CLASS_TEAS;
+		["texture"] = "INV_Drink_Milk_05";
+		["limit"] = { ["downhp"] = { 1050, 1050 }, ["downmana"] = { 1050, 1050 }, },
+		["items"] = {
+			15723,	-- Tea with Sugar
+			61675,	-- Nordanaar Herbal Tea
+		},
+	},
+	
 	----------------
 	["BATTLE_STANDARD"] = {
 		["description"] = AUTOBAR_CLASS_BATTLESTANDARD;
@@ -465,34 +506,18 @@ AutoBar_Category_Info = { -- global
 		},
 	},
 	["HOURGLASS_SAND"] = {
-		["description"] = AUTOBAR_CLASS_BATTLESTANDARDAV;
-		["texture"] = "INV_BannerPVP_02";
+		["description"] = AUTOBAR_CLASS_HOURGLASS_SAND;
+		["texture"] = "INV_Misc_Dust_02";
 		["location"] = AUTOBAR_BWL;
 		["items"] = {
 			19183,	-- Hourglass Sand
 		},
 	},
-	----------------
-	["RUNES"] = {
-		["description"] = AUTOBAR_CLASS_DEMONIC_DARK_RUNES;
-		["texture"] = "Spell_Shadow_SealOfKings";
-		["limit"] = { ["downmana"] = { 900, 900 }, },
-		["items"] = {
-			20520,	-- Dark Rune
-			12662,	-- Demonic Rune
-		},
-	},
-	["TEAS"] = {
-		["description"] = AUTOBAR_CLASS_TEAS;
-		["texture"] = "INV_Drink_Milk_05";
-		["limit"] = { ["downhp"] = { 1050, 1050 }, ["downmana"] = { 1050, 1050 }, },
-		["items"] = {
-			15723,	-- Tea with Sugar
-			61675,	-- Nordanaar Herbal Tea
-		},
-	},
 
-	----------------
+--------------------------------------------------------------------------------
+----------------------------------- SPELL PROT POTIONS -------------------------
+--------------------------------------------------------------------------------
+	
 	["PROTECTION_ARCANE"] = {
 		["description"] = AUTOBAR_CLASS_ARCANE_PROTECTION;
 		["texture"] = "INV_Potion_83";
@@ -553,7 +578,11 @@ AutoBar_Category_Info = { -- global
 			20080,		-- Sheen of Zanza
 		},
 	},
-	----------------
+
+--------------------------------------------------------------------------------
+----------------------------------- HEARTHSTONE --------------------------------
+--------------------------------------------------------------------------------
+	
 	["HEARTHSTONE"] = {
 		["description"] = AUTOBAR_CLASS_HEARTHSTONE;
 		["texture"] = "INV_Misc_Rune_01";
@@ -561,7 +590,11 @@ AutoBar_Category_Info = { -- global
 			6948,			-- HearthStone
 		},
 	},
-	----------------
+
+--------------------------------------------------------------------------------
+----------------------------------- WATERS -------------------------------------
+--------------------------------------------------------------------------------
+	
 	["WATER"] = {
 		["description"] = AUTOBAR_CLASS_WATER;
 		["texture"] = "INV_Drink_10";
@@ -611,6 +644,11 @@ AutoBar_Category_Info = { -- global
 			19318,	-- Bottled Alterac Spring Water 55 - 4410   10
 		},
 	},
+
+--------------------------------------------------------------------------------
+----------------------------------- RAGE OR ENERGY OR SPEED --------------------
+--------------------------------------------------------------------------------
+	
 	["RAGEPOTIONS"] = {
 		["description"] = AUTOBAR_CLASS_RAGEPOTIONS;
 		["texture"] = "INV_Potion_24";
@@ -630,6 +668,9 @@ AutoBar_Category_Info = { -- global
 		["texture"] = "INV_Potion_95";
 		["items"] = { 20081, 2459, },
 	},
+
+	--------------
+	
 	["SOULSHARDS"] = {
 		["description"] = AUTOBAR_CLASS_SOULSHARDS;
 		["texture"] = "INV_Misc_Gem_Amethyst_02";
