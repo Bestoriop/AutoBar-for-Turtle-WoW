@@ -669,7 +669,77 @@ AutoBar_Category_Info = { -- global
 		["description"] = AUTOBAR_CLASS_FOOD;
 		["texture"] = "INV_Misc_Food_23";
 		["noncombat"] = true,
-	},
+		["items"] = {
+			2070,	-- Darnassian Bleu			-- Vendor  - Level 1, heals 61
+			4540,	-- Tough Hunk of Bread		-- Vendor  - Level 1, heals 61
+			4536,	-- Shiny Red Apple			-- Vendor  - Level 1, heals 61
+			117,	-- Tough Jerky				-- Vendor  - Level 1, heals 61
+			4604,	-- Forest Mushroom Cap		-- Vendor  - Level 1, heals 61
+			16166,	-- Bean Soup				-- Vendor  - Level 1, heals 61
+			2679,	-- Charred Wolf Meat		-- Cooking - Level 1, heals 61
+			2681,	-- Roasted Boar Meat		-- Cooking - Level 1, heals 61
+			787,	-- Slitherskin Mackerel		-- Cooking - Level 1, heals 61
+			6290,	-- Brilliant Smallfish		-- Cooking - Level 1, heals 61
+			2680,	-- Spiced Wolf Meat			-- Cooking
+			16167,	-- Versicolor Treat			-- Vendor - Level 5, heals 243
+			4605,	-- Red-speckled Mushroom	-- Vendor  - Level 5, heals 243
+			2287,	-- Haunch of Meat			-- Vendor  - Level 5, heals 243
+			4537,	-- Tel'Abim Banana			-- Vendor  - Level 5, heals 243
+			414,	-- Dalaran Sharp			-- Vendor  - Level 5, heals 243
+			4541,	-- Freshly Baked Bread		-- Vendor  - Level 5, heals 243
+			6890,	-- Smoked Bear Meat			-- Cooking - Level 5, heals 243
+			6316,	-- Loch Frenzy Delight		-- Cooking - Level 5, heals 243
+			5095,	-- Rainbow Fin Albacore		-- Cooking - Level 5, heals 243
+			4592,	-- Longjaw Mud Snapper		-- Cooking - Level 5, heals 243
+			2683,	-- Crab Cake				-- Cooking
+			2684,	-- Coyote Steak				-- Cooking
+			5473,	-- Scorpid Surprise			-- Cooking - Level 1, heals 294
+			733,	-- Westfall Stew			-- Cooking - Level 5, heals 552
+			422,	-- Dwarven Mild				-- Vendor  - Level 15, heals 552
+			4542,	-- Moist Cornbread			-- Vendor  - Level 15, heals 552
+			4538,	-- Snapvine Watermelon		-- Vendor  - Level 15, heals 552
+			3770,	-- Mutton Chop				-- Vendor  - Level 15, heals 552
+			4606,	-- Spongy Morel				-- Vendor  - Level 15, heals 552
+			16170,	-- Steamed Mandu			-- Vendor  - Level 15, heals 552
+			5526,	-- Clam Chowder				-- Cooking - Level 10, heals 552
+			5478,	-- Dig Rat Stew				-- Cooking - Level 10, heals 552
+			2685,	-- Succulent Pork Ribs		-- Cooking - Level 10, heals 552
+			4593,	-- Bristle Whisker Catfish 	-- Cooking - Level 15, heals 552
+			4594,	-- Rockscale Cod			-- Cooking - Level 25, heals 874
+			8364,	-- Mithril Head Trout 		-- Cooking - Level 25, heals 874
+			16169,	-- Wild Ricecake			-- Vendor  - Level 25, heals 874
+			4607,	-- Delicious Cave Mold		-- Vendor  - Level 25, heals 874
+			3771,	-- Wild Hog Shank 			-- Vendor  - Level 25, heals 874
+			4539,	-- Goldenbark Apple 		-- Vendor  - Level 25, heals 874
+			4544,	-- Mulgore Spice Bread 		-- Vendor  - Level 25, heals 874
+			1707,	-- Stormwind Brie 			-- Vendor  - Level 25, heals 874
+			13546,	-- Bloodbelly Fish			-- Quest   - Level 25, heals 1392
+			3927,	-- Fine Aged Cheddar		-- Vendor  - Level 35, heals 1392
+			4601,	-- Soft Banana Bread		-- Vendor  - Level 35, heals 1392
+			4602,	-- Moon Harvest Pumpkin		-- Vendor  - Level 35, heals 1392
+			4599,	-- Cured Ham Steak 			-- Vendor  - Level 35, heals 1392
+			4608,	-- Raw Black Truffle 		-- Vendor  - Level 35, heals 1392
+			18255,	-- Runn Tum Tuber			-- Uncooked
+			16168,	-- Heaven Peach				-- Vendor  - Level 35, heals 1392
+			16766,	-- Undermine Clam Chowder	-- Cooking - Level 35, heals 1392
+			6887,	-- Spotted Yellowtail		-- Cooking - Level 35, heals 1392
+			13930,	-- Filet of Redgill			-- Cooking - Level 35, heals 1392
+			9681,	-- Grilled King Crawler Legs	-- Quest - Level 35, heals 1392
+			16171,	-- Shinsollo				-- Vendor  - Level 45, heals 2148
+			8952,	-- Roasted Quail 			-- Vendor  - Level 45, heals 2148
+			8953,	-- Deep Fried Plantains		-- Vendor  - Level 45, heals 2148
+			8950,	-- Homemade Cherry Pie 		-- Vendor  - Level 45, heals 2148
+			8932,	-- Alterac Swiss 			-- Vendor  - Level 45, heals 2148
+			8948,	-- Dried King Bolete 		-- Vendor  - Level 45, heals 2148
+			8957,	-- Spinefin Halibut			-- Vendor  - Level 45, heals 2148
+			13935,	-- Baked Salmon				-- Cooking - Level 45, heals 2148
+			13933,	-- Lobster Stew				-- Cooking - Level 45, heals 2148
+			23160,	-- Friendship Bread			-- Vendor  - Level 45, heals 2148
+		--Turtle WoW Food--
+			80168,	-- Crunchy Murloc Fine		-- Goblin Starting Food
+			80251, 	-- Crusty Flatbread			-- High Elf Starting Food
+		},
+	},	
 	["FOOD_PERCENT"] = {
 		["description"] = AUTOBAR_CLASS_FOOD_PERCENT;
 		["texture"] = "INV_Misc_Food_60",
@@ -679,17 +749,79 @@ AutoBar_Category_Info = { -- global
 		["description"] = AUTOBAR_CLASS_FOOD_PET_BREAD;
 		["texture"] = "INV_Misc_Food_35";
 		["noncombat"] = true,
+		["items"] = {
+			5349,	-- Conjured Muffin						heals 61
+			4540,	-- Tough Hunk of Bread		Level 1		heals 61
+			17197,	-- Gingerbread Cookie					heals 61
+			1113,	-- Conjured Bread			Level 5		heals 243
+			2683,	-- Crab Cake				Level 5		heals 243
+			4541,	-- Freshly Baked Bread		Level 5		heals 243
+			1114,	-- Conjured Rye				Level 15	heals 552
+			4542,	-- Moist Cornbread			Level 15	heals 552
+			1487,	-- Conjured Pumpernickel	Level 25	heals 874
+			4544,	-- Mulgore Spice Bread 		Level 25	heals 874
+			16169,	-- Wild Ricecake 			Level 25	heals 874
+			8075,	-- Conjured Sourdough		Level 35	heals 1392
+			4601,	-- Soft Banana Bread		Level 35	heals 1392
+			8076,	-- Conjured Sweet Roll		Level 45	heals 2148
+			23160,	-- Friendship Bread			Level 45	heals 2148
+			8950,	-- Homemade Cherry Pie 		Level 45	heals 2148
+			22895,	-- Conjured Cinnamon Roll	Level 55	heals 3180
+		},
 	},
 	["FOOD_PET_CHEESE"] = {
 		["description"] = AUTOBAR_CLASS_FOOD_PET_CHEESE;
 		["texture"] = "INV_Misc_Food_37";
 		["noncombat"] = true,
+		["items"] = {
+			2070,	-- Darnassian Bleu			Level 1, heals 61
+			414,	-- Dalaran Sharp			Level 5, heals 243
+			422,	-- Dwarven Mild				Level 15, heals 552
+			1707,	-- Stormwind Brie 			Level 25, heals 874
+			3927,	-- Fine Aged Cheddar		Level 35, heals 1392
+			8932,	-- Alterac Swiss 			Level 45, heals 2148
+		},
 	},
 	["FOOD_PET_FISH"] = {
 		["description"] = AUTOBAR_CLASS_FOOD_PET_FISH;
 		["texture"] = "INV_Misc_Fish_22";
 		["noncombat"] = true,
-	},
+		["items"] = {
+			6303,	-- Raw Slitherskin Mackerel			Level 0		30
+			6291,	-- Raw Brilliant Smallfish			Level 0		30
+			6290,	-- Brilliant Smallfish				Level 0		61
+			6361,	-- Raw Rainbow Fin Albacore			Level 5		61
+			6289,	-- Raw Longjaw Mud Snapper			Level 5		61
+			787,	-- Slitherskin Mackerel				Level 1		61
+			6316,	-- Loch Frenzy Delight				Level 5		243
+			5095,	-- Rainbow Fin Albacore				Level 5		243
+			4592,	-- Longjaw Mud Snapper				Level 5		243
+			6308,	-- Raw Bristle Whisker Catfish		Level 15	243
+			2682,	-- Cooked Crab Claw					Level 5		294
+			5526,	-- Clam Chowder						Level 10	552
+			4593,	-- Bristle Whisker Catfish			Level 15	552
+			16170,	-- Steamed Mandu					Level 15	552
+			6362,	-- Raw Rockscale Cod				Level 25	552
+			8365,	-- Raw Mithril Head Trout			Level 25	552
+			13754,	-- Raw Glossy Mightfish				Level 35	874
+			4594,	-- Rockscale Cod					Level 25	874
+			8364,	-- Mithril Head Trout				Level 25	874
+			13758,	-- Raw Redgill						Level 35	874
+			13760,	-- Raw Sunscale Salmon				Level 35	874
+			13756,	-- Raw Summer Bass					Level 35	874
+			4603,	-- Raw Spotted Yellowtail			Level 35	874
+			13546,	-- Bloodbelly Fish					Level 25	1392
+			13893,	-- Large Raw Mightfish				Level 45	1392
+			8959,	-- Raw Spinefin Halibut				Level 45	1392
+			13930,	-- Filet of Redgill					Level 35	1392
+			6887,	-- Spotted Yellowtail				Level 35	1392
+			16766,	-- Undermine Clam Chowder			Level 35	1392
+			13888,	-- Darkclaw Lobster					Level 45	1392
+			13933,	-- Lobster Stew						Level 45	2148
+			8957,	-- Spinefin Halibut					Level 45	2148
+			13935,	-- Baked Salmon						Level 45	2148
+		},
+	},	
 	["FOOD_PET_FRUIT"] = {
 		["description"] = AUTOBAR_CLASS_FOOD_PET_FRUIT;
 		["texture"] = "INV_Misc_Food_19";
@@ -709,12 +841,28 @@ AutoBar_Category_Info = { -- global
 		["description"] = AUTOBAR_CLASS_FOOD_COMBO;
 		["texture"] = "INV_Misc_Food_33";
 		["noncombat"] = true,
+		["items"] = {
+			3448,	-- Senggin Root				Level 1		heals 294	mana 294
+			2682,	-- Cooked Crab Claw			Level 5		heals 294	mana 294
+			13724,  -- Enriched Manna Biscuit   -- 45
+			19301,  -- Alterac Manna Biscuit    -- 51
+			20031,  -- Essence Mango            -- 55
+		},
 	},
 	["FOOD_CONJURED"] = {
 		["description"] = AUTOBAR_CLASS_FOOD_CONJURED;
 		["texture"] = "INV_Misc_Food_73CinnamonRoll";
 		["noncombat"] = true,
-	},
+		["items"] = {
+			5349,	-- Conjured Muffin			-- Mage    - Level 1, heals 61
+			1113,	-- Conjured Bread			-- Mage    - Level 5, heals 243
+			1114,	-- Conjured Rye 			-- Mage    - Level 15, heals 552
+			1487,	-- Conjured Pumpernickel 	-- Mage    - Level 25, heals 874
+			8075,	-- Conjured Sourdough		-- Mage    - Level 35, heals 1392
+			8076,	-- Conjured Sweet Roll		-- Mage    - Level 45, heals 2148
+			22895,	-- Conjured Cinnamon Roll	-- Mage    - Level 55, heals 3180
+		},
+	},	
 	["DRINK_STAMINA"] ={
 		["description"] = AUTOBAR_CLASS_DRINK_STAMINA;
 		["texture"] = "INV_Drink_04";
@@ -1215,154 +1363,8 @@ AutoBar_Category_Info = { -- global
 	},
 };
 
-AutoBar_Category_Info["FOOD_WATER"].items = {
-		3448,	-- Senggin Root				Level 1		heals 294	mana 294
-		2682,	-- Cooked Crab Claw			Level 5		heals 294	mana 294
-		13724,  -- Enriched Manna Biscuit   -- 45
-		19301,  -- Alterac Manna Biscuit    -- 51
-		20031,  -- Essence Mango            -- 55
-};
-AutoBar_Category_Info["FOOD_CONJURED"].items = {
-		5349,	-- Conjured Muffin			-- Mage    - Level 1, heals 61
-		1113,	-- Conjured Bread			-- Mage    - Level 5, heals 243
-		1114,	-- Conjured Rye 			-- Mage    - Level 15, heals 552
-		1487,	-- Conjured Pumpernickel 	-- Mage    - Level 25, heals 874
-		8075,	-- Conjured Sourdough		-- Mage    - Level 35, heals 1392
-		8076,	-- Conjured Sweet Roll		-- Mage    - Level 45, heals 2148
-		22895,	-- Conjured Cinnamon Roll	-- Mage    - Level 55, heals 3180
-};
-AutoBar_Category_Info["FOOD"].items = {
-		2070,	-- Darnassian Bleu			-- Vendor  - Level 1, heals 61
-		4540,	-- Tough Hunk of Bread		-- Vendor  - Level 1, heals 61
-		4536,	-- Shiny Red Apple			-- Vendor  - Level 1, heals 61
-		117,	-- Tough Jerky				-- Vendor  - Level 1, heals 61
-		4604,	-- Forest Mushroom Cap		-- Vendor  - Level 1, heals 61
-		16166,	-- Bean Soup				-- Vendor  - Level 1, heals 61
-		2679,	-- Charred Wolf Meat		-- Cooking - Level 1, heals 61
-		2681,	-- Roasted Boar Meat		-- Cooking - Level 1, heals 61
-		787,	-- Slitherskin Mackerel		-- Cooking - Level 1, heals 61
-		6290,	-- Brilliant Smallfish		-- Cooking - Level 1, heals 61
-		2680,	-- Spiced Wolf Meat			-- Cooking
-		16167,	-- Versicolor Treat			-- Vendor - Level 5, heals 243
-		4605,	-- Red-speckled Mushroom	-- Vendor  - Level 5, heals 243
-		2287,	-- Haunch of Meat			-- Vendor  - Level 5, heals 243
-		4537,	-- Tel'Abim Banana			-- Vendor  - Level 5, heals 243
-		414,	-- Dalaran Sharp			-- Vendor  - Level 5, heals 243
-		4541,	-- Freshly Baked Bread		-- Vendor  - Level 5, heals 243
-		6890,	-- Smoked Bear Meat			-- Cooking - Level 5, heals 243
-		6316,	-- Loch Frenzy Delight		-- Cooking - Level 5, heals 243
-		5095,	-- Rainbow Fin Albacore		-- Cooking - Level 5, heals 243
-		4592,	-- Longjaw Mud Snapper		-- Cooking - Level 5, heals 243
-		2683,	-- Crab Cake				-- Cooking
-		2684,	-- Coyote Steak				-- Cooking
-		5473,	-- Scorpid Surprise			-- Cooking - Level 1, heals 294
-		733,	-- Westfall Stew			-- Cooking - Level 5, heals 552
-		422,	-- Dwarven Mild				-- Vendor  - Level 15, heals 552
-		4542,	-- Moist Cornbread			-- Vendor  - Level 15, heals 552
-		4538,	-- Snapvine Watermelon		-- Vendor  - Level 15, heals 552
-		3770,	-- Mutton Chop				-- Vendor  - Level 15, heals 552
-		4606,	-- Spongy Morel				-- Vendor  - Level 15, heals 552
-		16170,	-- Steamed Mandu			-- Vendor  - Level 15, heals 552
-		5526,	-- Clam Chowder				-- Cooking - Level 10, heals 552
-		5478,	-- Dig Rat Stew				-- Cooking - Level 10, heals 552
-		2685,	-- Succulent Pork Ribs		-- Cooking - Level 10, heals 552
-		4593,	-- Bristle Whisker Catfish 	-- Cooking - Level 15, heals 552
-		4594,	-- Rockscale Cod			-- Cooking - Level 25, heals 874
-		8364,	-- Mithril Head Trout 		-- Cooking - Level 25, heals 874
-		16169,	-- Wild Ricecake			-- Vendor  - Level 25, heals 874
-		4607,	-- Delicious Cave Mold		-- Vendor  - Level 25, heals 874
-		3771,	-- Wild Hog Shank 			-- Vendor  - Level 25, heals 874
-		4539,	-- Goldenbark Apple 		-- Vendor  - Level 25, heals 874
-		4544,	-- Mulgore Spice Bread 		-- Vendor  - Level 25, heals 874
-		1707,	-- Stormwind Brie 			-- Vendor  - Level 25, heals 874
-		13546,	-- Bloodbelly Fish			-- Quest   - Level 25, heals 1392
-		3927,	-- Fine Aged Cheddar		-- Vendor  - Level 35, heals 1392
-		4601,	-- Soft Banana Bread		-- Vendor  - Level 35, heals 1392
-		4602,	-- Moon Harvest Pumpkin		-- Vendor  - Level 35, heals 1392
-		4599,	-- Cured Ham Steak 			-- Vendor  - Level 35, heals 1392
-		4608,	-- Raw Black Truffle 		-- Vendor  - Level 35, heals 1392
-		18255,	-- Runn Tum Tuber			-- Uncooked
-		16168,	-- Heaven Peach				-- Vendor  - Level 35, heals 1392
-		16766,	-- Undermine Clam Chowder	-- Cooking - Level 35, heals 1392
-		6887,	-- Spotted Yellowtail		-- Cooking - Level 35, heals 1392
-		13930,	-- Filet of Redgill			-- Cooking - Level 35, heals 1392
-		9681,	-- Grilled King Crawler Legs	-- Quest - Level 35, heals 1392
-		16171,	-- Shinsollo				-- Vendor  - Level 45, heals 2148
-		8952,	-- Roasted Quail 			-- Vendor  - Level 45, heals 2148
-		8953,	-- Deep Fried Plantains		-- Vendor  - Level 45, heals 2148
-		8950,	-- Homemade Cherry Pie 		-- Vendor  - Level 45, heals 2148
-		8932,	-- Alterac Swiss 			-- Vendor  - Level 45, heals 2148
-		8948,	-- Dried King Bolete 		-- Vendor  - Level 45, heals 2148
-		8957,	-- Spinefin Halibut			-- Vendor  - Level 45, heals 2148
-		13935,	-- Baked Salmon				-- Cooking - Level 45, heals 2148
-		13933,	-- Lobster Stew				-- Cooking - Level 45, heals 2148
-		23160,	-- Friendship Bread			-- Vendor  - Level 45, heals 2148
-		--Turtle WoW Food--
-		80168,	-- Crunchy Murloc Fine		-- Goblin Starting Food
-		80251, 	-- Crusty Flatbread			-- High Elf Starting Food
-};
-AutoBar_Category_Info["FOOD_PET_BREAD"].items = {
-		5349,	-- Conjured Muffin						heals 61
-		4540,	-- Tough Hunk of Bread		Level 1		heals 61
-		17197,	-- Gingerbread Cookie					heals 61
-		1113,	-- Conjured Bread			Level 5		heals 243
-		2683,	-- Crab Cake				Level 5		heals 243
-		4541,	-- Freshly Baked Bread		Level 5		heals 243
-		1114,	-- Conjured Rye				Level 15	heals 552
-		4542,	-- Moist Cornbread			Level 15	heals 552
-		1487,	-- Conjured Pumpernickel	Level 25	heals 874
-		4544,	-- Mulgore Spice Bread 		Level 25	heals 874
-		16169,	-- Wild Ricecake 			Level 25	heals 874
-		8075,	-- Conjured Sourdough		Level 35	heals 1392
-		4601,	-- Soft Banana Bread		Level 35	heals 1392
-		8076,	-- Conjured Sweet Roll		Level 45	heals 2148
-		23160,	-- Friendship Bread			Level 45	heals 2148
-		8950,	-- Homemade Cherry Pie 		Level 45	heals 2148
-		22895,	-- Conjured Cinnamon Roll	Level 55	heals 3180
-};
-AutoBar_Category_Info["FOOD_PET_CHEESE"].items = {
-		2070,	-- Darnassian Bleu			Level 1, heals 61
-		414,	-- Dalaran Sharp			Level 5, heals 243
-		422,	-- Dwarven Mild				Level 15, heals 552
-		1707,	-- Stormwind Brie 			Level 25, heals 874
-		3927,	-- Fine Aged Cheddar		Level 35, heals 1392
-		8932,	-- Alterac Swiss 			Level 45, heals 2148
-};
-AutoBar_Category_Info["FOOD_PET_FISH"].items = {
-		6303,	-- Raw Slitherskin Mackerel			Level 0		30
-		6291,	-- Raw Brilliant Smallfish			Level 0		30
-		6290,	-- Brilliant Smallfish				Level 0		61
-		6361,	-- Raw Rainbow Fin Albacore			Level 5		61
-		6289,	-- Raw Longjaw Mud Snapper			Level 5		61
-		787,	-- Slitherskin Mackerel				Level 1		61
-		6316,	-- Loch Frenzy Delight				Level 5		243
-		5095,	-- Rainbow Fin Albacore				Level 5		243
-		4592,	-- Longjaw Mud Snapper				Level 5		243
-		6308,	-- Raw Bristle Whisker Catfish		Level 15	243
-		2682,	-- Cooked Crab Claw					Level 5		294
-		5526,	-- Clam Chowder						Level 10	552
-		4593,	-- Bristle Whisker Catfish			Level 15	552
-		16170,	-- Steamed Mandu					Level 15	552
-		6362,	-- Raw Rockscale Cod				Level 25	552
-		8365,	-- Raw Mithril Head Trout			Level 25	552
-		13754,	-- Raw Glossy Mightfish				Level 35	874
-		4594,	-- Rockscale Cod					Level 25	874
-		8364,	-- Mithril Head Trout				Level 25	874
-		13758,	-- Raw Redgill						Level 35	874
-		13760,	-- Raw Sunscale Salmon				Level 35	874
-		13756,	-- Raw Summer Bass					Level 35	874
-		4603,	-- Raw Spotted Yellowtail			Level 35	874
-		13546,	-- Bloodbelly Fish					Level 25	1392
-		13893,	-- Large Raw Mightfish				Level 45	1392
-		8959,	-- Raw Spinefin Halibut				Level 45	1392
-		13930,	-- Filet of Redgill					Level 35	1392
-		6887,	-- Spotted Yellowtail				Level 35	1392
-		16766,	-- Undermine Clam Chowder			Level 35	1392
-		13888,	-- Darkclaw Lobster					Level 45	1392
-		13933,	-- Lobster Stew						Level 45	2148
-		8957,	-- Spinefin Halibut					Level 45	2148
-		13935,	-- Baked Salmon						Level 45	2148
-};
+
+
 AutoBar_Category_Info["FOOD_PET_FRUIT"].items = {
 		4536,	-- Shiny Red Apple					Level 1		61
 		4537,	-- Tel'Abim Banana					Level 5		243
