@@ -664,11 +664,6 @@ AutoBar_Category_Info = { -- global
 			13377,	-- Minature Cannon Balls    20.5
 		},
 	},
-	["THROWN"] = {
-		["description"] = AUTOBAR_CLASS_THROWNWEAPON;
-		["texture"] = "INV_Axe_19";
-		["notusable"] = true;
-	},
 	--------------
 	["FOOD"] = {
 		["description"] = AUTOBAR_CLASS_FOOD;
@@ -1220,22 +1215,6 @@ AutoBar_Category_Info = { -- global
 	},
 };
 
-AutoBar_Category_Info["THROWN"].items = {
-		3111,	-- Crude Throwing Axe
-		3463,	-- Silver Star
-		2947,	-- Small Throwing Knife
-		2946,	-- Balanced Throwing Dagger
-		5379,	-- Boot Knife
-		3131,	-- Weighted Throwing Axe
-		4959,	-- Throwing Tomahawk
-		3107,	-- Keen Throwing Knife
-		3135,	-- Sharp Throwing Axe
-		3137,	-- Deadly Throwing Axe
-		3108,	-- Heavy Throwing Dagger
-		15326,	-- Gleaming Throwing Axe
-		15327,	-- Wicked Throwing Dagger
-		13173,	-- Flightblade Throwing Axe
-};
 AutoBar_Category_Info["FOOD_WATER"].items = {
 		3448,	-- Senggin Root				Level 1		heals 294	mana 294
 		2682,	-- Cooked Crab Claw			Level 5		heals 294	mana 294
