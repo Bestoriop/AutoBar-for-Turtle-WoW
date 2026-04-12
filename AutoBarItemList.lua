@@ -794,6 +794,7 @@ AutoBar_Category_Info = { -- global
 			6887,	-- Spotted Yellowtail		-- Cooking - Level 35, heals 1392
 			13930,	-- Filet of Redgill			-- Cooking - Level 35, heals 1392
 			9681,	-- Grilled King Crawler Legs	-- Quest - Level 35, heals 1392
+			21031,  -- Cabbage Kimchi           -- Vendor - Level 45, heals 2148
 			16171,	-- Shinsollo				-- Vendor  - Level 45, heals 2148
 			8952,	-- Roasted Quail 			-- Vendor  - Level 45, heals 2148
 			8953,	-- Deep Fried Plantains		-- Vendor  - Level 45, heals 2148
@@ -903,6 +904,7 @@ AutoBar_Category_Info = { -- global
 			4602,	-- Moon Harvest Pumpkin				Level 35	1392
 			16168,	-- Heaven Peach						Level 35	1392
 			8953,	-- Deep Fried Plantains				Level 45	2148
+			42012,	-- Man'toor Grapes				    Level 45	2148
 		},
 	},	
 	["FOOD_PET_FUNGUS"] = {
@@ -1022,6 +1024,11 @@ AutoBar_Category_Info = { -- global
 			22895,	-- Conjured Cinnamon Roll	-- Mage    - Level 55, heals 3180
 		},
 	},	
+
+--------------------------------------------------------------------------------
+----------------------------------- FOOD WITH BUFF -----------------------------
+--------------------------------------------------------------------------------
+	
 	["DRINK_STAMINA"] ={
 		["description"] = AUTOBAR_CLASS_DRINK_STAMINA;
 		["texture"] = "INV_Drink_04";
@@ -1052,9 +1059,10 @@ AutoBar_Category_Info = { -- global
 			3220,	-- Blood Sausage	-- Cooking - Level 5, heals 243, 4 stamina/spirit
 			3662,	-- Crocolisk Steak	-- Cooking - Level 5, heals 243, 4 stamina/spirit
 			2687,	-- Dry Pork Ribs	-- Cooking - Level 5, heals 243, 4 stamina/spirit
-			5525,	-- Boiled Clams		-- Cooking - Level 5, heals 243, 4 stamina/spirit
+			5525,	-- Boiled Clams		-- Cooking - Level 5, heals 243, 4 stamina/spirit 
 			1082,	-- Redridge Goulash	-- Cooking - Level 10, heals 552, 6 stamina/spirit
 			5479,	-- Crispy Lizard Tail	-- Cooking - Level 12, heals 552, 6 stamina/spirit
+			36668,  -- Lush Cabbage Head -- Gardening - Level 15, heals 552, 6 stamina/spirit
 			1017,	-- Seasoned Wolf Kabob	-- Cooking - Level 15, heals 552, 6 stamina/spirit
 			3663,	-- Murloc Fin Soup	-- Cooking - Level 15, heals 552, 6 stamina/spirit
 			3726,	-- Big Bear Steak	-- Cooking - Level 15, heals 552, 6 stamina/spirit
@@ -1107,10 +1115,11 @@ AutoBar_Category_Info = { -- global
 		["texture"] = "INV_Drink_17";
 		["noncombat"] = true,
 		["items"] = {
-			21072,	-- Smoked Sagefish	-- Cooking - Level 10, heals 378, mana 567, 3/5 mana regen
-			21217,	-- Sagefish Delight	-- Cooking - Level 30, heals 840, mana 1260, 6/5 mana regen
+			21072,	-- Smoked Sagefish	-- Cooking - Level 10, heals 378, mana 567, 3/5s mana regen
+			21217,	-- Sagefish Delight	-- Cooking - Level 30, heals 840, mana 1260, 6/5s mana regen
 			13929,	-- Hot Smoked Bass	-- Cooking - Level 35, heals 874, 10 spirit
-			13931,	-- Nightfin Soup	-- Cooking - Level 35, heals 874, 8/5 mana regen
+			42157,  -- Sour Northwind Grapes -- Gardening - Level 30, heals 840, mana 1260, 8/5s mana regen
+			13931,	-- Nightfin Soup	-- Cooking - Level 35, heals 874, 8/5s mana regen
 		},
 	},		
 	["FOOD_HPREGEN"] = {
@@ -1126,11 +1135,28 @@ AutoBar_Category_Info = { -- global
 		["texture"] = "INV_Misc_Food_41";
 		["noncombat"] = true,
 		["items"] = {
-			13810,	-- Blessed Sunfruit -- AD - Level 45, heals 1933, strength
-			20452,	-- Smoked Desert Dumpling	-- Level 45, heals 2148, str bonus
-			61720,	-- Power Mushroom			-- Gardening -- Level 55, heals 2148, 20 str bonus
+			42158,	-- Sweet Northwind Grapes -- Gardening - Level 35, heals 1134, 10 strength
+			13810,	-- Blessed Sunfruit -- AD rep - Level 45, heals 1933, 10 strength
+			20452,	-- Smoked Desert Dumpling	-- Cooking -- Level 45, heals 2148, 20 str
+			61720,	-- Power Mushroom			-- Gardening -- Level 55, heals 2148, 20 str
 		},
 	},	
+	["FOOD_AP"] = {
+		["description"] = AUTOBAR_CLASS_FOOD_AP;
+		["texture"] = "sandswept_carrots_2";
+		["noncombat"] = true,
+		["items"] = {
+			42161,	-- Crunchy Sandwept Carrots -- Level 40, heals 1768, 32 AP
+		},
+	},	
+	["FOOD_ATKSPEED"] = {
+		["description"] = AUTOBAR_CLASS_FOOD_ATKSPEED;
+		["texture"] = "sandswept_carrots_4";
+		["noncombat"] = true,
+		["items"] = {
+			42162,	-- Spicy Sandswept Carrots -- Level 40, heals 1768, attack and casting speed
+		},
+	},		
 	["FOOD_INTELLIGENCE"] = {
 		["description"] = AUTOBAR_CLASS_FOOD_INTELLIGENCE;
 		["texture"] = "INV_Misc_Food_63";
