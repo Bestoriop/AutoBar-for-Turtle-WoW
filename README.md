@@ -12,7 +12,9 @@ Make sure you rename the base folder to just AutoBar, not AutoBar-For-Turtle-WoW
 
 # Added items
 
-- Hourglass Sand
-- Survival specific Arrows
-- Healing salves
+- Throwable net (Survival)
+- Slowing Bolas (Survival)
+- Hourglass Sand (BWL consum)
+- New Arrows (Survival)
+- Healing salves (Survival)
 - Gardening food
