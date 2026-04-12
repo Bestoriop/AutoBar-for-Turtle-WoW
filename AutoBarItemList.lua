@@ -169,8 +169,9 @@ AutoBar_Category_Info = { -- global
 		["texture"] = "INV_Potion_10",
 		["description"] = AUTOBAR_CLASS_INTELLECTPOTIONS,
 		["items"] = {
-			9179,	-- Elixir of Greater Intellect	25		60
-			13447,	-- Elixir of the Sages			18		60 18 spi
+			3383,	-- Elixir of Wisdom			- level 10 - 6 int for 3600 sec
+			9179,	-- Elixir of Greater Intellect	- level 37 - 25 int for 3600 sec
+			13447,	-- Elixir of the Sages			- level 44 - 18 int and 18 spi for 3600 sec
 		},
 	},
 	["POTION_SPELLPOWER"] = {
@@ -186,13 +187,6 @@ AutoBar_Category_Info = { -- global
 			61423,	-- Dreamtonic					+35 spd - 20 min
 			61224,	-- Dreamshard Elixir			+15 spd +2 spellcrit
 	--		13512, 	-- Flask of Supreme Power		+150 spd
-		},
-	},
-	["POTION_WISDOM"] = {
-		["texture"] = "INV_Potion_06",
-		["description"] = AUTOBAR_CLASS_WISDOMPOTIONS,
-		["items"] = {
-			3383,	-- Elixir of Wisdom				6		60
 		},
 	},
 	["POTION_DEFENSE"] = {
