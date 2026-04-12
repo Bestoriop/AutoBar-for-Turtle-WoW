@@ -12,9 +12,13 @@ Make sure you rename the base folder to just AutoBar, not AutoBar-For-Turtle-WoW
 
 # Added items
 
+- Cabbages (Gardening)
+- Grapes (Gardening)
+- Carrots (Gardening)
 - Throwable net (Survival)
 - Slowing Bolas (Survival)
 - Hourglass Sand (BWL consum)
 - New Arrows (Survival)
 - Healing salves (Survival)
-- Gardening food
+- Mountain Berries (Gardening)
+- Melons (Gardening)
