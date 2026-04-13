@@ -39,7 +39,7 @@
 AutoBarProfile = {};
 AutoBarProfile.MAX_SHARED_PROFILES = 4;
 
-local SLOT = 5;
+local POTIONSLOT = 5;
 local BUFFSLOT1 = 7;
 local BUFFSLOT2 = 8;
 local FOODSLOT = 9;
