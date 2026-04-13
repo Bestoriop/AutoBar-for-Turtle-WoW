@@ -460,7 +460,7 @@ AutoBar_Category_Info = { -- global
 		["limit"] = { ["downhp"] = { 456 }, ["downmana"] = { 456 }, },
 		["items"] = { 11952 },
 	},
-	["REJUVENATION_POTIONS"] = {
+	["HEALING_AND_MANA_POTIONS"] = {
 		["description"] = AUTOBAR_CLASS_REJUVENATION_POTIONS;
 		["texture"] = "INV_Potion_47";
 		["items"] = {
@@ -473,7 +473,7 @@ AutoBar_Category_Info = { -- global
 	["TEAS"] = {
 		["description"] = AUTOBAR_CLASS_TEAS;
 		["texture"] = "INV_Drink_Milk_05";
-		["limit"] = { ["downhp"] = { 1050, 1050 }, ["downmana"] = { 1050, 1050 }, },
+		["limit"] = { ["downhp"] = { 525, 525 }, ["downmana"] = { 810, 810 }, },
 		["items"] = {
 			15723,	-- Tea with Sugar
 			61675,	-- Nordanaar Herbal Tea
