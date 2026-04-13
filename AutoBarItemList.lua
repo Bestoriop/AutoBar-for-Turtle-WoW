@@ -325,10 +325,10 @@ AutoBar_Category_Info = { -- global
 	},
 
 --------------------------------------------------------------------------------
------------------ HEAL POTIONS, SALVES AND WHIPPER ROOT ------------------------
+----------------- HEALING POTIONS, SALVES AND WHIPPER ROOT ---------------------
 --------------------------------------------------------------------------------
 	
-	["HEALPOTIONS"] = {
+	["HEALING_POTIONS"] = {
 		["description"] = AUTOBAR_CLASS_HEALPOTIONS;
 		["texture"] = "INV_Potion_54";
 		["limit"] = { ["downhp"] = { 70, 140, 140, 280, 455, 700, 1050} },
@@ -342,7 +342,7 @@ AutoBar_Category_Info = { -- global
 			13446,	-- Major Healing Potion
 		},
 	},
-	["PVP_HEALPOTIONS"] = {
+	["HEALING_POTIONS_R6"] = {
 		["description"] = AUTOBAR_CLASS_PVP6HEALPOTIONS;
 		["texture"] = "INV_Potion_38";
 		["items"] = { 18839 },
@@ -380,7 +380,7 @@ AutoBar_Category_Info = { -- global
 		["texture"] = "superior_healing_salve_1";
 		["items"] = { 42233, 42125, 42126, 42127, 42128, 42129 },
 	},
-	["ALTERAC_HEAL"] = {
+	["HEALING_POTIONS_BG"] = {
 		["description"] = AUTOBAR_CLASS_BATTLEGROUNDHEALPOTIONS;
 		["texture"] = "INV_Potion_39";
 		["battleground"] = true;
