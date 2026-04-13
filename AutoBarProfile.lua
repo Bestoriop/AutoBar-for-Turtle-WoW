@@ -70,7 +70,7 @@ function AutoBarProfile.InitializeBasic()
 	AutoBarProfile.basic[13] = { "SHARPENINGSTONES" };
 	AutoBarProfile.basic[14] = { "WEIGHTSTONE" };
 	AutoBarProfile.basic[15] = { "SWIFTNESSPOTIONS" };
-	AutoBarProfile.basic[16] = { "ACTION_POTIONS" };
+	AutoBarProfile.basic[16] = { "POTIONS_LAP_FAP" };
 	AutoBarProfile.basic[17] = { "EXPLOSIVES" };
 	AutoBarProfile.basic[18] = { "FISHINGITEMS" };
 	AutoBarProfile.basic[19] = { "HOURGLASS_SAND", "BATTLE_STANDARD", "BATTLE_STANDARD_AV" };
