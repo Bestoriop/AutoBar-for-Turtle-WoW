@@ -221,6 +221,27 @@ AutoBar_Category_Info = { -- global
 	},
 
 --------------------------------------------------------------------------------
+----------------- FISHING LURES ------------------------------------------------
+--------------------------------------------------------------------------------
+
+	["FISHINGITEMS"] = {
+		["texture"] = "INV_Misc_Food_26",
+		["targetted"] = "WEAPON",
+		["description"] = AUTOBAR_CLASS_FISHINGITEMS,
+		["items"] = {
+			6529, -- Shiny Bauble - 25 fishing bonus for 10 min
+			6530, -- Nightcrawlers - 50 fishing bonus for 10 min
+			6811, -- Aquadynamic Fish Lens  - 50 fishing bonus for 10 min
+			114, -- Simple Fishing Lure  - 50 fishing bonus for 10 min
+			6532, -- Bright Baubles - 75 fishing bonus for 10 min
+			125, -- Spicy Fishing Lure - 75 fishing bonus for 10 min
+			133, -- Savory Fishing Lure - 100 fishing bonus for 5 min
+			6533, -- Aquadynamic Fish Attractors - 100 fishing bonus for 5 min
+			145, -- Premium Fishing Lure - 125 fishing bonus for 5 min
+		},
+	},
+
+--------------------------------------------------------------------------------
 ----------------- HEALING POTIONS, SALVES, WHIPPER ROOT & CRYSTAL RESTORE ------
 --------------------------------------------------------------------------------
 	
@@ -661,17 +682,6 @@ AutoBar_Category_Info = { -- global
 --------------------------------------------------------------------------------
 ----------------------------------- PROTECTION POTIONS -------------------------
 --------------------------------------------------------------------------------
-
-
-
-	["ZANZA"]	= {
-		["description"] = AUTOBAR_CLASS_ZANZA;
-		["texture"] = "INV_Potion_04";
-		["items"] = {
-			20081,		-- Swiftness of Zanza
-			20080,		-- Sheen of Zanza
-		},
-	},
 
 	["HOURGLASS_SAND"] = {
 		["description"] = AUTOBAR_CLASS_HOURGLASS_SAND;
@@ -1529,18 +1539,6 @@ AutoBar_Category_Info = { -- global
 	
 	--------------
 
-	["FISHINGITEMS"] = {
-		["texture"] = "INV_Misc_Food_26",
-		["targetted"] = "WEAPON",
-		["description"] = AUTOBAR_CLASS_FISHINGITEMS,
-		["items"] = {
-			6529, -- Shiny Bauble
-			6530, -- Nightcrawlers
-			6811, -- Aquadynamic Fish Lens
-			6532, -- Bright Baubles
-			6533, -- Aquadynamic Fish Attractors
-		},
-	},
 	["QUESTSTARTITEMS"] = {
 		["texture"] = "INV_letter_17",
 		["description"] = AUTOBAR_CLASS_QUESTSTARTITEMS,
@@ -1857,6 +1855,14 @@ AutoBar_Category_Info = { -- global
 			51425, -- Teresa's Copper Coin
 		},
 	},
+	["ZANZA"]	= {
+		["description"] = AUTOBAR_CLASS_ZANZA;
+		["texture"] = "INV_Potion_04";
+		["items"] = {
+			20081,		-- Swiftness of Zanza
+			20080,		-- Sheen of Zanza
+		},
+	},	
 };
 
 
