@@ -1190,7 +1190,7 @@ AutoBar_Category_Info = { -- global
 		},
 	},	
 	["FOOD_HASTE"] = {
-		["description"] = AUTOBAR_CLASS_FOOD_ASTE;
+		["description"] = AUTOBAR_CLASS_FOOD_HASTE;
 		["texture"] = "sandswept_carrots_4";
 		["noncombat"] = true,
 		["items"] = {
