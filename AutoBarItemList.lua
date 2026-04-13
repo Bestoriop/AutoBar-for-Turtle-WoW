@@ -219,206 +219,9 @@ AutoBar_Category_Info = { -- global
 			20749, 	-- Brilliant Wizard Oil +36 spell damage
 		},
 	},
---------------------------------------------------------------------------------
------------------------------ JUJUS --------------------------------------------
---------------------------------------------------------------------------------
-
-	["JUJU_ATTACKPOWER"] = {
-		["texture"] = "INV_Misc_MonsterScales_07",
-		["targetted"] = true,
-		["description"] = AUTOBAR_CLASS_BUFF_ATTACKPOWER,
-		["items"] = {
-			12820,	-- Winterfall Firewater		35	20m
-			12460,	-- Juju Might				40	30m
-		},
-	},
-	["JUJU_ATTACKSPEED"] = {
-		["texture"] = "INV_Misc_MonsterScales_17",
-		["targetted"] = true,
-		["description"] = AUTOBAR_CLASS_BUFF_ATTACKSPEED,
-		["items"] = {
-			12450,	-- Juju Flurry				3%	20s
-		},
-	},
-	["JUJU_DODGE"] = {
-		["texture"] = "INV_Misc_MonsterScales_17",
-		["targetted"] = true,
-		["description"] = AUTOBAR_CLASS_BUFF_DODGE,
-		["items"] = {
-			12459,	-- Juju Escape				5%	10s
-		},
-	},
-	["JUJU_FROST"] = {
-		["texture"] = "INV_Misc_MonsterScales_09",
-		["targetted"] = true,
-		["description"] = AUTOBAR_CLASS_BUFF_FROST,
-		["items"] = {
-			12457,	-- Juju Chill				15	10m
-		},
-	},
-	["JUJU_FIRE"] = {
-		["texture"] = "INV_Misc_MonsterScales_15",
-		["targetted"] = true,
-		["description"] = AUTOBAR_CLASS_BUFF_FIRE,
-		["items"] = {
-			12455,	-- Juju Ember				15	10m
-		},
-	},	
-	
---------------------------------------------------------------------------------
------------------------------------ POTIONS WITH BUFFS -----------------------------------
---------------------------------------------------------------------------------
-	["POTION_AGILITY"] = {
-		["texture"] = "INV_Potion_94",
-		["description"] = AUTOBAR_CLASS_AGILITYPOTIONS,
-		["items"] = {
-			2457,	-- Elixir of Minor Agility		4		60
-			3390,	-- Elixir of Lesser Agility		8		60
-			8949,	-- Elixir of Agility			15		60
-			9187,	-- Elixir of Greater Agility	25		60
-			13452,	-- Elixir of the Mongoose		25		60 2% crit
-		},
-	},
-	["POTION_STRENGTH"] = {
-		["texture"] = "INV_Potion_61",
-		["description"] = AUTOBAR_CLASS_STRENGTHPOTIONS,
-		["items"] = {
-			2457,	-- Elixir of Lion's Strength	4		60
-			3391,	-- Elixir of Ogre's Strength	8		60
-			6662,	-- Elixir of Giant Growth		8		60
-			9206,	-- Elixir of Giants				25		60
-			13453,	-- Elixir of Brute Force		18		60 18 sta
-		},
-	},
-	["POTION_FORTITUDE"] = {
-		["texture"] = "INV_Potion_43",
-		["description"] = AUTOBAR_CLASS_FORTITUDEPOTIONS,
-		["items"] = {
-			2458,	-- Elixir of Minor Fortitude	27		60
-			3825,	-- Elixir of Fortitude			120		60
-			20079, 	-- Spirit of Zanza				50 sta 120
-		},
-	},
-	["POTION_INTELLECT"] = {
-		["texture"] = "INV_Potion_10",
-		["description"] = AUTOBAR_CLASS_INTELLECTPOTIONS,
-		["items"] = {
-			3383,	-- Elixir of Wisdom			- level 10 - 6 int for 3600 sec
-			9179,	-- Elixir of Greater Intellect	- level 37 - 25 int for 3600 sec
-			13447,	-- Elixir of the Sages			- level 44 - 18 int and 18 spi for 3600 sec
-		},
-	},
-	["POTION_SPELLPOWER"] = {
-		["texture"] = "INV_Potion_25",
-		["description"] = AUTOBAR_CLASS_SPELLPOWERPOTIONS,
-		["items"] = {
-			6373,	-- Elixir of Firepower			+10 fire spd
-			17708,	-- Elixir of Frost Power 		+15 frost spd
-			9155, 	-- Arcane Elixir				+20 spd
-			21546,	-- Elixir of Greater Firepower	+40 fire spd
-			9264,	-- Elixir of Shadow Power		+40 shadow spd
-			13454,	-- Greater Arcane Elixir		+35 spd
-			61423,	-- Dreamtonic					+35 spd - 20 min
-			61224,	-- Dreamshard Elixir			+15 spd +2 spellcrit
-	--		13512, 	-- Flask of Supreme Power		+150 spd
-		},
-	},
-	["POTION_DEFENSE"] = {
-		["texture"] = "INV_Potion_66",
-		["description"] = AUTOBAR_CLASS_DEFENSEPOTIONS,
-		["items"] = {
-			5997,	-- Elixir of Minor Defense		50		60
-			3389,	-- Elixir of Defense			150		60
-			8951,	-- Elixir of Greater Defense	250		60
-			13445,	-- Elixir of Superior Defense	450		60
-		},
-	},
-	["POTION_TROLL"] = {
-		["texture"] = "INV_Potion_80",
-		["description"] = AUTOBAR_CLASS_TROLLBLOODPOTIONS,
-		["items"] = {
-			3382,	-- Weak Troll's Blood Potion	2/5		60
-			3388,	-- Strong Troll's Blood Potion	6/5		60
-			3826,	-- Mighty Troll's Blood Potion	12/5	60
-			20004,	-- Major Troll's Blood Potion	20/5	60
-		},
-	},
 
 --------------------------------------------------------------------------------
------------------------------------ SCROLLS ------------------------------------
---------------------------------------------------------------------------------
-	
-	["SCROLL_AGILITY"] = {
-		["texture"] = "INV_Scroll_02",
-		["targetted"] = true,
-		["description"] = AUTOBAR_CLASS_SCROLLOFAGILITY,
-		["items"] = {
-			3012,	-- Scroll of Agility
-			1477,	-- Scroll of Agility II
-			4425,	-- Scroll of Agility III
-			10309,	-- Scroll of Agility IV
-		},
-	},
-	["SCROLL_INTELLECT"] = {
-		["texture"] = "INV_Scroll_01",
-		["targetted"] = true,
-		["description"] = AUTOBAR_CLASS_SCROLLOFINTELLECT,
-		["items"] = {
-			955,	-- Scroll of Intellect
-			2290,	-- Scroll of Intellect II
-			4419,	-- Scroll of Intellect III
-			10308,	-- Scroll of Intellect IV
-			12458,	-- Juju Guile				40
-		},
-	},
-	["SCROLL_PROTECTION"] = {
-		["texture"] = "INV_Scroll_07",
-		["targetted"] = true,
-		["description"] = AUTOBAR_CLASS_SCROLLOFPROTECTION,
-		["items"] = {
-			3013,	-- Scroll of Protection
-			1478,	-- Scroll of Protection II
-			4421,	-- Scroll of Protection III
-			10305,	-- Scroll of Protection IV
-		},
-	},
-	["SCROLL_SPIRIT"] = {
-		["texture"] = "INV_Scroll_01",
-		["targetted"] = true,
-		["description"] = AUTOBAR_CLASS_SCROLLOFSPIRIT,
-		["items"] = {
-			1181,	-- Scroll of Spirit
-			1712,	-- Scroll of Spirit II
-			4424,	-- Scroll of Spirit III
-			10306,	-- Scroll of Spirit IV
-		},
-	},
-	["SCROLL_STAMINA"] = {
-		["texture"] = "INV_Scroll_07",
-		["targetted"] = true,
-		["description"] = AUTOBAR_CLASS_SCROLLOFSTAMINA,
-		["items"] = {
-			1180,	-- Scroll of Stamina
-			1711,	-- Scroll of Stamina II
-			4422,	-- Scroll of Stamina III
-			10307,	-- Scroll of Stamina IV
-		},
-	},
-	["SCROLL_STRENGTH"] = {
-		["texture"] = "INV_Scroll_02",
-		["targetted"] = true,
-		["description"] = AUTOBAR_CLASS_SCROLLOFSTRENGTH,
-		["items"] = {
-			954,	-- Scroll of Strength		5
-			2289,	-- Scroll of Strength II	9
-			4426,	-- Scroll of Strength III	13
-			10310,	-- Scroll of Strength IV	17
-			12451,	-- Juju Power				30
-		},
-	},
-
---------------------------------------------------------------------------------
------------------ HEALING POTIONS, SALVES AND WHIPPER ROOT ---------------------
+----------------- HEALING POTIONS, SALVES, WHIPPER ROOT & CRYSTAL RESTORE ------
 --------------------------------------------------------------------------------
 	
 	["HEALING_POTIONS"] = {
@@ -518,7 +321,53 @@ AutoBar_Category_Info = { -- global
 			15723,	-- Tea with Sugar
 			61675,	-- Nordanaar Herbal Tea
 		},
+	},	
+	
+--------------------------------------------------------------------------------
+----------------------------- JUJUS --------------------------------------------
+--------------------------------------------------------------------------------
+
+	["JUJU_ATTACKPOWER"] = {
+		["texture"] = "INV_Misc_MonsterScales_07",
+		["targetted"] = true,
+		["description"] = AUTOBAR_CLASS_BUFF_ATTACKPOWER,
+		["items"] = {
+			12820,	-- Winterfall Firewater		35	20m
+			12460,	-- Juju Might				40	30m
+		},
 	},
+	["JUJU_ATTACKSPEED"] = {
+		["texture"] = "INV_Misc_MonsterScales_17",
+		["targetted"] = true,
+		["description"] = AUTOBAR_CLASS_BUFF_ATTACKSPEED,
+		["items"] = {
+			12450,	-- Juju Flurry				3%	20s
+		},
+	},
+	["JUJU_DODGE"] = {
+		["texture"] = "INV_Misc_MonsterScales_17",
+		["targetted"] = true,
+		["description"] = AUTOBAR_CLASS_BUFF_DODGE,
+		["items"] = {
+			12459,	-- Juju Escape				5%	10s
+		},
+	},
+	["JUJU_FROST"] = {
+		["texture"] = "INV_Misc_MonsterScales_09",
+		["targetted"] = true,
+		["description"] = AUTOBAR_CLASS_BUFF_FROST,
+		["items"] = {
+			12457,	-- Juju Chill				15	10m
+		},
+	},
+	["JUJU_FIRE"] = {
+		["texture"] = "INV_Misc_MonsterScales_15",
+		["targetted"] = true,
+		["description"] = AUTOBAR_CLASS_BUFF_FIRE,
+		["items"] = {
+			12455,	-- Juju Ember				15	10m
+		},
+	},	
 
 --------------------------------------------------------------------------------
 -------------------- MANA POTIONS, MANA STONES AND RUNES -----------------------
@@ -580,6 +429,184 @@ AutoBar_Category_Info = { -- global
 		},
 	},
 
+--------------------------------------------------------------------------------
+----------------------------------- POTIONS WITH BUFFS -------------------------
+--------------------------------------------------------------------------------
+	
+	["POTION_AGILITY"] = {
+		["texture"] = "INV_Potion_94",
+		["description"] = AUTOBAR_CLASS_AGILITYPOTIONS,
+		["items"] = {
+			2457,	-- Elixir of Minor Agility		4		60
+			3390,	-- Elixir of Lesser Agility		8		60
+			8949,	-- Elixir of Agility			15		60
+			9187,	-- Elixir of Greater Agility	25		60
+			13452,	-- Elixir of the Mongoose		25		60 2% crit
+		},
+	},
+	["POTION_STRENGTH"] = {
+		["texture"] = "INV_Potion_61",
+		["description"] = AUTOBAR_CLASS_STRENGTHPOTIONS,
+		["items"] = {
+			2457,	-- Elixir of Lion's Strength	4		60
+			3391,	-- Elixir of Ogre's Strength	8		60
+			6662,	-- Elixir of Giant Growth		8		60
+			9206,	-- Elixir of Giants				25		60
+			13453,	-- Elixir of Brute Force		18		60 18 sta
+		},
+	},
+	["POTION_FORTITUDE"] = {
+		["texture"] = "INV_Potion_43",
+		["description"] = AUTOBAR_CLASS_FORTITUDEPOTIONS,
+		["items"] = {
+			2458,	-- Elixir of Minor Fortitude	27		60
+			3825,	-- Elixir of Fortitude			120		60
+			20079, 	-- Spirit of Zanza				50 sta 120
+		},
+	},
+	["POTION_INTELLECT"] = {
+		["texture"] = "INV_Potion_10",
+		["description"] = AUTOBAR_CLASS_INTELLECTPOTIONS,
+		["items"] = {
+			3383,	-- Elixir of Wisdom			- level 10 - 6 int for 3600 sec
+			9179,	-- Elixir of Greater Intellect	- level 37 - 25 int for 3600 sec
+			13447,	-- Elixir of the Sages			- level 44 - 18 int and 18 spi for 3600 sec
+		},
+	},
+	["POTION_SPELLPOWER"] = {
+		["texture"] = "INV_Potion_25",
+		["description"] = AUTOBAR_CLASS_SPELLPOWERPOTIONS,
+		["items"] = {
+			6373,	-- Elixir of Firepower			+10 fire spd
+			17708,	-- Elixir of Frost Power 		+15 frost spd
+			9155, 	-- Arcane Elixir				+20 spd
+			21546,	-- Elixir of Greater Firepower	+40 fire spd
+			9264,	-- Elixir of Shadow Power		+40 shadow spd
+			13454,	-- Greater Arcane Elixir		+35 spd
+			61423,	-- Dreamtonic					+35 spd - 20 min
+			61224,	-- Dreamshard Elixir			+15 spd +2 spellcrit
+	--		13512, 	-- Flask of Supreme Power		+150 spd
+		},
+	},
+	["POTION_DEFENSE"] = {
+		["texture"] = "INV_Potion_66",
+		["description"] = AUTOBAR_CLASS_DEFENSEPOTIONS,
+		["items"] = {
+			5997,	-- Elixir of Minor Defense		50		60
+			3389,	-- Elixir of Defense			150		60
+			8951,	-- Elixir of Greater Defense	250		60
+			13445,	-- Elixir of Superior Defense	450		60
+		},
+	},
+	["POTION_TROLL"] = {
+		["texture"] = "INV_Potion_80",
+		["description"] = AUTOBAR_CLASS_TROLLBLOODPOTIONS,
+		["items"] = {
+			3382,	-- Weak Troll's Blood Potion	2/5		60
+			3388,	-- Strong Troll's Blood Potion	6/5		60
+			3826,	-- Mighty Troll's Blood Potion	12/5	60
+			20004,	-- Major Troll's Blood Potion	20/5	60
+		},
+	},
+	["POTION_LAP_FAP"] = {
+		["description"] = AUTOBAR_CLASS_FREE_ACTION_POTION;
+		["texture"] = "INV_Potion_04";
+		["items"] = {
+			20008,		-- Living Action Potion
+			5634,			-- Free Action Potion
+		},
+	},
+	["POTION_RAGE"] = {
+		["description"] = AUTOBAR_CLASS_RAGEPOTIONS;
+		["texture"] = "INV_Potion_24";
+		["items"] = {
+			5631,	-- Rage Potion
+			5633,	-- Great Rage Potion
+			13442,	-- Mighty Rage Potion
+		},
+	},
+	["POTION_NRJ"] = {
+		["description"] = AUTOBAR_CLASS_ENERGYPOTIONS;
+		["texture"] = "INV_Drink_Milk_05";
+		["items"] = { 7676 },
+	},
+	["POTION_SWIFTNESS"] = {
+		["description"] = AUTOBAR_CLASS_SWIFTNESSPOTIONS;
+		["texture"] = "INV_Potion_95";
+		["items"] = { 20081, 2459, },
+	},	
+--------------------------------------------------------------------------------
+----------------------------------- SCROLLS ------------------------------------
+--------------------------------------------------------------------------------
+	
+	["SCROLL_AGILITY"] = {
+		["texture"] = "INV_Scroll_02",
+		["targetted"] = true,
+		["description"] = AUTOBAR_CLASS_SCROLLOFAGILITY,
+		["items"] = {
+			3012,	-- Scroll of Agility
+			1477,	-- Scroll of Agility II
+			4425,	-- Scroll of Agility III
+			10309,	-- Scroll of Agility IV
+		},
+	},
+	["SCROLL_INTELLECT"] = {
+		["texture"] = "INV_Scroll_01",
+		["targetted"] = true,
+		["description"] = AUTOBAR_CLASS_SCROLLOFINTELLECT,
+		["items"] = {
+			955,	-- Scroll of Intellect
+			2290,	-- Scroll of Intellect II
+			4419,	-- Scroll of Intellect III
+			10308,	-- Scroll of Intellect IV
+			12458,	-- Juju Guile				40
+		},
+	},
+	["SCROLL_PROTECTION"] = {
+		["texture"] = "INV_Scroll_07",
+		["targetted"] = true,
+		["description"] = AUTOBAR_CLASS_SCROLLOFPROTECTION,
+		["items"] = {
+			3013,	-- Scroll of Protection
+			1478,	-- Scroll of Protection II
+			4421,	-- Scroll of Protection III
+			10305,	-- Scroll of Protection IV
+		},
+	},
+	["SCROLL_SPIRIT"] = {
+		["texture"] = "INV_Scroll_01",
+		["targetted"] = true,
+		["description"] = AUTOBAR_CLASS_SCROLLOFSPIRIT,
+		["items"] = {
+			1181,	-- Scroll of Spirit
+			1712,	-- Scroll of Spirit II
+			4424,	-- Scroll of Spirit III
+			10306,	-- Scroll of Spirit IV
+		},
+	},
+	["SCROLL_STAMINA"] = {
+		["texture"] = "INV_Scroll_07",
+		["targetted"] = true,
+		["description"] = AUTOBAR_CLASS_SCROLLOFSTAMINA,
+		["items"] = {
+			1180,	-- Scroll of Stamina
+			1711,	-- Scroll of Stamina II
+			4422,	-- Scroll of Stamina III
+			10307,	-- Scroll of Stamina IV
+		},
+	},
+	["SCROLL_STRENGTH"] = {
+		["texture"] = "INV_Scroll_02",
+		["targetted"] = true,
+		["description"] = AUTOBAR_CLASS_SCROLLOFSTRENGTH,
+		["items"] = {
+			954,	-- Scroll of Strength		5
+			2289,	-- Scroll of Strength II	9
+			4426,	-- Scroll of Strength III	13
+			10310,	-- Scroll of Strength IV	17
+			12451,	-- Juju Power				30
+		},
+	},
 
 	
 --------------------------------------------------------------------------------
@@ -630,14 +657,13 @@ AutoBar_Category_Info = { -- global
 		["items"] = { 3387 },
 		["noncombat"] = false,
 	},
-	["POTIONS_LAP_FAP"] = {
-		["description"] = AUTOBAR_CLASS_FREE_ACTION_POTION;
-		["texture"] = "INV_Potion_04";
-		["items"] = {
-			20008,		-- Living Action Potion
-			5634,			-- Free Action Potion
-		},
-	},
+
+--------------------------------------------------------------------------------
+----------------------------------- PROTECTION POTIONS -------------------------
+--------------------------------------------------------------------------------
+
+
+
 	["ZANZA"]	= {
 		["description"] = AUTOBAR_CLASS_ZANZA;
 		["texture"] = "INV_Potion_04";
@@ -723,28 +749,10 @@ AutoBar_Category_Info = { -- global
 	},
 
 --------------------------------------------------------------------------------
--------------------- RAGE OR ENERGY OR SPEED AND SOULSHARDS --------------------
+-------------------- SOULSHARDS ------------------------------------------------
 --------------------------------------------------------------------------------
 	
-	["POTIONS_RAGE"] = {
-		["description"] = AUTOBAR_CLASS_RAGEPOTIONS;
-		["texture"] = "INV_Potion_24";
-		["items"] = {
-			5631,	-- Rage Potion
-			5633,	-- Great Rage Potion
-			13442,	-- Mighty Rage Potion
-		},
-	},
-	["POTIONS_NRJ"] = {
-		["description"] = AUTOBAR_CLASS_ENERGYPOTIONS;
-		["texture"] = "INV_Drink_Milk_05";
-		["items"] = { 7676 },
-	},
-	["POTIONS_SWIFTNESS"] = {
-		["description"] = AUTOBAR_CLASS_SWIFTNESSPOTIONS;
-		["texture"] = "INV_Potion_95";
-		["items"] = { 20081, 2459, },
-	},	
+
 	["SOULSHARDS"] = {
 		["description"] = AUTOBAR_CLASS_SOULSHARDS;
 		["texture"] = "INV_Misc_Gem_Amethyst_02";
