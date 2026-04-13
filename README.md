@@ -1,4 +1,4 @@
-# AutoBar for Turtle WoW
+# AutoBar updated for Turtle Wow
 
 AutoBar updated to work with Turtle WoW. Lot of added items.
 
