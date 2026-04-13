@@ -197,7 +197,7 @@ AutoBar_Category_Info = { -- global
 ----------------------------- ENCHANT OILS -------------------------------------
 --------------------------------------------------------------------------------
 	
-	["ENCHANT_MANA_OIL"] = {
+	["ENCHANT_MANA_OILS"] = {
 		["texture"] = "INV_Potion_100";
 		["targetted"] = "WEAPON";
 		["description"] = AUTOBAR_CLASS_MANA_OIL;
@@ -207,7 +207,7 @@ AutoBar_Category_Info = { -- global
 			20748,	-- Brilliant Mana Oil 12mana/5sec
 		},
 	},
-	["ENCHANT_WIZARD_OIL"] = {
+	["ENCHANT_WIZARD_OILS"] = {
 		["texture"] = "INV_Potion_105";
 		["targetted"] = "WEAPON";
 		["description"] = AUTOBAR_CLASS_WIZARD_OIL;
@@ -392,7 +392,7 @@ AutoBar_Category_Info = { -- global
 		["items"] = { 18841 },
 		["limit"] = { ["downmana"] = { 900 }, },
 	},
-	["MANASTONE"] = {
+	["MANA_STONES"] = {
 		["description"] = AUTOBAR_CLASS_MANASTONE;
 		["texture"] = "INV_Misc_Gem_Emerald_01";
 		["items"] = {
@@ -433,7 +433,7 @@ AutoBar_Category_Info = { -- global
 ----------------------------------- POTIONS WITH BUFFS -------------------------
 --------------------------------------------------------------------------------
 	
-	["POTION_AGILITY"] = {
+	["POTIONS_AGILITY"] = {
 		["texture"] = "INV_Potion_94",
 		["description"] = AUTOBAR_CLASS_AGILITYPOTIONS,
 		["items"] = {
@@ -444,7 +444,7 @@ AutoBar_Category_Info = { -- global
 			13452,	-- Elixir of the Mongoose		25		60 2% crit
 		},
 	},
-	["POTION_STRENGTH"] = {
+	["POTIONS_STRENGTH"] = {
 		["texture"] = "INV_Potion_61",
 		["description"] = AUTOBAR_CLASS_STRENGTHPOTIONS,
 		["items"] = {
@@ -455,7 +455,7 @@ AutoBar_Category_Info = { -- global
 			13453,	-- Elixir of Brute Force		18		60 18 sta
 		},
 	},
-	["POTION_FORTITUDE"] = {
+	["POTIONS_FORTITUDE"] = {
 		["texture"] = "INV_Potion_43",
 		["description"] = AUTOBAR_CLASS_FORTITUDEPOTIONS,
 		["items"] = {
@@ -464,7 +464,7 @@ AutoBar_Category_Info = { -- global
 			20079, 	-- Spirit of Zanza				50 sta 120
 		},
 	},
-	["POTION_INTELLECT"] = {
+	["POTIONS_INTELLECT"] = {
 		["texture"] = "INV_Potion_10",
 		["description"] = AUTOBAR_CLASS_INTELLECTPOTIONS,
 		["items"] = {
@@ -473,7 +473,7 @@ AutoBar_Category_Info = { -- global
 			13447,	-- Elixir of the Sages			- level 44 - 18 int and 18 spi for 3600 sec
 		},
 	},
-	["POTION_SPELLPOWER"] = {
+	["POTIONS_SPELLPOWER"] = {
 		["texture"] = "INV_Potion_25",
 		["description"] = AUTOBAR_CLASS_SPELLPOWERPOTIONS,
 		["items"] = {
@@ -488,7 +488,7 @@ AutoBar_Category_Info = { -- global
 	--		13512, 	-- Flask of Supreme Power		+150 spd
 		},
 	},
-	["POTION_DEFENSE"] = {
+	["POTIONS_DEFENSE"] = {
 		["texture"] = "INV_Potion_66",
 		["description"] = AUTOBAR_CLASS_DEFENSEPOTIONS,
 		["items"] = {
@@ -498,7 +498,7 @@ AutoBar_Category_Info = { -- global
 			13445,	-- Elixir of Superior Defense	450		60
 		},
 	},
-	["POTION_TROLL"] = {
+	["POTIONS_TROLL"] = {
 		["texture"] = "INV_Potion_80",
 		["description"] = AUTOBAR_CLASS_TROLLBLOODPOTIONS,
 		["items"] = {
@@ -508,7 +508,7 @@ AutoBar_Category_Info = { -- global
 			20004,	-- Major Troll's Blood Potion	20/5	60
 		},
 	},
-	["POTION_LAP_FAP"] = {
+	["POTIONS_LAP_FAP"] = {
 		["description"] = AUTOBAR_CLASS_FREE_ACTION_POTION;
 		["texture"] = "INV_Potion_04";
 		["items"] = {
@@ -516,7 +516,7 @@ AutoBar_Category_Info = { -- global
 			5634,			-- Free Action Potion
 		},
 	},
-	["POTION_RAGE"] = {
+	["POTIONS_RAGE"] = {
 		["description"] = AUTOBAR_CLASS_RAGEPOTIONS;
 		["texture"] = "INV_Potion_24";
 		["items"] = {
@@ -539,7 +539,7 @@ AutoBar_Category_Info = { -- global
 ----------------------------------- SCROLLS ------------------------------------
 --------------------------------------------------------------------------------
 	
-	["SCROLL_AGILITY"] = {
+	["SCROLLS_AGILITY"] = {
 		["texture"] = "INV_Scroll_02",
 		["targetted"] = true,
 		["description"] = AUTOBAR_CLASS_SCROLLOFAGILITY,
@@ -550,7 +550,7 @@ AutoBar_Category_Info = { -- global
 			10309,	-- Scroll of Agility IV
 		},
 	},
-	["SCROLL_INTELLECT"] = {
+	["SCROLLS_INTELLECT"] = {
 		["texture"] = "INV_Scroll_01",
 		["targetted"] = true,
 		["description"] = AUTOBAR_CLASS_SCROLLOFINTELLECT,
@@ -562,7 +562,7 @@ AutoBar_Category_Info = { -- global
 			12458,	-- Juju Guile				40
 		},
 	},
-	["SCROLL_PROTECTION"] = {
+	["SCROLLS_PROTECTION"] = {
 		["texture"] = "INV_Scroll_07",
 		["targetted"] = true,
 		["description"] = AUTOBAR_CLASS_SCROLLOFPROTECTION,
@@ -573,7 +573,7 @@ AutoBar_Category_Info = { -- global
 			10305,	-- Scroll of Protection IV
 		},
 	},
-	["SCROLL_SPIRIT"] = {
+	["SCROLLS_SPIRIT"] = {
 		["texture"] = "INV_Scroll_01",
 		["targetted"] = true,
 		["description"] = AUTOBAR_CLASS_SCROLLOFSPIRIT,
@@ -584,7 +584,7 @@ AutoBar_Category_Info = { -- global
 			10306,	-- Scroll of Spirit IV
 		},
 	},
-	["SCROLL_STAMINA"] = {
+	["SCROLLS_STAMINA"] = {
 		["texture"] = "INV_Scroll_07",
 		["targetted"] = true,
 		["description"] = AUTOBAR_CLASS_SCROLLOFSTAMINA,
@@ -595,7 +595,7 @@ AutoBar_Category_Info = { -- global
 			10307,	-- Scroll of Stamina IV
 		},
 	},
-	["SCROLL_STRENGTH"] = {
+	["SCROLLS_STRENGTH"] = {
 		["texture"] = "INV_Scroll_02",
 		["targetted"] = true,
 		["description"] = AUTOBAR_CLASS_SCROLLOFSTRENGTH,
