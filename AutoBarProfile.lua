@@ -69,7 +69,7 @@ function AutoBarProfile.InitializeBasic()
 	AutoBarProfile.basic[12] = Compost:GetTable();
 	AutoBarProfile.basic[13] = { "SHARPENINGSTONES" };
 	AutoBarProfile.basic[14] = { "WEIGHTSTONE" };
-	AutoBarProfile.basic[15] = { "SWIFTNESSPOTIONS" };
+	AutoBarProfile.basic[15] = { "potions_SWIFTNESS" };
 	AutoBarProfile.basic[16] = { "POTIONS_LAP_FAP" };
 	AutoBarProfile.basic[17] = { "EXPLOSIVES" };
 	AutoBarProfile.basic[18] = { "FISHINGITEMS" };
@@ -110,7 +110,7 @@ end
 -- Set up Basic Defaults
 function AutoBarProfile.InitializeClass()
 	AutoBarProfile.ROGUE = Compost:GetTable();
-	AutoBarProfile.ROGUE[POTIONSLOT] = { "ENERGYPOTIONS" };
+	AutoBarProfile.ROGUE[POTIONSLOT] = { "POTIONS_NRJ" };
 	AutoBarProfile.ROGUE[FOODSLOT] = { "FOOD_STRENGTH", "FOOD_AGILITY", "FOOD_STAMINA", "FOOD_HPREGEN" };
 	AutoBarProfile.ROGUE[20] = { "POISON-MINDNUMBING" };
 	AutoBarProfile.ROGUE[21] = { "POISON-WOUND" };
@@ -121,7 +121,7 @@ function AutoBarProfile.InitializeClass()
 	AutoBarProfile.ROGUE[WEAPONBUFFSLOT] = {"SHARPENINGSTONES","WEIGHTSTONE"};
 
 	AutoBarProfile.WARRIOR = Compost:GetTable();
-	AutoBarProfile.WARRIOR[POTIONSLOT] = { "RAGEPOTIONS" };
+	AutoBarProfile.WARRIOR[POTIONSLOT] = { "POTIONS_RAGE" };
 	AutoBarProfile.WARRIOR[FOODSLOT] = AutoBarProfile.ROGUE[FOODSLOT];
 	AutoBarProfile.WARRIOR[BUFFSLOT] = AutoBarProfile.ROGUE[BUFFSLOT];
 	AutoBarProfile.WARRIOR[WEAPONBUFFSLOT] = AutoBarProfile.ROGUE[WEAPONBUFFSLOT];
