@@ -1069,14 +1069,15 @@ AutoBar_Category_Info = { -- global
 ----------------------------------- FOOD WITH BUFF -----------------------------
 --------------------------------------------------------------------------------
 	
-	["DRINK_STAMINA"] ={
-		["description"] = AUTOBAR_CLASS_DRINK_STAMINA;
+	["MERLOTS_AND_RUMS"] ={
+		["description"] = AUTOBAR_CLASS_MERLOTS_AND_RUMS;
 		["texture"] = "INV_Drink_04";
 		["items"] = {
 			17048,	-- Rumsey Rum
 			20709,	-- Rumsey Rum Light	
 			21114,	-- Rumsey Rum Dark
-			21151, 	-- rumsey rum black label
+			21151, 	-- rumsey rum black label - 15 stam 15 min
+			61174, -- Medivh's merlot - 25 stam 15 min
 		},
 	},	
 	["FOOD_STAMINA"] = {
