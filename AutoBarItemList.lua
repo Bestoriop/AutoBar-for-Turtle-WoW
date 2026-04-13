@@ -192,9 +192,35 @@ AutoBar_Category_Info = { -- global
 			19046,	-- Frostwolf Battle Standard
 		},
 	},
-	
+
 --------------------------------------------------------------------------------
------------------------------------ JUJUS ------------------------------------
+----------------------------- ENCHANT OILS -------------------------------------
+--------------------------------------------------------------------------------
+	
+	["ENCHANT_MANA_OIL"] = {
+		["texture"] = "INV_Potion_100";
+		["targetted"] = "WEAPON";
+		["description"] = AUTOBAR_CLASS_MANA_OIL;
+		["items"] = {
+			20745, 	-- Minor Mana Oil 4mana/5sec
+			20747, 	-- Lesser Mana Oil 8mana/5sec
+			20748,	-- Brilliant Mana Oil 12mana/5sec
+		},
+	},
+	["ENCHANT_WIZARD_OIL"] = {
+		["texture"] = "INV_Potion_105";
+		["targetted"] = "WEAPON";
+		["description"] = AUTOBAR_CLASS_WIZARD_OIL;
+		["items"] = {
+			23123,	-- Blessed Wizard Oil +60 vs undead
+			20744,	-- Minor Wizard Oil +8 spell damage
+			20746,	-- Lesser Wizard Oil +16 spell damage
+			20750, 	-- Wizard Oil +24 spell damage
+			20749, 	-- Brilliant Wizard Oil +36 spell damage
+		},
+	},
+--------------------------------------------------------------------------------
+----------------------------- JUJUS --------------------------------------------
 --------------------------------------------------------------------------------
 
 	["JUJU_ATTACKPOWER"] = {
@@ -557,10 +583,8 @@ AutoBar_Category_Info = { -- global
 
 	
 --------------------------------------------------------------------------------
------------------------------------ SPELL PROT POTIONS -------------------------
+----------------------------------- PROTECTION POTIONS -------------------------
 --------------------------------------------------------------------------------
-
-
 	
 	["PROTECTION_ARCANE"] = {
 		["description"] = AUTOBAR_CLASS_ARCANE_PROTECTION;
@@ -1496,28 +1520,7 @@ AutoBar_Category_Info = { -- global
 	},	
 	
 	--------------
-	["MANA_OIL"] = {
-		["texture"] = "INV_Potion_100";
-		["targetted"] = "WEAPON";
-		["description"] = AUTOBAR_CLASS_MANA_OIL;
-		["items"] = {
-			20745, 	-- Minor Mana Oil 4mana/5sec
-			20747, 	-- Lesser Mana Oil 8mana/5sec
-			20748,	-- Brilliant Mana Oil 12mana/5sec
-		},
-	},
-	["WIZARD_OIL"] = {
-		["texture"] = "INV_Potion_105";
-		["targetted"] = "WEAPON";
-		["description"] = AUTOBAR_CLASS_WIZARD_OIL;
-		["items"] = {
-			23123,	-- Blessed Wizard Oil +60 vs undead
-			20744,	-- Minor Wizard Oil +8 spell damage
-			20746,	-- Lesser Wizard Oil +16 spell damage
-			20750, 	-- Wizard Oil +24 spell damage
-			20749, 	-- Brilliant Wizard Oil +36 spell damage
-		},
-	},
+
 	["FISHINGITEMS"] = {
 		["texture"] = "INV_Misc_Food_26",
 		["targetted"] = "WEAPON",
