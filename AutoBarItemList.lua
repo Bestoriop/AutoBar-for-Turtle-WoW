@@ -459,7 +459,7 @@ AutoBar_Category_Info = { -- global
 -------- HEAL AND MANA POTIONS, TEAS AND NIGHT DRAGON BREATH -------------------
 --------------------------------------------------------------------------------
 	
-	["NIGHT_DRAGONS_BREATH"] = {
+	["HEALING_AND_MANA_NDB"] = {
 		["description"] = AUTOBAR_CLASS_NIGHT_DRAGONS_BREATH;
 		["texture"] = "INV_Misc_Food_45";
 		["limit"] = { ["downhp"] = { 456 }, ["downmana"] = { 456 }, },
@@ -475,7 +475,7 @@ AutoBar_Category_Info = { -- global
 		},
 		["limit"] = { ["downhp"] = { 150, 750, 1760 }, ["downmana"] = { 150, 750, 1760 }, },
 	},
-	["TEAS"] = {
+	["HEALING_AND_MANA_TEAS"] = {
 		["description"] = AUTOBAR_CLASS_TEAS;
 		["texture"] = "INV_Drink_Milk_05";
 		["limit"] = { ["downhp"] = { 525, 525 }, ["downmana"] = { 810, 810 }, },
