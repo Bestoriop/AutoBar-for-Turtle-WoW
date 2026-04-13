@@ -194,10 +194,10 @@ end
 
 AutoBarProfile.smartSelfcast = Compost:GetTable();
 AutoBarProfile.smartSelfcast["BANDAGES"] = true;
-AutoBarProfile.smartSelfcast["ALTERAC_BANDAGES"] = true;
-AutoBarProfile.smartSelfcast["WARSONG_BANDAGES"] = true;
-AutoBarProfile.smartSelfcast["ARATHI_BANDAGES"] = true;
-AutoBarProfile.smartSelfcast["UNGORO_RESTORE"] = true;
+AutoBarProfile.smartSelfcast["BANDAGES_ALTERAC"] = true;
+AutoBarProfile.smartSelfcast["BANDAGES_WARSONG"] = true;
+AutoBarProfile.smartSelfcast["BANDAGES_ARATHI"] = true;
+AutoBarProfile.smartSelfcast["HEALING_CRYSTAL_RESTORE"] = true;
 
 
 local function clone(o)
