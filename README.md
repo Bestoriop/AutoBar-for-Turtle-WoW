@@ -12,6 +12,7 @@ Make sure you rename the base folder to just AutoBar, not AutoBar-For-Turtle-WoW
 
 # Added items
 
+- New Fishing Lures (Survival)
 - Cabbages (Gardening)
 - Grapes (Gardening)
 - Carrots (Gardening)
