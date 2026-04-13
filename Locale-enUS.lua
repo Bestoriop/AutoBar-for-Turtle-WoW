@@ -262,14 +262,11 @@ AUTOBAR_CLASS_FOOD_ARATHI = "Food: Arathi Basin";
 AUTOBAR_CLASS_FOOD_WARSONG = "Food: Warsong Gulch";
 AUTOBAR_CLASS_SHARPENINGSTONES = "Blacksmith created Sharpening stones";
 AUTOBAR_CLASS_WEIGHTSTONE = "Blacksmith created Weight stones";
-AUTOBAR_CLASS_POISON_CRIPPLING = "Crippling Poison";
-AUTOBAR_CLASS_POISON_DEADLY = "Deadly Poison";
-AUTOBAR_CLASS_POISON_INSTANT = "Instant Poison";
-AUTOBAR_CLASS_POISON_MINDNUMBING = "Mind-Numbing Poison";
-AUTOBAR_CLASS_POISON_WOUND = "Wounding Poison";
+
 AUTOBAR_CLASS_EXPLOSIVES = "Engineering Explosives";
-AUTOBAR_CLASS_SLOWING_BOLAS = "Slowing Bolas";
-AUTOBAR_CLASS_NETS = "Nets";
+AUTOBAR_CLASS_SLOWING_BOLAS = "Survival Slowing Bolas";
+AUTOBAR_CLASS_NETS = "Survival Nets";
+	
 AUTOBAR_CLASS_MOUNTS_TROLL = "Mount: Troll - Raptor";
 AUTOBAR_CLASS_MOUNTS_ORC = "Mount: Orc - Wolf";
 AUTOBAR_CLASS_MOUNTS_UNDEAD = "Mount: Undead - Skeletal Horse";
@@ -280,6 +277,13 @@ AUTOBAR_CLASS_MOUNTS_DWARF = "Mount: Dwarf - Ram";
 AUTOBAR_CLASS_MOUNTS_GNOME = "Mount: Gnome - Strider";
 AUTOBAR_CLASS_MOUNTS_SPECIAL = "Mount: Special";
 AUTOBAR_CLASS_MOUNTS_QIRAJI = "Mount: Qiraji";
+
+AUTOBAR_CLASS_POISON_CRIPPLING = "Poison: Crippling";
+AUTOBAR_CLASS_POISON_DEADLY = "Poison: Deadly";
+AUTOBAR_CLASS_POISON_INSTANT = "Poison: Instant";
+AUTOBAR_CLASS_POISON_MINDNUMBING = "Poison: Mind-Numbing ";
+AUTOBAR_CLASS_POISON_WOUND = "Poison: Wounding";	
+	
 AUTOBAR_CLASS_MANA_OIL = "Enchantment Oil: Mana Regen";
 AUTOBAR_CLASS_WIZARD_OIL = "Enchantment Oil: Damage/Healing Bonus";
 AUTOBAR_CLASS_FISHINGITEMS = "Fishing Items";
