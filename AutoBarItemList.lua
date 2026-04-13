@@ -282,7 +282,7 @@ AutoBar_Category_Info = { -- global
 			12451,	-- Juju Power				30
 		},
 	},
-	["BUFF_ATTACKPOWER"] = {
+	["JUJU_ATTACKPOWER"] = {
 		["texture"] = "INV_Misc_MonsterScales_07",
 		["targetted"] = true,
 		["description"] = AUTOBAR_CLASS_BUFF_ATTACKPOWER,
@@ -291,7 +291,7 @@ AutoBar_Category_Info = { -- global
 			12460,	-- Juju Might				40	30m
 		},
 	},
-	["BUFF_ATTACKSPEED"] = {
+	["JUJU_ATTACKSPEED"] = {
 		["texture"] = "INV_Misc_MonsterScales_17",
 		["targetted"] = true,
 		["description"] = AUTOBAR_CLASS_BUFF_ATTACKSPEED,
@@ -299,7 +299,7 @@ AutoBar_Category_Info = { -- global
 			12450,	-- Juju Flurry				3%	20s
 		},
 	},
-	["BUFF_DODGE"] = {
+	["JUJU_DODGE"] = {
 		["texture"] = "INV_Misc_MonsterScales_17",
 		["targetted"] = true,
 		["description"] = AUTOBAR_CLASS_BUFF_DODGE,
@@ -307,7 +307,7 @@ AutoBar_Category_Info = { -- global
 			12459,	-- Juju Escape				5%	10s
 		},
 	},
-	["BUFF_FROST"] = {
+	["JUJU_FROST"] = {
 		["texture"] = "INV_Misc_MonsterScales_09",
 		["targetted"] = true,
 		["description"] = AUTOBAR_CLASS_BUFF_FROST,
@@ -315,7 +315,7 @@ AutoBar_Category_Info = { -- global
 			12457,	-- Juju Chill				15	10m
 		},
 	},
-	["BUFF_FIRE"] = {
+	["JUJU_FIRE"] = {
 		["texture"] = "INV_Misc_MonsterScales_15",
 		["targetted"] = true,
 		["description"] = AUTOBAR_CLASS_BUFF_FIRE,
