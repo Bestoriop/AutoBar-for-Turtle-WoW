@@ -435,7 +435,7 @@ AutoBar_Category_Info = { -- global
 			17351,	-- Major Mana Draught
 		},
 	},
-	["DREAMLESS_SLEEP"] = {
+	["MANA_DREAMLESS_SLEEP"] = {
 		["description"] = AUTOBAR_CLASS_DREAMLESS_SLEEP;
 		["texture"] = "INV_Potion_83";
 		["items"] = {
