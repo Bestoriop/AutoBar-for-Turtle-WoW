@@ -554,7 +554,7 @@ AutoBar_Category_Info = { -- global
 		["items"] = { 3387 },
 		["noncombat"] = false,
 	},
-	["ACTION_POTIONS"] = {
+	["POTIONS_LAP_FAP"] = {
 		["description"] = AUTOBAR_CLASS_FREE_ACTION_POTION;
 		["texture"] = "INV_Potion_04";
 		["items"] = {
