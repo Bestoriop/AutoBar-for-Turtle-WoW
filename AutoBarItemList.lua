@@ -407,7 +407,7 @@ AutoBar_Category_Info = { -- global
 			13444,	-- Major Mana Potion
 		},
 	},
-	["PVP_MANAPOTIONS"] = {
+	["MANAPOTIONS_R6"] = {
 		["description"] = AUTOBAR_CLASS_PVP6MANAPOTIONS;
 		["texture"] = "INV_Potion_80";
 		["items"] = { 18841 },
@@ -423,7 +423,7 @@ AutoBar_Category_Info = { -- global
 			8008,	-- Mana Ruby
 		},
 	},
-	["ALTERAC_MANA"] = {
+	["MANAPOTIONS_BG"] = {
 		["description"] = AUTOBAR_CLASS_BATTLEGROUNDMANAPOTIONS;
 		["texture"] = "INV_Potion_81";
 		["battleground"] = true;
