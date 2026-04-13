@@ -48,8 +48,69 @@ AutoBar_Category_Info = { -- global
 	},
 
 --------------------------------------------------------------------------------
+------------------------- ARROWS AND BULLETS -----------------------------------
+--------------------------------------------------------------------------------
+	
+	["AMMOS_ARROWS"] = {
+		["description"] = AUTOBAR_CLASS_ARROWS;
+		["texture"] = "INV_Ammo_Arrow_02";
+		["notusable"] = true;
+		["items"] = {
+			2512,	-- Rough Arrow
+			2515,	-- Sharp Arrow
+			3030,	-- Razor Arrow
+			3464,	-- Feathered Arrow          9.5
+			42198,	-- Bright Wood Arrow        10.5
+			9399,	-- Precision Arrow          11.5
+			11285,	-- Jagged Arrow             13
+			421995,	-- Shade Wood Arrow         14.5
+			19316,  -- Ice Threaded Arrow       16.5
+			42200,	-- Smooth Ironfeather Arrow        17.5
+			18042,	-- Thorium Headed Arrow     17.5
+			42201,	-- Starfeather Arrow        19
+			12654,	-- Doomshot                 20
+		},
+	},	
+	["AMMOS_BULLETS"] = {
+		["description"] = AUTOBAR_CLASS_BULLETS;
+		["texture"] = "INV_Ammo_Bullet_02";
+		["notusable"] = true;
+		["items"] = {
+			2516,	-- Light Shot
+			4960,	-- Flash Pellet
+			8067,	-- Crafted Light Shot
+			2519,	-- Heavy Shot
+			5568,	-- Smooth Pebble
+			8068,	-- Crafted Heavy Shot
+			3033,	-- Solid Shot
+			8069,	-- Crafted Solid Shot
+			3465,	-- Exploding Shot
+			10512,	-- Hi-Impact Mithril Slugs
+			11284,	-- Accurate Slugs
+			10513,	-- Mithril Gyro-Shot        15
+			19316,  -- Ice Threaded Bullet		16.5
+			15997,	-- Thorium Shells           17.5
+			11630,	-- Rockshard Pellets        18
+			13377,	-- Minature Cannon Balls    20.5
+		},
+	},
+--------------------------------------------------------------------------------
 ----------------------------------- BANDAGES -----------------------------------
 --------------------------------------------------------------------------------
+	["ANTI_VENOM"] = {
+		["description"] = AUTOBAR_CLASS_ANTIVENOM;
+		["texture"] = "INV_Drink_14";
+		["targetted"] = true;
+		["smarttarget"] = true;
+		["items"] = {
+			2633,   -- Jungle Remedy            22
+			6452,	-- Anti-Venom				25
+			6453,	-- Strong Anti-Venom		35
+			19440,	-- Powerful Anti-Venom		60
+			12586,	-- Immature Venom Sac
+			3386, 	-- elixir of poison resistance
+		},
+	},
 	
 	["BANDAGES"] = {
 		["description"] = AUTOBAR_CLASS_BANDAGES;
@@ -108,20 +169,76 @@ AutoBar_Category_Info = { -- global
 			20234,	-- Defiler's Runecloth Bandage
 		},
 	},	
-	["ANTI_VENOM"] = {
-		["description"] = AUTOBAR_CLASS_ANTIVENOM;
-		["texture"] = "INV_Drink_14";
-		["targetted"] = true;
-		["smarttarget"] = true;
+
+--------------------------------------------------------------------------------
+----------------------------- BATTLE STANDARDS ---------------------------------
+--------------------------------------------------------------------------------
+	
+	["BATTLE_STANDARD"] = {
+		["description"] = AUTOBAR_CLASS_BATTLESTANDARD;
+		["texture"] = "INV_BannerPVP_01";
+		["battleground"] = true;
 		["items"] = {
-			2633,   -- Jungle Remedy            22
-			6452,	-- Anti-Venom				25
-			6453,	-- Strong Anti-Venom		35
-			19440,	-- Powerful Anti-Venom		60
-			12586,	-- Immature Venom Sac
-			3386, 	-- elixir of poison resistance
+			18606,	-- Alliance Battle Standard
+			18607,	-- Horde Battle Standard
 		},
 	},
+	["BATTLE_STANDARD_AV"] = {
+		["description"] = AUTOBAR_CLASS_BATTLESTANDARDAV;
+		["texture"] = "INV_BannerPVP_02";
+		["location"] = AUTOBAR_ALTERACVALLEY;
+		["items"] = {
+			19045,	-- Stormpike Battle Standard
+			19046,	-- Frostwolf Battle Standard
+		},
+	},
+	
+--------------------------------------------------------------------------------
+----------------------------------- JUJUS ------------------------------------
+--------------------------------------------------------------------------------
+
+	["JUJU_ATTACKPOWER"] = {
+		["texture"] = "INV_Misc_MonsterScales_07",
+		["targetted"] = true,
+		["description"] = AUTOBAR_CLASS_BUFF_ATTACKPOWER,
+		["items"] = {
+			12820,	-- Winterfall Firewater		35	20m
+			12460,	-- Juju Might				40	30m
+		},
+	},
+	["JUJU_ATTACKSPEED"] = {
+		["texture"] = "INV_Misc_MonsterScales_17",
+		["targetted"] = true,
+		["description"] = AUTOBAR_CLASS_BUFF_ATTACKSPEED,
+		["items"] = {
+			12450,	-- Juju Flurry				3%	20s
+		},
+	},
+	["JUJU_DODGE"] = {
+		["texture"] = "INV_Misc_MonsterScales_17",
+		["targetted"] = true,
+		["description"] = AUTOBAR_CLASS_BUFF_DODGE,
+		["items"] = {
+			12459,	-- Juju Escape				5%	10s
+		},
+	},
+	["JUJU_FROST"] = {
+		["texture"] = "INV_Misc_MonsterScales_09",
+		["targetted"] = true,
+		["description"] = AUTOBAR_CLASS_BUFF_FROST,
+		["items"] = {
+			12457,	-- Juju Chill				15	10m
+		},
+	},
+	["JUJU_FIRE"] = {
+		["texture"] = "INV_Misc_MonsterScales_15",
+		["targetted"] = true,
+		["description"] = AUTOBAR_CLASS_BUFF_FIRE,
+		["items"] = {
+			12455,	-- Juju Ember				15	10m
+		},
+	},	
+	
 --------------------------------------------------------------------------------
 ----------------------------------- POTIONS WITH BUFFS -----------------------------------
 --------------------------------------------------------------------------------
@@ -275,52 +392,6 @@ AutoBar_Category_Info = { -- global
 	},
 
 --------------------------------------------------------------------------------
------------------------------------ JUJUS ------------------------------------
---------------------------------------------------------------------------------
-
-	["JUJU_ATTACKPOWER"] = {
-		["texture"] = "INV_Misc_MonsterScales_07",
-		["targetted"] = true,
-		["description"] = AUTOBAR_CLASS_BUFF_ATTACKPOWER,
-		["items"] = {
-			12820,	-- Winterfall Firewater		35	20m
-			12460,	-- Juju Might				40	30m
-		},
-	},
-	["JUJU_ATTACKSPEED"] = {
-		["texture"] = "INV_Misc_MonsterScales_17",
-		["targetted"] = true,
-		["description"] = AUTOBAR_CLASS_BUFF_ATTACKSPEED,
-		["items"] = {
-			12450,	-- Juju Flurry				3%	20s
-		},
-	},
-	["JUJU_DODGE"] = {
-		["texture"] = "INV_Misc_MonsterScales_17",
-		["targetted"] = true,
-		["description"] = AUTOBAR_CLASS_BUFF_DODGE,
-		["items"] = {
-			12459,	-- Juju Escape				5%	10s
-		},
-	},
-	["JUJU_FROST"] = {
-		["texture"] = "INV_Misc_MonsterScales_09",
-		["targetted"] = true,
-		["description"] = AUTOBAR_CLASS_BUFF_FROST,
-		["items"] = {
-			12457,	-- Juju Chill				15	10m
-		},
-	},
-	["JUJU_FIRE"] = {
-		["texture"] = "INV_Misc_MonsterScales_15",
-		["targetted"] = true,
-		["description"] = AUTOBAR_CLASS_BUFF_FIRE,
-		["items"] = {
-			12455,	-- Juju Ember				15	10m
-		},
-	},
-
---------------------------------------------------------------------------------
 ----------------- HEALING POTIONS, SALVES AND WHIPPER ROOT ---------------------
 --------------------------------------------------------------------------------
 	
@@ -394,6 +465,36 @@ AutoBar_Category_Info = { -- global
 	},
 
 --------------------------------------------------------------------------------
+-------- HEAL AND MANA POTIONS, TEAS AND NIGHT DRAGON BREATH -------------------
+--------------------------------------------------------------------------------
+	
+	["HEALING_AND_MANA_NDB"] = {
+		["description"] = AUTOBAR_CLASS_NIGHT_DRAGONS_BREATH;
+		["texture"] = "INV_Misc_Food_45";
+		["limit"] = { ["downhp"] = { 456 }, ["downmana"] = { 456 }, },
+		["items"] = { 11952 },
+	},
+	["HEALING_AND_MANA_POTIONS"] = {
+		["description"] = AUTOBAR_CLASS_REJUVENATION_POTIONS;
+		["texture"] = "INV_Potion_47";
+		["items"] = {
+			2456,	-- Minor Rejuvenation Potion
+			9144,	-- Wildvine Potion
+			18253,	-- Major Rejuvenation Potion
+		},
+		["limit"] = { ["downhp"] = { 150, 750, 1760 }, ["downmana"] = { 150, 750, 1760 }, },
+	},
+	["HEALING_AND_MANA_TEAS"] = {
+		["description"] = AUTOBAR_CLASS_TEAS;
+		["texture"] = "INV_Drink_Milk_05";
+		["limit"] = { ["downhp"] = { 525, 525 }, ["downmana"] = { 810, 810 }, },
+		["items"] = {
+			15723,	-- Tea with Sugar
+			61675,	-- Nordanaar Herbal Tea
+		},
+	},
+
+--------------------------------------------------------------------------------
 -------------------- MANA POTIONS, MANA STONES AND RUNES -----------------------
 --------------------------------------------------------------------------------
 	
@@ -443,7 +544,7 @@ AutoBar_Category_Info = { -- global
 			20002,	-- Greater Dreamless Sleep
 		},
 	},
-	["RUNES"] = {
+	["MANA_RUNES"] = {
 		["description"] = AUTOBAR_CLASS_DEMONIC_DARK_RUNES;
 		["texture"] = "Spell_Shadow_SealOfKings";
 		["limit"] = { ["downmana"] = { 900, 900 }, },
@@ -453,60 +554,8 @@ AutoBar_Category_Info = { -- global
 		},
 	},
 
---------------------------------------------------------------------------------
--------- HEAL AND MANA POTIONS, TEAS AND NIGHT DRAGON BREATH -------------------
---------------------------------------------------------------------------------
-	
-	["HEALING_AND_MANA_NDB"] = {
-		["description"] = AUTOBAR_CLASS_NIGHT_DRAGONS_BREATH;
-		["texture"] = "INV_Misc_Food_45";
-		["limit"] = { ["downhp"] = { 456 }, ["downmana"] = { 456 }, },
-		["items"] = { 11952 },
-	},
-	["HEALING_AND_MANA_POTIONS"] = {
-		["description"] = AUTOBAR_CLASS_REJUVENATION_POTIONS;
-		["texture"] = "INV_Potion_47";
-		["items"] = {
-			2456,	-- Minor Rejuvenation Potion
-			9144,	-- Wildvine Potion
-			18253,	-- Major Rejuvenation Potion
-		},
-		["limit"] = { ["downhp"] = { 150, 750, 1760 }, ["downmana"] = { 150, 750, 1760 }, },
-	},
-	["HEALING_AND_MANA_TEAS"] = {
-		["description"] = AUTOBAR_CLASS_TEAS;
-		["texture"] = "INV_Drink_Milk_05";
-		["limit"] = { ["downhp"] = { 525, 525 }, ["downmana"] = { 810, 810 }, },
-		["items"] = {
-			15723,	-- Tea with Sugar
-			61675,	-- Nordanaar Herbal Tea
-		},
-	},
-	
---------------------------------------------------------------------------------
------------------------------ BATTLE STANDARDS ---------------------------------
---------------------------------------------------------------------------------
-	
-	["BATTLE_STANDARD"] = {
-		["description"] = AUTOBAR_CLASS_BATTLESTANDARD;
-		["texture"] = "INV_BannerPVP_01";
-		["battleground"] = true;
-		["items"] = {
-			18606,	-- Alliance Battle Standard
-			18607,	-- Horde Battle Standard
-		},
-	},
-	["BATTLE_STANDARD_AV"] = {
-		["description"] = AUTOBAR_CLASS_BATTLESTANDARDAV;
-		["texture"] = "INV_BannerPVP_02";
-		["location"] = AUTOBAR_ALTERACVALLEY;
-		["items"] = {
-			19045,	-- Stormpike Battle Standard
-			19046,	-- Frostwolf Battle Standard
-		},
-	},
 
-
+	
 --------------------------------------------------------------------------------
 ----------------------------------- SPELL PROT POTIONS -------------------------
 --------------------------------------------------------------------------------
@@ -677,54 +726,6 @@ AutoBar_Category_Info = { -- global
 		["texture"] = "INV_Misc_Gem_Amethyst_02";
 		["notusable"] = true;
 		["items"] = { 6265 },
-	},
-
---------------------------------------------------------------------------------
-------------------------- ARROWS AND BULLETS -----------------------------------
---------------------------------------------------------------------------------
-	
-	["AMMOS_ARROWS"] = {
-		["description"] = AUTOBAR_CLASS_ARROWS;
-		["texture"] = "INV_Ammo_Arrow_02";
-		["notusable"] = true;
-		["items"] = {
-			2512,	-- Rough Arrow
-			2515,	-- Sharp Arrow
-			3030,	-- Razor Arrow
-			3464,	-- Feathered Arrow          9.5
-			42198,	-- Bright Wood Arrow        10.5
-			9399,	-- Precision Arrow          11.5
-			11285,	-- Jagged Arrow             13
-			421995,	-- Shade Wood Arrow         14.5
-			19316,  -- Ice Threaded Arrow       16.5
-			42200,	-- Smooth Ironfeather Arrow        17.5
-			18042,	-- Thorium Headed Arrow     17.5
-			42201,	-- Starfeather Arrow        19
-			12654,	-- Doomshot                 20
-		},
-	},	
-	["AMMOS_BULLETS"] = {
-		["description"] = AUTOBAR_CLASS_BULLETS;
-		["texture"] = "INV_Ammo_Bullet_02";
-		["notusable"] = true;
-		["items"] = {
-			2516,	-- Light Shot
-			4960,	-- Flash Pellet
-			8067,	-- Crafted Light Shot
-			2519,	-- Heavy Shot
-			5568,	-- Smooth Pebble
-			8068,	-- Crafted Heavy Shot
-			3033,	-- Solid Shot
-			8069,	-- Crafted Solid Shot
-			3465,	-- Exploding Shot
-			10512,	-- Hi-Impact Mithril Slugs
-			11284,	-- Accurate Slugs
-			10513,	-- Mithril Gyro-Shot        15
-			19316,  -- Ice Threaded Bullet		16.5
-			15997,	-- Thorium Shells           17.5
-			11630,	-- Rockshard Pellets        18
-			13377,	-- Minature Cannon Balls    20.5
-		},
 	},
 	
 --------------------------------------------------------------------------------
