@@ -70,7 +70,7 @@ AutoBar_Category_Info = { -- global
 			23684,  -- Crystal Infused Bandage, maybe unused I dunno
 		},
 	},
-	["ALTERAC_BANDAGES"] = {
+	["BANDAGES_ALTERAC"] = {
 		["description"] = AUTOBAR_CLASS_ALTERAC_BANDAGE;
 		["texture"] = "INV_Misc_Bandage_12";
 		["targetted"] = true;
@@ -78,7 +78,7 @@ AutoBar_Category_Info = { -- global
 		["smarttarget"] = true;
 		["items"] = { 19307 },
 	},
-	["WARSONG_BANDAGES"] = {
+	["BANDAGES_WARSONG"] = {
 		["description"] = AUTOBAR_CLASS_WARSONG_BANDAGE;
 		["texture"] = "INV_Misc_Bandage_12";
 		["targetted"] = true;
@@ -90,7 +90,7 @@ AutoBar_Category_Info = { -- global
 			19066,	-- Warsong Gulch Runecloth Bandage
 		},
 	},
-	["ARATHI_BANDAGES"] = {
+	["BANDAGES_ARATHI"] = {
 		["description"] = AUTOBAR_CLASS_ARATHI_BANDAGE;
 		["texture"] = "INV_Misc_Bandage_12";
 		["targetted"] = true;
@@ -108,7 +108,7 @@ AutoBar_Category_Info = { -- global
 			20234,	-- Defiler's Runecloth Bandage
 		},
 	},	
-	["UNGORO_RESTORE"] = {
+	["CRYSTAL_RESTORE"] = {
 		["description"] = AUTOBAR_CLASS_UNGORORESTORE;
 		["texture"] = "INV_Misc_Gem_Diamond_02";
 		["combatonly"] = true;
