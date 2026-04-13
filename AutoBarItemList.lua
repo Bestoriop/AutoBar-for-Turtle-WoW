@@ -1203,7 +1203,7 @@ AutoBar_Category_Info = { -- global
 --------------------------------------------------------------------------------
 
 	
-	["SHARPENINGSTONES"] = {
+	["BS_SHARPENINGSTONES"] = {
 		["description"] = AUTOBAR_CLASS_SHARPENINGSTONES;
 		["texture"] = "INV_Stone_SharpeningStone_01";
 		["targetted"] = "WEAPON";
@@ -1217,7 +1217,7 @@ AutoBar_Category_Info = { -- global
 			18262,	-- Elemental Sharpening Stone
 		},
 	},
-	["WEIGHTSTONE"] = {
+	["BS_WEIGHTSTONE"] = {
 		["description"] = AUTOBAR_CLASS_WEIGHTSTONE;
 		["texture"] = "INV_Stone_WeightStone_02";
 		["targetted"] = "WEAPON";
