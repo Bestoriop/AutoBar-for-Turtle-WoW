@@ -683,7 +683,7 @@ AutoBar_Category_Info = { -- global
 ------------------------- ARROWS AND BULLETS -----------------------------------
 --------------------------------------------------------------------------------
 	
-	["ARROWS"] = {
+	["AMMOS_ARROWS"] = {
 		["description"] = AUTOBAR_CLASS_ARROWS;
 		["texture"] = "INV_Ammo_Arrow_02";
 		["notusable"] = true;
@@ -703,7 +703,7 @@ AutoBar_Category_Info = { -- global
 			12654,	-- Doomshot                 20
 		},
 	},	
-	["BULLETS"] = {
+	["AMMOS_BULLETS"] = {
 		["description"] = AUTOBAR_CLASS_BULLETS;
 		["texture"] = "INV_Ammo_Bullet_02";
 		["notusable"] = true;
@@ -1318,7 +1318,7 @@ AutoBar_Category_Info = { -- global
 			16040,	-- Arcane Bomb
 		},
 	},
-	["SLOWING_BOLAS"] = {
+	["SURVIVAL_SLOWING_BOLAS"] = {
 		["description"] = AUTOBAR_CLASS_SLOWING_BOLAS;
 		["texture"] = "slowing_bolas_2";
 		["nosmartcast"] = true;
@@ -1327,7 +1327,7 @@ AutoBar_Category_Info = { -- global
 			106,	-- Slowing Bolas
 		},
 	},
-	["NETS"] = {
+	["SURVIVAL_NETS"] = {
 		["description"] = AUTOBAR_CLASS_NETS;
 		["texture"] = "INV_Misc_Net_01";
 		["nosmartcast"] = true;
