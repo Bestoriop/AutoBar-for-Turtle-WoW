@@ -7,7 +7,7 @@ Make sure you rename the base folder to just AutoBar, not AutoBar-For-Turtle-WoW
 # Known Issues:
 
 - I almost certainly did not find all the items yet
-- Translation files were not updated
+- It only work in US game version
 - All Turtle WoW specific mounts were not updated
 
 # Added items
