@@ -655,7 +655,7 @@ AutoBar_Category_Info = { -- global
 -------------------- RAGE OR ENERGY OR SPEED AND SOULSHARDS --------------------
 --------------------------------------------------------------------------------
 	
-	["RAGEPOTIONS"] = {
+	["POTIONS_RAGE"] = {
 		["description"] = AUTOBAR_CLASS_RAGEPOTIONS;
 		["texture"] = "INV_Potion_24";
 		["items"] = {
@@ -664,12 +664,12 @@ AutoBar_Category_Info = { -- global
 			13442,	-- Mighty Rage Potion
 		},
 	},
-	["ENERGYPOTIONS"] = {
+	["POTIONS_NRJ"] = {
 		["description"] = AUTOBAR_CLASS_ENERGYPOTIONS;
 		["texture"] = "INV_Drink_Milk_05";
 		["items"] = { 7676 },
 	},
-	["SWIFTNESSPOTIONS"] = {
+	["POTIONS_SWIFTNESS"] = {
 		["description"] = AUTOBAR_CLASS_SWIFTNESSPOTIONS;
 		["texture"] = "INV_Potion_95";
 		["items"] = { 20081, 2459, },
