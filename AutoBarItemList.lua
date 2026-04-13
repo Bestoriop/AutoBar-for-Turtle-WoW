@@ -1189,12 +1189,12 @@ AutoBar_Category_Info = { -- global
 			42161,	-- Crunchy Sandwept Carrots -- Level 40, heals 1768, 32 AP
 		},
 	},	
-	["FOOD_ATKSPEED"] = {
-		["description"] = AUTOBAR_CLASS_FOOD_ATKSPEED;
+	["FOOD_HASTE"] = {
+		["description"] = AUTOBAR_CLASS_FOOD_ASTE;
 		["texture"] = "sandswept_carrots_4";
 		["noncombat"] = true,
 		["items"] = {
-			42162,	-- Spicy Sandswept Carrots -- Level 40, heals 1768, attack and casting speed
+			42162,	-- Spicy Sandswept Carrots -- Level 40, heals 1768, haste bonus
 		},
 	},		
 	["FOOD_INTELLIGENCE"] = {
