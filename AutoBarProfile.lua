@@ -56,7 +56,7 @@ local L = AceLibrary("AceLocale-2.1"):GetInstance("AutoBar", true);
 function AutoBarProfile.InitializeBasic()
 	AutoBarProfile.basic = Compost:GetTable();
 	AutoBarProfile.basic[1] = { "HEARTHSTONE" };
-	AutoBarProfile.basic[3] = { "BANDAGES", "BANDAGES_ALTERAC", "BANDAGES_WARSONG", "BANDAGES_ARATHI", "CRYSTAL_RESTORE" };
+	AutoBarProfile.basic[3] = { "BANDAGES", "BANDAGES_ALTERAC", "BANDAGES_WARSONG", "BANDAGES_ARATHI", "HEALING_CRYSTAL_RESTORE" };
 	AutoBarProfile.basic[4] = { "HEALING_POTIONS", "HEALING_AND_MANA_POTIONS", "HEALING_ROOT", "HEALING_SALVES", "HEALING_AND_MANA_NDB", "HEALING_POTIONS_R6", "HEALING_POTIONS_BG", "HEALTHSTONE" };
 	AutoBarProfile.basic[POTIONSLOT] = Compost:GetTable();
 	AutoBarProfile.basic[6] = { "PROTECTION_ARCANE", "PROTECTION_FROST", "PROTECTION_NATURE", "PROTECTION_SHADOW", "PROTECTION_FIRE", "PROTECTION_SPELLS" };
