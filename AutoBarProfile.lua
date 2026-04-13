@@ -67,8 +67,8 @@ function AutoBarProfile.InitializeBasic()
 	AutoBarProfile.basic[10] = { "FOOD", "FOOD_CONJURED" };
 	AutoBarProfile.basic[11] = { "FOOD_WATER", "FOOD_ARATHI", "FOOD_WARSONG" };
 	AutoBarProfile.basic[12] = Compost:GetTable();
-	AutoBarProfile.basic[13] = { "SHARPENINGSTONES" };
-	AutoBarProfile.basic[14] = { "WEIGHTSTONE" };
+	AutoBarProfile.basic[13] = { "BS_SHARPENINGSTONES" };
+	AutoBarProfile.basic[14] = { "BS_WEIGHTSTONE" };
 	AutoBarProfile.basic[15] = { "potions_SWIFTNESS" };
 	AutoBarProfile.basic[16] = { "POTIONS_LAP_FAP" };
 	AutoBarProfile.basic[17] = { "EXPLOSIVES" };
@@ -118,7 +118,7 @@ function AutoBarProfile.InitializeClass()
 	AutoBarProfile.ROGUE[23] = { "POISON-DEADLY" };
 	AutoBarProfile.ROGUE[24] = { "POISON-INSTANT" };
 	AutoBarProfile.ROGUE[BUFFSLOT] = { "POTION_FORTITUDE","POTION_AGILITY","POTION_STRENGTH","SCROLL_AGILITY", "SCROLL_PROTECTION", "SCROLL_SPIRIT", "SCROLL_STAMINA", "SCROLL_STRENGTH", "BUFF_ATTACKPOWER", "BUFF_ATTACKSPEED", "BUFF_DODGE", "BUFF_FROST", "BUFF_FIRE", "SCROLL_INTELLECT", "POTION_SPELLPOWER" };
-	AutoBarProfile.ROGUE[WEAPONBUFFSLOT] = {"SHARPENINGSTONES","WEIGHTSTONE"};
+	AutoBarProfile.ROGUE[WEAPONBUFFSLOT] = {"BS_SHARPENINGSTONES","BS_WEIGHTSTONE"};
 
 	AutoBarProfile.WARRIOR = Compost:GetTable();
 	AutoBarProfile.WARRIOR[POTIONSLOT] = { "POTIONS_RAGE" };
@@ -132,7 +132,7 @@ function AutoBarProfile.InitializeClass()
 	AutoBarProfile.DRUID[BUFFSLOT2] = { "WATER_SPIRIT" };
 	AutoBarProfile.DRUID[FOODSLOT] = { "FOOD_STRENGTH", "FOOD_AGILITY", "FOOD_STAMINA", "DRINK_STAMINA", "FOOD_INTELLIGENCE", "FOOD_HPREGEN", "FOOD_MANAREGEN", "FOOD_SPELLPOWER" };
 	AutoBarProfile.DRUID[BUFFSLOT] = AutoBarProfile.ROGUE[BUFFSLOT];
-	AutoBarProfile.DRUID[WEAPONBUFFSLOT] = {"SHARPENINGSTONES","WEIGHTSTONE","MANA_OIL","WIZARD_OIL"};
+	AutoBarProfile.DRUID[WEAPONBUFFSLOT] = {"BS_SHARPENINGSTONES","BS_WEIGHTSTONE","MANA_OIL","WIZARD_OIL"};
 
 	AutoBarProfile.HUNTER = Compost:GetTable();
 	AutoBarProfile.HUNTER[POTIONSLOT] = AutoBarProfile.DRUID[POTIONSLOT];
@@ -159,7 +159,7 @@ function AutoBarProfile.InitializeClass()
 	AutoBarProfile.PALADIN[BUFFSLOT2] = AutoBarProfile.DRUID[BUFFSLOT2];
 	AutoBarProfile.PALADIN[FOODSLOT] = AutoBarProfile.DRUID[FOODSLOT];
 	AutoBarProfile.PALADIN[BUFFSLOT] = AutoBarProfile.DRUID[BUFFSLOT];
-	AutoBarProfile.PALADIN[WEAPONBUFFSLOT] = {"SHARPENINGSTONES","WEIGHTSTONE","MANA_OIL","WIZARD_OIL"};
+	AutoBarProfile.PALADIN[WEAPONBUFFSLOT] = {"BS_SHARPENINGSTONES","BS_WEIGHTSTONE","MANA_OIL","WIZARD_OIL"};
 
 	AutoBarProfile.PRIEST = Compost:GetTable();
 	AutoBarProfile.PRIEST[POTIONSLOT] = AutoBarProfile.DRUID[POTIONSLOT];
