@@ -108,15 +108,6 @@ AutoBar_Category_Info = { -- global
 			20234,	-- Defiler's Runecloth Bandage
 		},
 	},	
-	["CRYSTAL_RESTORE"] = {
-		["description"] = AUTOBAR_CLASS_UNGORORESTORE;
-		["texture"] = "INV_Misc_Gem_Diamond_02";
-		["combatonly"] = true;
-		["targetted"] = true;
-		["smarttarget"] = true;
-		["limit"] = { ["downhp"] = { 670 } },
-		["items"] = { 11562 },
-	},
 	["ANTI_VENOM"] = {
 		["description"] = AUTOBAR_CLASS_ANTIVENOM;
 		["texture"] = "INV_Drink_14";
@@ -353,6 +344,15 @@ AutoBar_Category_Info = { -- global
 		["items"] = { 18839 },
 		["limit"] = { ["downhp"] = { 900 } },
 	},
+	["HEALING_POTIONS_BG"] = {
+		["description"] = AUTOBAR_CLASS_BATTLEGROUNDHEALPOTIONS;
+		["texture"] = "INV_Potion_39";
+		["battleground"] = true;
+		["items"] = {
+			17349,	-- Superior Healing Draught
+			17348,	-- Major Healing Draught
+		},
+	},
 	["HEALTHSTONE"] = {
 		["description"] = AUTOBAR_CLASS_HEALTHSTONE;
 		["texture"] = "INV_Stone_04";
@@ -385,14 +385,12 @@ AutoBar_Category_Info = { -- global
 		["texture"] = "superior_healing_salve_1";
 		["items"] = { 42233, 42125, 42126, 42127, 42128, 42129 },
 	},
-	["HEALING_POTIONS_BG"] = {
-		["description"] = AUTOBAR_CLASS_BATTLEGROUNDHEALPOTIONS;
-		["texture"] = "INV_Potion_39";
-		["battleground"] = true;
-		["items"] = {
-			17349,	-- Superior Healing Draught
-			17348,	-- Major Healing Draught
-		},
+	["HEALING_CRYSTAL_RESTORE"] = {
+		["description"] = AUTOBAR_CLASS_UNGORORESTORE;
+		["texture"] = "INV_Misc_Gem_Diamond_02";
+		["targetted"] = true;
+		["smarttarget"] = true;
+		["items"] = { 11562 },
 	},
 
 --------------------------------------------------------------------------------
