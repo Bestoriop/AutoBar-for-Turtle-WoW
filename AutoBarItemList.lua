@@ -211,7 +211,7 @@ AutoBar_Category_Info = { -- global
 			20744,	-- Minor Wizard Oil +8 spell damage
 			20746,	-- Lesser Wizard Oil +16 spell damage
 			20750, 	-- Wizard Oil +24 spell damage
-			20749, 	-- Brilliant Wizard Oil +36 spell damage
+			20749, 	-- Brilliant Wizard Oil +36 spell damage 1% crit
 		},
 	},
 
@@ -227,12 +227,8 @@ AutoBar_Category_Info = { -- global
 			6529, -- Shiny Bauble - 25 fishing bonus for 10 min
 			6530, -- Nightcrawlers - 50 fishing bonus for 10 min
 			6811, -- Aquadynamic Fish Lens  - 50 fishing bonus for 10 min
-			114, -- Simple Fishing Lure  - 50 fishing bonus for 10 min
 			6532, -- Bright Baubles - 75 fishing bonus for 10 min
-			125, -- Spicy Fishing Lure - 75 fishing bonus for 10 min
-			133, -- Savory Fishing Lure - 100 fishing bonus for 5 min
 			6533, -- Aquadynamic Fish Attractors - 100 fishing bonus for 5 min
-			145, -- Premium Fishing Lure - 125 fishing bonus for 5 min
 		},
 	},
 
