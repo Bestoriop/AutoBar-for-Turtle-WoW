@@ -71,7 +71,7 @@ function AutoBarProfile.InitializeBasic()
 	AutoBarProfile.basic[14] = { "BS_WEIGHTSTONE" };
 	AutoBarProfile.basic[15] = { "POTION_SWIFTNESS" };
 	AutoBarProfile.basic[16] = { "POTIONS_LAP_FAP" };
-	AutoBarProfile.basic[17] = { "EXPLOSIVES" };
+	AutoBarProfile.basic[17] = { "ENG_BOMBS", "ENG_SAPPER" };
 	AutoBarProfile.basic[18] = { "FISHINGITEMS" };
 	AutoBarProfile.basic[19] = { "HOURGLASS_SAND", "BATTLE_STANDARD", "BATTLE_STANDARD_AV" };
 	AutoBarProfile.basic[20] = Compost:GetTable();
