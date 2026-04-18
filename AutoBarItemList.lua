@@ -459,7 +459,6 @@ AutoBar_Category_Info = { -- global
 		["items"] = {
 			2458,	-- Elixir of Minor Fortitude	27		60
 			3825,	-- Elixir of Fortitude			120		60
-			20079, 	-- Spirit of Zanza				50 sta 120
 		},
 	},
 	["POTIONS_INTELLECT"] = {
@@ -481,8 +480,6 @@ AutoBar_Category_Info = { -- global
 			21546,	-- Elixir of Greater Firepower	+40 fire spd
 			9264,	-- Elixir of Shadow Power		+40 shadow spd
 			13454,	-- Greater Arcane Elixir		+35 spd
-			61423,	-- Dreamtonic					+35 spd - 20 min
-			61224,	-- Dreamshard Elixir			+15 spd +2 spellcrit
 	--		13512, 	-- Flask of Supreme Power		+150 spd
 		},
 	},
@@ -510,7 +507,7 @@ AutoBar_Category_Info = { -- global
 		["description"] = AUTOBAR_CLASS_FREE_ACTION_POTION;
 		["texture"] = "INV_Potion_04";
 		["items"] = {
-			20008,		-- Living Action Potion
+			20008,		    -- Living Action Potion
 			5634,			-- Free Action Potion
 		},
 	},
@@ -526,12 +523,12 @@ AutoBar_Category_Info = { -- global
 	["POTION_NRJ"] = {
 		["description"] = AUTOBAR_CLASS_ENERGYPOTIONS;
 		["texture"] = "INV_Drink_Milk_05";
-		["items"] = { 7676 },
+		["items"] = { 7676 },  -- Thistle Tea
 	},
 	["POTION_SWIFTNESS"] = {
 		["description"] = AUTOBAR_CLASS_SWIFTNESSPOTIONS;
 		["texture"] = "INV_Potion_95";
-		["items"] = { 20081, 2459, },
+		["items"] = { 2459, },
 	},	
 --------------------------------------------------------------------------------
 ----------------------------------- SCROLLS ------------------------------------
@@ -1839,6 +1836,7 @@ AutoBar_Category_Info = { -- global
 		["items"] = {
 			20081,		-- Swiftness of Zanza
 			20080,		-- Sheen of Zanza
+			20079, 	    -- Spirit of Zanza				50 sta 120
 		},
 	},	
 };
