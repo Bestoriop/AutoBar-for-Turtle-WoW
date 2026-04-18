@@ -307,7 +307,7 @@ AutoBar_Category_Info = { -- global
 	["HEALING_AND_MANA_NDB"] = {
 		["description"] = AUTOBAR_CLASS_NIGHT_DRAGONS_BREATH;
 		["texture"] = "INV_Misc_Food_45";
-		["limit"] = { ["downhp"] = { 456 }, ["downmana"] = { 456 }, },
+		["limit"] = { ["downhp"] = { 394 }, ["downmana"] = { 394 }, },
 		["items"] = { 11952 },
 	},
 	["HEALING_AND_MANA_POTIONS"] = {
@@ -318,7 +318,7 @@ AutoBar_Category_Info = { -- global
 			9144,	-- Wildvine Potion
 			18253,	-- Major Rejuvenation Potion
 		},
-		["limit"] = { ["downhp"] = { 150, 750, 1760 }, ["downmana"] = { 150, 750, 1760 }, },
+		["limit"] = { ["downhp"] = { 90, 750, 1440 }, ["downmana"] = { 90, 750, 1440 }, },
 	},
 	
 --------------------------------------------------------------------------------
