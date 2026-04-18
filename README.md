@@ -1,25 +1,15 @@
-# AutoBar updated for Turtle Wow
+# AutoBar updated for Turtle Wow and Vanilla 1.12
 
-AutoBar updated to work with Turtle WoW. Lot of added items.
+AutoBar updated to work with Turtle WoW or Vanilla 1.12 server. Lot of added items. 
 
-Make sure you rename the base folder to just AutoBar, not AutoBar-For-Turtle-WoW or AutoBar-For-Turtle-WoW-Master or anything else.
+Choose your branch depending on your server :
+- Turtle Wow : "turtle" branch
+- Vanilla 1.12 server : "vanilla-1.12" branch
+
+Make sure you rename the base folder to just AutoBar, not AutoBar-turtle or AutoBar-vanilla-1.12 or anything else.
 
 # Known Issues:
 
 - I almost certainly did not find all the items yet
 - It only work in US game version
-- All Turtle WoW specific mounts were not updated
 
-# Added items
-
-- New Fishing Lures (Survival)
-- Cabbages (Gardening)
-- Grapes (Gardening)
-- Carrots (Gardening)
-- Throwable net (Survival)
-- Slowing Bolas (Survival)
-- Hourglass Sand (BWL consum)
-- New Arrows (Survival)
-- Healing salves (Survival)
-- Mountain Berries (Gardening)
-- Melons (Gardening)
