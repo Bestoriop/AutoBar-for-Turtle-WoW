@@ -1250,11 +1250,11 @@ AutoBar_Category_Info = { -- global
 
 
 --------------------------------------------------------------------------------
-------------------- EXPLOSIVES & BOLAS & NETS ----------------------------------
+---------------------- ENGINEERING BOMBS AND SAPPER CHARGE ---------------------
 --------------------------------------------------------------------------------
 	
-	["EXPLOSIVES"] = {
-		["description"] = AUTOBAR_CLASS_EXPLOSIVES;
+	["ENG_BOMBS"] = {
+		["description"] = AUTOBAR_CLASS_ENG_BOMBS;
 		["texture"] = "INV_Misc_Bomb_08";
 		["nosmartcast"] = true;
 		["targetted"] = true;
@@ -1280,6 +1280,11 @@ AutoBar_Category_Info = { -- global
 			16005,	-- Dark Iron Bomb
 			16040,	-- Arcane Bomb
 		},
+	},
+	["ENG_SAPPER"] = {
+		["description"] = AUTOBAR_CLASS_ENGS_SAPPER;
+		["texture"] = "spell_fire_selfdestruct";
+		["items"] = { 10646 },
 	},
 	--------------
 	["MOUNTS_TROLL"] = {
@@ -1645,16 +1650,6 @@ AutoBar_Category_Info = { -- global
 			23182, -- Flame of Stormwind
 			23183, -- Flame of Ironforge
 			23184, -- Flame of Darnassus
-			--Turtle WoW Quest Start Items--
-			985, -- Tome of Khadgar's Unlocking
-			1567, -- Tome of Khadgar's Unlocking II
-			4158, -- Tome of Khadgar's Unlocking III
-			6075, -- Vime's Report
-			8881, -- Tome of Khadgar's Unlocking IV
-			9572, -- Glyphic Rune
-			51855, -- Dirty Old Ring
-			70027, -- Broken Spear
-			81275, -- Intact Pounder Machine - Drops Off Crowd Pummeler 9-60
 		},
 	},
 	["QUESTUSEITEMS"] = {
@@ -1759,8 +1754,8 @@ AutoBar_Category_Info = { -- global
 		["description"] = AUTOBAR_CLASS_ZANZA;
 		["texture"] = "INV_Potion_04";
 		["items"] = {
-			20081,		-- Swiftness of Zanza
-			20080,		-- Sheen of Zanza
+			20081,		-- Swiftness of Zanza           20% speed 
+			20080,		-- Sheen of Zanza               3% spell reflect and 100% on next one
 			20079, 	    -- Spirit of Zanza				50 sta 120
 		},
 	},	
