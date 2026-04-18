@@ -647,13 +647,6 @@ AutoBar_Category_Info = { -- global
 		["texture"] = "INV_Potion_23";
 		["items"] = { 6048, 13459 },
 	},
-	["PROTECTION_SPELLS"] = {
-		["description"] = AUTOBAR_CLASS_SPELL_PROTECTION;
-		["texture"] = "INV_Potion_29";
-		["items"] = {
-			20080	-- Sheen of Zanza
-		},
-	},
 	["PROTECTION_HOLY"] = {
 		["description"] = AUTOBAR_CLASS_HOLY_PROTECTION;
 		["texture"] = "INV_Potion_09";
@@ -663,7 +656,7 @@ AutoBar_Category_Info = { -- global
 	["PROTECTION_DAMAGE"] = {
 		["description"] = AUTOBAR_CLASS_INVULNERABILITY_POTIONS;
 		["texture"] = "INV_Potion_62";
-		["items"] = { 3387 },
+		["items"] = { 3387 }, -- Limited Invulnerability Potion
 		["noncombat"] = false,
 	},
 
