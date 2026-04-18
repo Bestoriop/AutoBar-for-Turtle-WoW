@@ -363,7 +363,15 @@ AutoBar_Category_Info = { -- global
 		["targetted"] = true,
 		["description"] = AUTOBAR_CLASS_BUFF_FIRE,
 		["items"] = {
-			12455,	-- Juju Ember				15	10m
+			12455,	-- Juju Ember				15 FR	10m
+		},
+	},	
+	["JUJU_INTELLECT"] = {
+		["texture"] = "inv_misc_monsterscales_13",
+		["targetted"] = true,
+		["description"] = AUTOBAR_CLASS_BUFF_INT,
+		["items"] = {
+			12455,	-- Juju Guile				30 int	30m
 		},
 	},	
 
@@ -528,7 +536,7 @@ AutoBar_Category_Info = { -- global
 	["POTION_SWIFTNESS"] = {
 		["description"] = AUTOBAR_CLASS_SWIFTNESSPOTIONS;
 		["texture"] = "INV_Potion_95";
-		["items"] = { 2459, },
+		["items"] = { 2459, },   -- Swiftness Potion
 	},	
 --------------------------------------------------------------------------------
 ----------------------------------- SCROLLS ------------------------------------
@@ -554,7 +562,6 @@ AutoBar_Category_Info = { -- global
 			2290,	-- Scroll of Intellect II
 			4419,	-- Scroll of Intellect III
 			10308,	-- Scroll of Intellect IV
-			12458,	-- Juju Guile				40
 		},
 	},
 	["SCROLLS_PROTECTION"] = {
