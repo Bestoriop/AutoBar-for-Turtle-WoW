@@ -292,11 +292,6 @@ AutoBar_Category_Info = { -- global
 		["items"] = { 11951 },
 		["limit"] = { ["downhp"] = { 700 } },
 	},
-	["HEALING_SALVES"] = {
-		["description"] = AUTOBAR_CLASS_HEALING_SALVES;
-		["texture"] = "superior_healing_salve_1";
-		["items"] = { 42233, 42125, 42126, 42127, 42128, 42129 },
-	},
 	["HEALING_CRYSTAL_RESTORE"] = {
 		["description"] = AUTOBAR_CLASS_UNGORORESTORE;
 		["texture"] = "INV_Misc_Gem_Diamond_02";
