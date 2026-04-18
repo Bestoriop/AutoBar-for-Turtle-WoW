@@ -320,15 +320,6 @@ AutoBar_Category_Info = { -- global
 		},
 		["limit"] = { ["downhp"] = { 150, 750, 1760 }, ["downmana"] = { 150, 750, 1760 }, },
 	},
-	["HEALING_AND_MANA_TEAS"] = {
-		["description"] = AUTOBAR_CLASS_TEAS;
-		["texture"] = "INV_Drink_Milk_05";
-		["limit"] = { ["downhp"] = { 525, 525 }, ["downmana"] = { 810, 810 }, },
-		["items"] = {
-			15723,	-- Tea with Sugar
-			61675,	-- Nordanaar Herbal Tea
-		},
-	},	
 	
 --------------------------------------------------------------------------------
 ----------------------------- JUJUS --------------------------------------------
