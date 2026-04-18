@@ -28,8 +28,7 @@ end
 
 function AutoBarItemList:OnInitialize()
 	-- Ok, step 1 is to start getting the raw data from PeriodicTableEmbed.  Later we can use more of its functions.
-	AutoBar_Category_Info["FOOD_PERCENT"]["items"] = self:GetSetItemsArray("foodperc");
-	AutoBar_Category_Info["WATER_PERCENT"]["items"] = self:GetSetItemsArray("waterperc");
+
 end
 -- /script DEFAULT_CHAT_FRAME:AddMessage(tostring(AutoBar_Category_Info["FOOD_PERCENT"]["items"][3]))
 
@@ -707,11 +706,6 @@ AutoBar_Category_Info = { -- global
 			23161,		-- Freshly-Squeezed Lemonade	45 - 2934
 		},
 	},
-	["WATER_PERCENT"] = {
-		["description"] = AUTOBAR_CLASS_WATER_PERCENT;
-		["texture"] = "INV_Drink_04";
-		["noncombat"] = true,
-	},
 	["WATER_CONJURED"] = {
 		["description"] = AUTOBAR_CLASS_WATER_CONJURED;
 		["texture"] = "INV_Drink_18";
@@ -827,11 +821,6 @@ AutoBar_Category_Info = { -- global
 			80251, 	-- Crusty Flatbread			-- High Elf Starting Food
 		},
 	},	
-	["FOOD_PERCENT"] = {
-		["description"] = AUTOBAR_CLASS_FOOD_PERCENT;
-		["texture"] = "INV_Misc_Food_60",
-		["custom"] = true;
-	},
 	["FOOD_PET_BREAD"] = {
 		["description"] = AUTOBAR_CLASS_FOOD_PET_BREAD;
 		["texture"] = "INV_Misc_Food_35";
