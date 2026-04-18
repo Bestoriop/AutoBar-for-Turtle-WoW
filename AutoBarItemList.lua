@@ -1135,15 +1135,6 @@ AutoBar_Category_Info = { -- global
 			18254,	-- Runn Tum Tuber Surpris	-- int bonus
 		},
 	},		
-	["FOOD_SPELLPOWER"] = {
-		["description"] = AUTOBAR_CLASS_FOOD_SPELLPOWER;
-		["texture"] = "INV_Drink_19";
-		["noncombat"] = true,
-		["items"] = {
-			84041,	-- Gilneas Hot Stew +12spd
-			60977,  -- Danonzo's Tel'Abim Delight +22spd
-		},
-	},
 	["FOOD_ARATHI"] = {
 		["description"] = AUTOBAR_CLASS_FOOD_ARATHI;
 		["texture"] = "INV_Misc_Food_33";
