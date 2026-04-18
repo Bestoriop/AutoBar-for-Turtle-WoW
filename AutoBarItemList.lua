@@ -546,6 +546,12 @@ AutoBar_Category_Info = { -- global
 		["texture"] = "INV_Potion_95";
 		["items"] = { 2459, },   -- Swiftness Potion
 	},	
+	["POTION_INVUL"] = {
+		["description"] = AUTOBAR_CLASS_INVULNERABILITY_POTIONS;
+		["texture"] = "INV_Potion_62";
+		["items"] = { 3387 }, -- Limited Invulnerability Potion
+		["noncombat"] = false,
+	},
 --------------------------------------------------------------------------------
 ----------------------------------- SCROLLS ------------------------------------
 --------------------------------------------------------------------------------
@@ -651,12 +657,6 @@ AutoBar_Category_Info = { -- global
 		["description"] = AUTOBAR_CLASS_HOLY_PROTECTION;
 		["texture"] = "INV_Potion_09";
 		["items"] = { 6051 },
-		["noncombat"] = false,
-	},
-	["PROTECTION_DAMAGE"] = {
-		["description"] = AUTOBAR_CLASS_INVULNERABILITY_POTIONS;
-		["texture"] = "INV_Potion_62";
-		["items"] = { 3387 }, -- Limited Invulnerability Potion
 		["noncombat"] = false,
 	},
 
