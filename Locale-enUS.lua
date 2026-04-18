@@ -187,7 +187,6 @@ AUTOBAR_CLASS_SHARPENINGSTONES = "BS : Sharpening stones";
 AUTOBAR_CLASS_WEIGHTSTONE = "BS: Weight stones";
 
 AUTOBAR_CLASS_FOOD = "Food: No Bonus";
-AUTOBAR_CLASS_FOOD_PERCENT = "Food: % health gain";
 AUTOBAR_CLASS_FOOD_PET_BREAD = "Food: Pet Bread";
 AUTOBAR_CLASS_FOOD_PET_CHEESE = "Food: Pet Cheese";
 AUTOBAR_CLASS_FOOD_PET_FISH = "Food: Pet Fish";
@@ -269,7 +268,6 @@ AUTOBAR_CLASS_SCROLLOFSTAMINA = "Scrolls: Stamina";
 AUTOBAR_CLASS_SCROLLOFSTRENGTH = "Scrolls: Strength";
 
 AUTOBAR_CLASS_WATER = "Water";
-AUTOBAR_CLASS_WATER_PERCENT = "Water: % mana gain";
 AUTOBAR_CLASS_WATER_CONJURED = "Water: Mage Conjured";
 AUTOBAR_CLASS_WATER_SPIRIT = "Water: Spirit Bonus";
 
@@ -279,8 +277,6 @@ AUTOBAR_CLASS_ZANZA = "Zanza";
 	
 
 AUTOBAR_CLASS_EXPLOSIVES = "Engineering Explosives";
-AUTOBAR_CLASS_SLOWING_BOLAS = "Survival Slowing Bolas";
-AUTOBAR_CLASS_NETS = "Survival Nets";
 	
 AUTOBAR_CLASS_MOUNTS_TROLL = "Mount: Troll - Raptor";
 AUTOBAR_CLASS_MOUNTS_ORC = "Mount: Orc - Wolf";
