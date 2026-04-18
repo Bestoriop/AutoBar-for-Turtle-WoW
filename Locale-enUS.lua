@@ -218,7 +218,6 @@ AUTOBAR_CLASS_UNGORORESTORE = "Healing Crystal Restore";
 
 AUTOBAR_CLASS_REJUVENATION_POTIONS = "Healing and Mana Potions";
 AUTOBAR_CLASS_NIGHT_DRAGONS_BREATH = "Healing and Mana : Night Dragon's Breath";
-AUTOBAR_CLASS_TEAS = "Healing and Mana Teas";
 
 AUTOBAR_CLASS_HEARTHSTONE = "Hearthstone";
 AUTOBAR_CLASS_HOURGLASS_SAND = "Hourglass Sand";
