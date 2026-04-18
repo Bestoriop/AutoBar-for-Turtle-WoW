@@ -656,7 +656,6 @@ AutoBar_Category_Info = { -- global
 		["description"] = AUTOBAR_CLASS_HOLY_PROTECTION;
 		["texture"] = "INV_Potion_09";
 		["items"] = { 6051 },
-		["noncombat"] = false,
 	},
 
 --------------------------------------------------------------------------------
@@ -667,9 +666,7 @@ AutoBar_Category_Info = { -- global
 		["description"] = AUTOBAR_CLASS_HOURGLASS_SAND;
 		["texture"] = "INV_Misc_Dust_02";
 		["location"] = AUTOBAR_BWL;
-		["items"] = {
-			19183,	-- Hourglass Sand
-		},
+		["items"] = { 19183	},
 	},
 
 --------------------------------------------------------------------------------
@@ -679,9 +676,7 @@ AutoBar_Category_Info = { -- global
 	["HEARTHSTONE"] = {
 		["description"] = AUTOBAR_CLASS_HEARTHSTONE;
 		["texture"] = "INV_Misc_Rune_01";
-		["items"] = {
-			6948,			-- HearthStone
-		},
+		["items"] = { 6948	},
 	},
 
 --------------------------------------------------------------------------------
@@ -816,9 +811,6 @@ AutoBar_Category_Info = { -- global
 			13935,	-- Baked Salmon				-- Cooking - Level 45, heals 2148
 			13933,	-- Lobster Stew				-- Cooking - Level 45, heals 2148
 			23160,	-- Friendship Bread			-- Vendor  - Level 45, heals 2148
-		--Turtle WoW Food--
-			80168,	-- Crunchy Murloc Fine		-- Goblin Starting Food
-			80251, 	-- Crusty Flatbread			-- High Elf Starting Food
 		},
 	},	
 	["FOOD_PET_BREAD"] = {
@@ -1043,7 +1035,6 @@ AutoBar_Category_Info = { -- global
 			20709,	-- Rumsey Rum Light	
 			21114,	-- Rumsey Rum Dark
 			21151, 	-- rumsey rum black label - 15 stam 15 min
-			61174, -- Medivh's merlot - 25 stam 15 min
 		},
 	},	
 	["FOOD_STAMINA"] = {
@@ -1069,7 +1060,6 @@ AutoBar_Category_Info = { -- global
 			5525,	-- Boiled Clams		-- Cooking - Level 5, heals 243, 4 stamina/spirit 
 			1082,	-- Redridge Goulash	-- Cooking - Level 10, heals 552, 6 stamina/spirit
 			5479,	-- Crispy Lizard Tail	-- Cooking - Level 12, heals 552, 6 stamina/spirit
-			36668,  -- Lush Cabbage Head -- Gardening - Level 15, heals 552, 6 stamina/spirit
 			1017,	-- Seasoned Wolf Kabob	-- Cooking - Level 15, heals 552, 6 stamina/spirit
 			3663,	-- Murloc Fin Soup	-- Cooking - Level 15, heals 552, 6 stamina/spirit
 			3726,	-- Big Bear Steak	-- Cooking - Level 15, heals 552, 6 stamina/spirit
@@ -1080,7 +1070,6 @@ AutoBar_Category_Info = { -- global
 			3727,	-- Hot Lion Chops	-- Cooking - Level 15, heals 552, 6 stamina/spirit
 			12209,	-- Lean Wolf Steak	-- Cooking - Level 15, heals 552, 6 stamina/spirit
 			3665,	-- Curiously Tasty Omelet	-- Cooking - Level 15, heals 552, 6 stamina/spirit
-			51710,	-- Plump Country Pumpkin	-- Gardening - Level 25, heals 552, 6 stamina/spirit
 			3728,	-- Tasty Lion Steak	-- Cooking - Level 20, heals 874, 8 stamina/spirit
 			4457,	-- Barbecued Buzzard Wing -- Cooking - Level 25, heals 874, 8 stamina/spirit
 			12213,	-- Carrion Surprise	-- Cooking - Level 25, heals 874, 8 stamina/spirit
@@ -1090,7 +1079,6 @@ AutoBar_Category_Info = { -- global
 			12214,	-- Mystery Stew		-- Cooking - Level 25, heals 874, 8 stamina/spirit
 			12210,	-- Roast Raptor		-- Cooking - Level 25, heals 874, 8 stamina/spirit
 			12212,	-- Jungle Stew		-- Cooking - Level 25, heals 874, 8 stamina/spirit
-			51714,	-- Sweet Mountain Berry -- Gardening - Level 35, heals 874, 10 stamina
 			13927,	-- Cooked Glossy Mightfi-- Cooking - Level 35, heals 1392, 10 stamina
 			13934,	-- Mightfish Steak	-- Cooking - Level 45, heals 1933, 10 stamina
 			17222,	-- Spider Sausage 	-- Cooking - Level 35, heals 1392, 12 stamina/spirit
@@ -1099,11 +1087,8 @@ AutoBar_Category_Info = { -- global
 			12218,	-- Monster Omlette	-- Cooking - Level 40, heals 1392, 12 stamina/spirit
 			16971,	-- Clamlette Surprise 	-- Cooking - Level 40, heals 1392, 12 stamina/spirit
 			18045,	-- Tender Wolf Steak	-- Cooking - Level 40, heals 1392, 12 stamina/spirit
-			51712,	-- Juicy Watermelon 	-- Gardening - Level 45, heals 1392, 12 stamina/spirit
-			51713,	-- Hearty Country Pumpkin 	-- Gardening - Level 25, heals 48%, 25% of level in stamina/spirit
 			11950,	-- Windblossom Berries	-- Felwood - Level 45, heals 1933, stamina/spirit
 			21023,	-- Dirge's Kickin' Chimaerok Chops	-- Cooking - Level 55, heals 2250, 25 stamina
-			51717,	-- Hardened Mushroom -- Gardening - Level 55, heals 2250, 25 stamina
 		},
 	},	
 	["FOOD_AGILITY"] = {
@@ -1111,10 +1096,7 @@ AutoBar_Category_Info = { -- global
 		["texture"] = "INV_Misc_Fish_13";
 		["noncombat"] = true,
 		["items"] = {
-			13928,	-- Grilled Squid	-- Cooking - Level 35, heals 874, agility
-			51711,	-- Sour Mountain Berry			-- Survival - Level 35, heals 874, +10 agility
-			60976, 	-- Danonzo's Tel'Abim Surprise	-- Cooking - Level 55, heals 3186, +45 rAP
-			60978, 	-- Danonzo's Tel'Abim Medley	-- Cooking - Level 55, heals 3186, +2% haste
+			13928,	-- Grilled Squid	-- Cooking - Level 35, heals 874, 10 agility
 		},
 	},	
 	["FOOD_MANAREGEN"] = {
@@ -1125,7 +1107,6 @@ AutoBar_Category_Info = { -- global
 			21072,	-- Smoked Sagefish	-- Cooking - Level 10, heals 378, mana 567, 3/5s mana regen
 			21217,	-- Sagefish Delight	-- Cooking - Level 30, heals 840, mana 1260, 6/5s mana regen
 			13929,	-- Hot Smoked Bass	-- Cooking - Level 35, heals 874, 10 spirit
-			42157,  -- Sour Northwind Grapes -- Gardening - Level 30, heals 840, mana 1260, 8/5s mana regen
 			13931,	-- Nightfin Soup	-- Cooking - Level 35, heals 874, 8/5s mana regen
 		},
 	},		
@@ -1134,7 +1115,7 @@ AutoBar_Category_Info = { -- global
 		["texture"] = "INV_Misc_Fish_19";
 		["noncombat"] = true,
 		["items"] = {
-			13932,	-- Poached Sunscale Salmon	-- Cooking - Level 35, heals 874, hp regen
+			13932,	-- Poached Sunscale Salmon	-- Cooking - Level 35, heals 874, 6 hp5
 		},
 	},	
 	["FOOD_STRENGTH"] = {
@@ -1142,35 +1123,16 @@ AutoBar_Category_Info = { -- global
 		["texture"] = "INV_Misc_Food_41";
 		["noncombat"] = true,
 		["items"] = {
-			42158,	-- Sweet Northwind Grapes -- Gardening - Level 35, heals 1134, 10 strength
 			13810,	-- Blessed Sunfruit -- AD rep - Level 45, heals 1933, 10 strength
 			20452,	-- Smoked Desert Dumpling	-- Cooking -- Level 45, heals 2148, 20 str
-			61720,	-- Power Mushroom			-- Gardening -- Level 55, heals 2148, 20 str
 		},
 	},	
-	["FOOD_AP"] = {
-		["description"] = AUTOBAR_CLASS_FOOD_AP;
-		["texture"] = "sandswept_carrots_2";
-		["noncombat"] = true,
-		["items"] = {
-			42161,	-- Crunchy Sandwept Carrots -- Level 40, heals 1768, 32 AP
-		},
-	},	
-	["FOOD_HASTE"] = {
-		["description"] = AUTOBAR_CLASS_FOOD_HASTE;
-		["texture"] = "sandswept_carrots_4";
-		["noncombat"] = true,
-		["items"] = {
-			42162,	-- Spicy Sandswept Carrots -- Level 40, heals 1768, haste bonus
-		},
-	},		
 	["FOOD_INTELLIGENCE"] = {
 		["description"] = AUTOBAR_CLASS_FOOD_INTELLIGENCE;
 		["texture"] = "INV_Misc_Food_63";
 		["noncombat"] = true,
 		["items"] = {
 			18254,	-- Runn Tum Tuber Surpris	-- int bonus
-			51718,	-- Sweet Watermelon		-- Gardening - Level 45, heals 1933, 10 Intellect
 		},
 	},		
 	["FOOD_SPELLPOWER"] = {
