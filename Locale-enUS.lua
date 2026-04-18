@@ -202,7 +202,6 @@ AUTOBAR_CLASS_FOOD_MANAREGEN = "Food: Mana Regen Bonus";
 AUTOBAR_CLASS_FOOD_HPREGEN = "Food: HP Regen Bonus";
 AUTOBAR_CLASS_FOOD_STRENGTH = "Food: Strength Bonus";
 AUTOBAR_CLASS_FOOD_INTELLIGENCE = "Food: Intelligence Bonus";
-AUTOBAR_CLASS_FOOD_SPELLPOWER = "Food: Spellpower Bonus";
 AUTOBAR_CLASS_FOOD_ARATHI = "Food: Arathi Basin";
 AUTOBAR_CLASS_FOOD_WARSONG = "Food: Warsong Gulch";
 
