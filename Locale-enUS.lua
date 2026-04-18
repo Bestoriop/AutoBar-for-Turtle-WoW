@@ -229,6 +229,7 @@ AUTOBAR_CLASS_BUFF_DODGE = "Juju: Dodge";
 AUTOBAR_CLASS_BUFF_FROST = "Juju: Frost Resistance";
 AUTOBAR_CLASS_BUFF_FIRE = "Juju: Fire Resistance";
 AUTOBAR_CLASS_BUFF_INT = "Juju: Intellect";
+AUTOBAR_CLASS_BUFF_STR = "Juju: Strength";
 	
 AUTOBAR_CLASS_MANAPOTIONS = "Mana Potions";
 AUTOBAR_CLASS_PVP6MANAPOTIONS = "Mana Potions R6";
