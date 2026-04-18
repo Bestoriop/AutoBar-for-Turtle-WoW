@@ -273,7 +273,8 @@ AUTOBAR_CLASS_SOULSHARDS = "Soul Shards";
 AUTOBAR_CLASS_ZANZA = "Zanza";
 	
 
-AUTOBAR_CLASS_EXPLOSIVES = "Engineering Explosives";
+AUTOBAR_CLASS_ENG_BOMBS = "Engineering Bombs";
+AUTOBAR_CLASS_ENG_SAPPER = "Engineering Sapper Charge";
 	
 AUTOBAR_CLASS_MOUNTS_TROLL = "Mount: Troll - Raptor";
 AUTOBAR_CLASS_MOUNTS_ORC = "Mount: Orc - Wolf";
