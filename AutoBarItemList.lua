@@ -661,7 +661,7 @@ AutoBar_Category_Info = { -- global
 	},
 
 --------------------------------------------------------------------------------
------------------------------------ PROTECTION POTIONS -------------------------
+----------------------------------- HOURGLASS SAND -------------------------
 --------------------------------------------------------------------------------
 
 	["HOURGLASS_SAND"] = {
@@ -705,9 +705,6 @@ AutoBar_Category_Info = { -- global
 			1645,		-- Moonberry Juice				35 - 1992
 			8766,		-- Morning Glory Dew			45 - 2934
 			23161,		-- Freshly-Squeezed Lemonade	45 - 2934
-		--Turtle WoW Water--
-			80167, 		-- Kaja'Cola 				-- Goblin Starting Water
-			80250, 		-- Sun-Parched Waterskin	-- High Elf Starting Water
 		},
 	},
 	["WATER_PERCENT"] = {
@@ -727,7 +724,6 @@ AutoBar_Category_Info = { -- global
 			8077,	-- Conjured Mineral Water
 			8078,	-- Conjured Sparkling Water
 			8079,	-- Conjured Crystal Water
-			83004,  -- Conjured Mana Orange
 		},
 	},
 	["WATER_SPIRIT"] = {
