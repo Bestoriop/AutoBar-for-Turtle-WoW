@@ -60,14 +60,10 @@ AutoBar_Category_Info = { -- global
 			2515,	-- Sharp Arrow
 			3030,	-- Razor Arrow
 			3464,	-- Feathered Arrow          9.5
-			42198,	-- Bright Wood Arrow        10.5
 			9399,	-- Precision Arrow          11.5
 			11285,	-- Jagged Arrow             13
-			421995,	-- Shade Wood Arrow         14.5
 			19316,  -- Ice Threaded Arrow       16.5
-			42200,	-- Smooth Ironfeather Arrow        17.5
 			18042,	-- Thorium Headed Arrow     17.5
-			42201,	-- Starfeather Arrow        19
 			12654,	-- Doomshot                 20
 		},
 	},	
