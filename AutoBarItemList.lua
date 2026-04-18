@@ -124,7 +124,6 @@ AutoBar_Category_Info = { -- global
 			8545,	-- Heavy Mageweave Bandage
 			14529,	-- Runecloth Bandage
 			14530,	-- Heavy Runecloth Bandage
-			23684,  -- Crystal Infused Bandage, maybe unused I dunno
 		},
 	},
 	["BANDAGES_ALTERAC"] = {
