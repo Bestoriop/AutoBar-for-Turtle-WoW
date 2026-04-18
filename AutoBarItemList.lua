@@ -374,6 +374,14 @@ AutoBar_Category_Info = { -- global
 			12455,	-- Juju Guile				30 int	30m
 		},
 	},	
+	["JUJU_STRENGTH"] = {
+		["texture"] = "inv_misc_monsterscales_11",
+		["targetted"] = true,
+		["description"] = AUTOBAR_CLASS_BUFF_STR,
+		["items"] = {
+			12451,	-- Juju Power				30 str	30m
+		},
+	},	
 
 --------------------------------------------------------------------------------
 -------------------- MANA POTIONS, MANA STONES AND RUNES -----------------------
@@ -606,7 +614,6 @@ AutoBar_Category_Info = { -- global
 			2289,	-- Scroll of Strength II	9
 			4426,	-- Scroll of Strength III	13
 			10310,	-- Scroll of Strength IV	17
-			12451,	-- Juju Power				30
 		},
 	},
 
