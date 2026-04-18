@@ -1328,26 +1328,6 @@ AutoBar_Category_Info = { -- global
 			16040,	-- Arcane Bomb
 		},
 	},
-	["SURVIVAL_SLOWING_BOLAS"] = {
-		["description"] = AUTOBAR_CLASS_SLOWING_BOLAS;
-		["texture"] = "slowing_bolas_2";
-		["nosmartcast"] = true;
-		["targetted"] = true;
-		["items"] = {
-			106,	-- Slowing Bolas
-		},
-	},
-	["SURVIVAL_NETS"] = {
-		["description"] = AUTOBAR_CLASS_NETS;
-		["texture"] = "INV_Misc_Net_01";
-		["nosmartcast"] = true;
-		["targetted"] = true;
-		["items"] = {
-			42132,	-- Throwable Net
-			4941,	-- Throwable Net
-			835,	-- Large Rope Net
-		},
-	},
 	--------------
 	["MOUNTS_TROLL"] = {
 		["description"] = AUTOBAR_CLASS_MOUNTS_TROLL;
