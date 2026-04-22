@@ -1282,7 +1282,7 @@ AutoBar_Category_Info = { -- global
 		},
 	},
 	["ENG_SAPPER"] = {
-		["description"] = AUTOBAR_CLASS_ENGS_SAPPER;
+		["description"] = AUTOBAR_CLASS_ENG_SAPPER;
 		["texture"] = "spell_fire_selfdestruct";
 		["items"] = { 10646 },
 	},
